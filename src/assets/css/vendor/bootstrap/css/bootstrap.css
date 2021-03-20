@@ -5503,6 +5503,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 .media-body {
   -ms-flex: 1;
   flex: 1;
+  padding-bottom: 5%;
 }
 
 .list-group {
