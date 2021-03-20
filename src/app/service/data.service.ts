@@ -16,7 +16,7 @@ export class DataService {
    }
 
    getCandidateByConstituency(constituencyId : string) : Observable<any>{
-    return of('test');
+    return this._httpClient.get<any>(`../assets/data/${constituencyId}.json`);
    }
 
    getCandidateById(candidateId : string) : Observable<any>{
