@@ -1,152 +1,197 @@
-  <section>
-    <div class="container py-2">
-      <div class="row">
-          <span class="col-3">
-              <b>Election</b> 
-          </span>
-          <span class="col-3">
-            <b>State</b> 
-          </span>
-          <span class="col-3">
-            <b>District</b> 
-          </span>
-        <span class="col-3">
-          <b>Constituency</b> 
-        </span>
-      </div>
-      <div class="row">
-        <select class="col-3" (change)="onElectionSelect($event)">
-          <option *ngFor="let election of _electionList" [value]="election.value">{{election.text}}</option>
-        </select>
-        <select class="col-3" (change)="onStateSelect($event)">
-          <option *ngFor="let state of _stateList" [value]="state.value">{{state.text}}</option>
-        </select>
-        <select class="col-3" (change)="onDistrictSelect($event)">
-          <option *ngFor="let district of _districtList" [value]="district.value">{{district.text}}</option>
-        </select>
-        <select class="col-3" (change)="onConstituencySelect($event)">
-          <option *ngFor="let constituency of _constituencyList" [value]="constituency.value" >{{constituency.text}}</option>
-        </select>
-      </div>
+<section>
+  <div class="container py-2">
+    <div class="row">
+      <span class="col-3">
+        <b>Election</b>
+      </span>
+      <span class="col-3">
+        <b>State</b>
+      </span>
+      <span class="col-3">
+        <b>District</b>
+      </span>
+      <span class="col-3">
+        <b>Constituency</b>
+      </span>
+    </div>
+    <div class="row">
+      <select class="col-3" (change)="onElectionSelect($event)">
+        <option *ngFor="let election of _electionList" [value]="election.value">{{election.text}}</option>
+      </select>
+      <select class="col-3" (change)="onStateSelect($event)">
+        <option *ngFor="let state of _stateList" [value]="state.value">{{state.text}}</option>
+      </select>
+      <select class="col-3" (change)="onDistrictSelect($event)">
+        <option *ngFor="let district of _districtList" [value]="district.value">{{district.text}}</option>
+      </select>
+      <select class="col-3" (change)="onConstituencySelect($event)">
+        <option *ngFor="let constituency of _constituencyList" [value]="constituency.value">{{constituency.text}}
+        </option>
+      </select>
+    </div>
 
-      <div class="row py-2">
-        <!-- Filter-->
-        <div class="col-lg-3 order-1 order-lg-1">
-          <h2 class="h3 mb-4 pb-1">Filters</h2>
-          <form action="#">
-            <div class="card border-0 shadow-sm mb-4 p-2">
-              <div class="card-body">
-                <div class="custom-control custom-checkbox mb-2">
-                  <input class="custom-control-input" id="customCheck1" type="checkbox" checked>
-                  <label class="custom-control-label" for="customCheck1">Sex</label>
-                </div>
-                <div class="custom-control custom-checkbox mb-2">
-                  <input class="custom-control-input" id="customCheck2" type="checkbox" checked>
-                  <label class="custom-control-label" for="customCheck2">Caste</label>
-                </div>
-                <div class="custom-control custom-checkbox mb-2">
-                  <input class="custom-control-input" id="customCheck3" type="checkbox">
-                  <label class="custom-control-label" for="customCheck3">Party</label>
-                </div>
-                <div class="custom-control custom-checkbox mb-2">
-                  <input class="custom-control-input" id="customCheck4" type="checkbox">
-                  <label class="custom-control-label" for="customCheck4">Independent</label>
-                </div>
-                <div class="custom-control custom-checkbox mb-2">
-                  <input class="custom-control-input" id="customCheck5" type="checkbox">
-                  <label class="custom-control-label" for="customCheck5">Profession</label>
-                </div>
-                <div class="custom-control custom-checkbox mb-2">
-                  <input class="custom-control-input" id="customCheck6" type="checkbox">
-                  <label class="custom-control-label" for="customCheck6">Education</label>
-                </div>
-                <div class="custom-control custom-checkbox mb-2">
-                  <input class="custom-control-input" id="customCheck7" type="checkbox">
-                  <label class="custom-control-label" for="customCheck7">Tax Filed</label>
-                </div>
-                <div class="custom-control custom-checkbox mb-2">
-                  <input class="custom-control-input" id="customCheck8" type="checkbox">
-                  <label class="custom-control-label" for="customCheck8">Criminal Case</label>
-                </div>
-                <div class="custom-control custom-checkbox mb-2">
-                  <input class="custom-control-input" id="customCheck9" type="checkbox">
-                  <label class="custom-control-label" for="customCheck9">Convicted Case</label>
-                </div>
+    <div class="row py-2">
+      <!-- Filter-->
+      <div class="col-lg-3 order-1 order-lg-1">
+        <h2 class="h3 mb-4 pb-1">Filters</h2>
+        <form action="#">
+          <div class="card border-0 shadow-sm mb-4 p-2">
+            <div class="card-body">
+              <div class="custom-control custom-checkbox mb-2">
+                <input class="custom-control-input" id="customCheck1" type="checkbox" checked>
+                <label class="custom-control-label" for="customCheck1">Sex</label>
+              </div>
+              <div class="custom-control custom-checkbox mb-2">
+                <input class="custom-control-input" id="customCheck2" type="checkbox" checked>
+                <label class="custom-control-label" for="customCheck2">Caste</label>
+              </div>
+              <div class="custom-control custom-checkbox mb-2">
+                <input class="custom-control-input" id="customCheck3" type="checkbox">
+                <label class="custom-control-label" for="customCheck3">Party</label>
+              </div>
+              <div class="custom-control custom-checkbox mb-2">
+                <input class="custom-control-input" id="customCheck4" type="checkbox">
+                <label class="custom-control-label" for="customCheck4">Independent</label>
+              </div>
+              <div class="custom-control custom-checkbox mb-2">
+                <input class="custom-control-input" id="customCheck5" type="checkbox">
+                <label class="custom-control-label" for="customCheck5">Profession</label>
+              </div>
+              <div class="custom-control custom-checkbox mb-2">
+                <input class="custom-control-input" id="customCheck6" type="checkbox">
+                <label class="custom-control-label" for="customCheck6">Education</label>
+              </div>
+              <div class="custom-control custom-checkbox mb-2">
+                <input class="custom-control-input" id="customCheck7" type="checkbox">
+                <label class="custom-control-label" for="customCheck7">Tax Filed</label>
+              </div>
+              <div class="custom-control custom-checkbox mb-2">
+                <input class="custom-control-input" id="customCheck8" type="checkbox">
+                <label class="custom-control-label" for="customCheck8">Criminal Case</label>
+              </div>
+              <div class="custom-control custom-checkbox mb-2">
+                <input class="custom-control-input" id="customCheck9" type="checkbox">
+                <label class="custom-control-label" for="customCheck9">Convicted Case</label>
               </div>
             </div>
-            <button class="btn btn-primary btn-block" type="submit"> <i class="fas fa-search mr-2 small"></i>Search</button>
-          </form>
+          </div>
+          <button class="btn btn-primary btn-block" type="submit"> <i
+              class="fas fa-search mr-2 small"></i>Search</button>
+        </form>
+      </div>
+      <!-- Listing-->
+      <div class="col-lg-9 mb-5 mb-lg-0 order-2 order-lg-2">
+        <!-- Listing sorting-->
+        <div class="row mb-4 align-items-center">
+          <div class="col-md-2 text-md">
+            <p class="h6 mb-0 p-3 p-md-0">Sort By</p>
+          </div>
+          <div class="col-md-7">
+            <ul class="list-inline mb-0">
+              <li class="list-inline-item my-1 my-lg-0">
+                <select name="sort" data-style="btn btn-light shadow-xs bg-white border" data-title="Sort By"
+                  data-width="180">
+                  <option value="Ascending">Ascending</option>
+                  <option value="Descending">Descending</option>
+                </select>
+              </li>
+              <li class="list-inline-item my-1 my-lg-0">
+                <select name="type" data-style="btn btn-light shadow-xs bg-white border" data-width="180">
+                  <option value="Age">Age</option>
+                  <option value="Sex">Sex</option>
+                  <option value="Tax Filed">Tax Filed</option>
+                  <option value="Criminal Case">Criminal Case</option>
+                  <option value="Assets">Assets</option>
+                  <option value="Liability">Liability</option>
+                </select>
+              </li>
+            </ul>
+          </div>
+
         </div>
-        <!-- Listing-->
-        <div class="col-lg-9 mb-5 mb-lg-0 order-2 order-lg-2">
-          <!-- Listing sorting-->
-          <div class="row mb-4 align-items-center">
-            <div class="col-md-2 text-md">
-                <p class="h6 mb-0 p-3 p-md-0">Sort By</p>
-           </div> 
-            <div class="col-md-7">
-              <ul class="list-inline mb-0">
-                <li class="list-inline-item my-1 my-lg-0">
-                  <select name="sort" data-style="btn btn-light shadow-xs bg-white border" data-title="Sort By" data-width="180">
-                    <option value="Ascending">Ascending</option>
-                    <option value="Descending">Descending</option>
-                  </select>
-                </li>
-                <li class="list-inline-item my-1 my-lg-0">
-                  <select name="type" data-style="btn btn-light shadow-xs bg-white border" data-width="180">
-                    <option value="Age">Age</option>
-                    <option value="Sex">Sex</option>
-                    <option value="Tax Filed">Tax Filed</option>
-                    <option value="Criminal Case">Criminal Case</option>
-                    <option value="Assets">Assets</option>
-                    <option value="Liability">Liability</option>
-                  </select>
-                </li>
-              </ul>
+        <!-- Listing items-->
+        <div class="row mb-4" *ngIf="_candidateList.length > 0">
+          <div *ngFor="let candidate of _candidateList" class="col-lg-6 mb-4">
+            <div class="card shadow-sm border-0 reset-anchor d-block hover-transition">
+              <div class="row col-12">
+                <div class="col-5">
+                  <img height="150px" width="auto" class="rounded-circle" src="{{candidate.officialPhotoLink}}"
+                    alt="...">
+                </div>
+                <div class="col-7">
+
+                  <div class="media-body ml-2">
+                    <h6 class="mb-0">Name</h6>
+                    <p class="text-capitalize text-muted text-small mb-0">{{candidate.name}}</p>
+                  </div>
+                  <div class="media-body ml-2">
+                    <h6 class="mb-0">Age</h6>
+                    <p class="text-muted text-small mb-0">{{candidate.age}}</p>
+                  </div>
+                  <div class="media-body ml-2">
+                    <h6 class="mb-0">Party</h6>
+                    <p class="text-muted text-small mb-0">{{candidate.party}}</p>
+                  </div>
+                  <div class="media-body ml-2">
+                    <h6 class="mb-0">Education</h6>
+                    <p class="text-muted text-small mb-0">{{candidate.highestEducationLevel}}</p>
+                  </div>
+                  <div class="media-body ml-2">
+                    <h6 class="mb-0">Profession</h6>
+                    <p class="text-muted text-small mb-0">{{candidate.selfProfession}}</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row col-12">
+                <div class="media-body ml-2">
+                  <p><i class="fa fa-phone"></i>: {{candidate.telephone}} </p>
+                </div>
+              </div>
+              <div class="row col-12">
+                <div class="media-body ml-2">
+                  <p><i class="fa fa-envelope"></i>: {{candidate.email}} </p>
+                </div>
+              </div>
+
+              <div class="row col-12">
+                <div class="float-right">
+                  <ul class="float-right list-inline mb-0">
+                    <li class="list-inline-item">
+                      <a class="social-link facebook" href="#">
+                        <i class="fa fa-facebook-f"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a class="social-link twitter" href="#">
+                        <i class="fa fa-twitter"></i>
+                      </a>
+                    </li>
+
+                    <li class="list-inline-item">
+                      <a class="social-link instagram" href="#">
+                        <i class="fa fa-instagram"></i>
+                      </a>
+                    </li>
+
+                  </ul>
+                </div>
+
+              </div>
+
+
+
+              <div class="row col-12 d-flex justify-content-center">
+                <button class="btn-primary" (click)="onClickDetail(candidate.candidateId)">View More</button>
+              </div>
             </div>
-            
           </div>
-          <!-- Listing items-->
-          <div class="row mb-4" *ngIf="_candidateList.length > 0">
-            <div *ngFor="let candidate of _candidateList" class="col-lg-6 mb-4">
-                  <div class="card shadow-sm border-0 reset-anchor d-block hover-transition">
-                    <div class="row col-12">
-                        <div class="col-5">
-                            <img height="150px" width="auto" class="rounded-circle" src="{{candidate.officialPhotoLink}}" alt="...">
-                        </div>
-                        <div class="col-7">
-                            <span class="row">Name : {{candidate.name}}</span>
-                            <span class="row">Age : {{candidate.age}}</span>
-                            <span class="row">Party : {{candidate.party}}</span>
-                            <span class="row">Education : {{candidate.highestEducationLevel}}</span>
-                            <span class="row">Profession : {{candidate.selfProfession}}</span>
-                            
-                        </div>
-                    </div>
-                     
-                    <div class="row col-12">
-                          <span class="col-6"><i class="fa fa-phone"></i>: {{candidate.telephone}}</span>
-                          <span class="col-6"><i class="fa fa-envelope"></i>: {{candidate.email}}</span>
-                        <span class="col-6">Social Media Account: {{candidate.socialMediaAccount}}</span>
-                        <span class="col-6">Total Wealth: {{candidate.candidateTotalWealthString}}</span>
-                        <span class="col-6">Last Year Income: {{candidate.candidateTotalIncomeString}}</span>
-                        <span class="col-6" *ngIf="candidate.pendingCase">Pending Case : Yes</span>
-                        <span class="col-6" *ngIf="!candidate.pendingCase">Pending Case : No</span>
-                        <span class="col-6" *ngIf="candidate.convictedCase">Convicted Case : Yes</span>
-                        <span class="col-6" *ngIf="!candidate.convictedCase">Convicted Case : No</span>
-                        
-                        </div>
-                    <div class="row col-12 d-flex justify-content-center">
-                      <button class="btn-primary"  (click)="onClickDetail(candidate.candidateId)">View More</button>
-                    </div>
-                    </div>
-            </div>
-          </div>
-          <div class="row mb-4" *ngIf="_candidateList.length == 0">
-              No Candidate Details Available
-          </div>
-          <!-- Pagination-->
-          <!-- <nav aria-label="Page navigation example">
+        </div>
+        <div class="row mb-4" *ngIf="_candidateList.length == 0">
+          No Candidate Details Available
+        </div>
+        <!-- Pagination-->
+        <!-- <nav aria-label="Page navigation example">
             <ul class="pagination justify-content-end mb-0">
               <li class="page-item mx-1"><a class="page-link rounded border-0 shadow-sm px-3" href="#" aria-label="Previous"><span aria-hidden="true">«</span></a></li>
               <li class="page-item mx-1 active"><a class="page-link rounded border-0 shadow-sm px-3" href="#">1</a></li>
@@ -155,7 +200,7 @@
               <li class="page-item mx-1"><a class="page-link rounded border-0 shadow-sm px-3" href="#" aria-label="Next"><span aria-hidden="true">»</span></a></li>
             </ul>
           </nav> -->
-        </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
