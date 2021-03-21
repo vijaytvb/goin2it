@@ -42,7 +42,7 @@ export class ListComponent implements OnInit {
   }
 
   onClickDetail(candidateId : string){
-   this.router.navigateByUrl(`detail/${candidateId}`);
+   this.router.navigateByUrl(`detail/${this._selectedConstituency}/${candidateId}`);
   }
 
   onElectionSelect(event : any) : void {

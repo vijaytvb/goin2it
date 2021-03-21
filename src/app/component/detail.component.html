@@ -9,28 +9,28 @@
               <h2 class="h3 mb-4">Personal</h2>
               <div class="row col-12">
                 <div class="col-4">
-                    <img height="150px" width="auto" class="rounded-circle" src="https://suvidha.eci.gov.in/uploads1/candprofile/E10/2021/AC/s03/SHAMI-2021-20210313124408.jpg" alt="...">
+                    <img height="150px" width="auto" class="rounded-circle" src="{{_candidate.officialPhotoLink}}" alt="...">
                 </div>
                 <div class="col-8">
                   <div class="media-body ml-2">
                     <h6 class="mb-0">Name</h6>
-                    <p class="small text-muted mb-0 font-weight-bold">candidate name</p>
+                    <p class="small text-muted mb-0 font-weight-bold">{{_candidate.name}}</p>
                   </div>
                   <div class="media-body ml-2">
                     <h6 class="mb-0">Age</h6>
-                    <p class="small text-muted mb-0 font-weight-bold">45</p>
+                    <p class="small text-muted mb-0 font-weight-bold">{{_candidate.age}}</p>
                   </div>
                   <div class="media-body ml-2">
                     <h6 class="mb-0">Sex</h6>
-                    <p class="small text-muted mb-0 font-weight-bold">Male</p>
+                    <p class="small text-muted mb-0 font-weight-bold">{{_candidate.sex}}</p>
                   </div>
                   <div class="media-body ml-2">
                     <h6 class="mb-0">Party</h6>
-                    <p class="small text-muted mb-0 font-weight-bold">Peoples party</p>
+                    <p class="small text-muted mb-0 font-weight-bold">{{_candidate.party}}</p>
                   </div>
                   <div class="media-body ml-2">
                     <h6 class="mb-0">Email</h6>
-                    <p class="small text-muted mb-0 font-weight-bold">Peoples party</p>
+                    <p class="small text-muted mb-0 font-weight-bold">{{_candidate.email}}</p>
                   </div>
 
                 </div>
@@ -47,21 +47,19 @@
 
                 <div class="media-body ml-2">
                   <h6 class="mb-0">Candidate Year</h6>
-                  <p class="small text-muted mb-0 font-weight-bold">Rs. 1000</p>
+                  <p class="small text-muted mb-0 font-weight-bold" *ngIf="_candidate.latestTaxReturn.self.amount != ''">{{_candidate.latestTaxReturn.self.amount | currency:'INR' }}</p>
+                  <p class="small text-muted mb-0 font-weight-bold" *ngIf="_candidate.latestTaxReturn.self.amount == ''">NA</p>
                 </div>
                 <div class="media-body ml-2">
                   <h6 class="mb-0">Spouse Year</h6>
-                  <p class="small text-muted mb-0 font-weight-bold">Rs. 25,00,000</p>
+                  <p class="small text-muted mb-0 font-weight-bold" *ngIf="_candidate.latestTaxReturn.spouse.amount != ''">{{_candidate.latestTaxReturn.self.amount | currency:'INR'}}</p>
+                  <p class="small text-muted mb-0 font-weight-bold" *ngIf="_candidate.latestTaxReturn.spouse.amount == ''">NA</p>
                 </div>
               </div>
               <div class="col-6">
-                <div class="media-body ml-2">
-                  <h6 class="mb-0">Dependent-1</h6>
-                  <p class="small text-muted mb-0 font-weight-bold">Rs. 75,00,000</p>
-                </div>
-                <div class="media-body ml-2">
-                  <h6 class="mb-0">Dependent-2</h6>
-                  <p class="small text-muted mb-0 font-weight-bold">Rs. 18,00,000</p>
+                <div *ngFor="let dependent of _candidate.latestTaxReturn.dependents" class="media-body ml-2">
+                  <h6 class="mb-0">{{dependent.relation}}</h6>
+                  <p class="small text-muted mb-0 font-weight-bold">{{dependent.amount | currency : 'INR'}}</p>
                 </div>
               </div>
               </div>
@@ -69,7 +67,7 @@
                 <div class="col-6">
                 <div class="media-body ml-2">
                   <h6 class="mb-0">Total Income</h6>
-                  <p class="small text-muted mb-0 font-weight-bold">Rs. 18,00,000</p>
+                  <p class="small text-muted mb-0 font-weight-bold">{{_candidate.candidateTotalIncomeString | currency : 'INR'}}</p>
                 </div>
               </div>
               </div>
@@ -79,8 +77,38 @@
           <!-- Video-->
           <div class="card border-0 shadow-sm mb-4 mb-lg-5 p-2 p-lg-0">
             <div class="card-body p-lg-5">
-              <h2 class="h3 mb-4">Asserts</h2>
+              <h2 class="h3 mb-4">Assets</h2>
+              <h5 class="h5 mb-6">Movable Assets</h5>
+              <div class="row col-12">
+                <div class="col-6">
 
+                <div class="media-body ml-2">
+                  <h6 class="mb-0">Candidate</h6>
+                  <p class="small text-muted mb-0 font-weight-bold" *ngIf="_candidate.assets.movableSelf.amount != ''">{{_candidate.assets.movableSelf.amount | currency:'INR'}}</p>
+                  <p class="small text-muted mb-0 font-weight-bold"  *ngIf="_candidate.assets.movableSelf.amount == ''">NA</p>
+                </div>
+                <div class="media-body ml-2">
+                  <h6 class="mb-0">Spouse</h6>
+                  <p class="small text-muted mb-0 font-weight-bold">sit amet</p>
+                  <p class="small text-muted mb-0 font-weight-bold">Ipum dolor  amet</p>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="media-body ml-2">
+                  <h6 class="mb-0">Dependent-1</h6>
+                  <p class="small text-muted mb-0 font-weight-bold">Lorem ipsum dolor amet</p>
+                  <p class="small text-muted mb-0 font-weight-bold">  dolor sit amet</p>
+                  <p class="small text-muted mb-0 font-weight-bold"> ipsum dolor sit amet</p>
+
+                </div>
+                <div class="media-body ml-2">
+                  <h6 class="mb-0">Dependent-2</h6>
+                  <p class="small text-muted mb-0 font-weight-bold">Lorem ipsum dolor sit amet</p>
+                  <p class="small text-muted mb-0 font-weight-bold">Ipsum sit amet</p>
+                </div>
+              </div>
+              </div>
+              <h5 class="h5 mb-6">Immovable Assets</h5>
               <div class="row col-12">
                 <div class="col-6">
 
@@ -106,12 +134,6 @@
                   <h6 class="mb-0">Dependent-2</h6>
                   <p class="small text-muted mb-0 font-weight-bold">Lorem ipsum dolor sit amet</p>
                   <p class="small text-muted mb-0 font-weight-bold">Ipsum sit amet</p>
-                </div>
-              </div>
-              </div>
-              <div class="row col-12">
-                <div class="col-6">
-                <div class="media-body ml-2">
                 </div>
               </div>
               </div>
