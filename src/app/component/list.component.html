@@ -114,12 +114,15 @@
           <div *ngFor="let candidate of _candidateList" class="col-lg-6 mb-4">
             <div class="card shadow-sm border-0 reset-anchor d-block hover-transition">
               <div class="row col-12">
+                
                 <div class="col-5">
                   <img height="150px" width="auto" class="rounded-circle" src="{{candidate.officialPhotoLink}}"
                     alt="...">
+                    <div class="row col-12 justify-content-center"> 
+                      <a href="{{candidate.officialProfileLink}}" target="_blank">Profile</a>
+                    </div>
                 </div>
                 <div class="col-7">
-
                   <div class="media-body ml-2">
                     <h6 class="mb-0">Name</h6>
                     <p class="text-capitalize text-muted text-small mb-0">{{candidate.name}}</p>
@@ -144,6 +147,27 @@
               </div>
 
               <div class="row col-12">
+                <div class="col-6">
+                  <h6 class="mb-0">Total Wealth</h6>
+                  <p class="text-muted text-small mb-0">{{candidate.candidateTotalWealth | currency:'INR'}}</p>
+                </div>
+                <div class="col-6">
+                  <h6 class="mb-0">Income</h6>
+                  <p class="text-muted text-small mb-0">{{candidate.candidateTotalIncome  | currency:'INR'}}</p>
+                </div>
+                <div class="col-6">
+                  <h6 class="mb-0">Pending Case</h6>
+                  <p class="text-muted text-small mb-0" *ngIf="!candidate.pendingCase">No</p>
+                  <p class="text-muted text-small mb-0" *ngIf="candidate.pendingCase">Yes</p>
+                </div>
+                <div class="col-6">
+                  <h6 class="mb-0">Convicted Case</h6>
+                  <p class="text-muted text-small mb-0" *ngIf="!candidate.convictedCase">No</p>
+                  <p class="text-muted text-small mb-0" *ngIf="candidate.convictedCase">Yes</p>
+                </div>
+              </div>
+
+              <!--div class="row col-12">
                 <div class="media-body ml-2">
                   <p><i class="fa fa-phone"></i>: {{candidate.telephone}} </p>
                 </div>
@@ -177,7 +201,7 @@
                   </ul>
                 </div>
 
-              </div>
+              </div-->
 
 
 
