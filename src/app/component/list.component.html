@@ -1,83 +1,78 @@
 <section>
   <div class="container py-2">
     <div class="row">
-      <span class="col-3">
-        <b>Election</b>
+      <span class="col-lg-3 col-md-3">
+        <p><b>Election</b></p>
+        <select (change)="onElectionSelect($event)">
+          <option *ngFor="let election of _electionList" [value]="election.value">{{election.text}}</option>
+        </select>
       </span>
-      <span class="col-3">
-        <b>State</b>
+      <span class="col-lg-3">
+        <p><b>State</b></p>
+        <select (change)="onStateSelect($event)">
+          <option *ngFor="let state of _stateList" [value]="state.value">{{state.text}}</option>
+        </select>
       </span>
-      <span class="col-3">
-        <b>District</b>
+      <span class="col-lg-3">
+        <p><b>District</b></p>
+        <select (change)="onDistrictSelect($event)">
+          <option *ngFor="let district of _districtList" [value]="district.value">{{district.text}}</option>
+        </select>
       </span>
-      <span class="col-3">
-        <b>Constituency</b>
+      <span class="col-lg-3">
+        <p><b>Constituency</b></p>
+        <select (change)="onConstituencySelect($event)">
+          <option *ngFor="let constituency of _constituencyList" [value]="constituency.value">{{constituency.text}}
+          </option>
+        </select>
       </span>
     </div>
-    <div class="row">
-      <select class="col-3" (change)="onElectionSelect($event)">
-        <option *ngFor="let election of _electionList" [value]="election.value">{{election.text}}</option>
-      </select>
-      <select class="col-3" (change)="onStateSelect($event)">
-        <option *ngFor="let state of _stateList" [value]="state.value">{{state.text}}</option>
-      </select>
-      <select class="col-3" (change)="onDistrictSelect($event)">
-        <option *ngFor="let district of _districtList" [value]="district.value">{{district.text}}</option>
-      </select>
-      <select class="col-3" (change)="onConstituencySelect($event)">
-        <option *ngFor="let constituency of _constituencyList" [value]="constituency.value">{{constituency.text}}
-        </option>
-      </select>
-    </div>
-
+    
     <div class="row py-2">
       <!-- Filter-->
       <div class="col-lg-3 order-1 order-lg-1">
-        <h2 class="h3 mb-4 pb-1">Filters</h2>
-        <form action="#">
-          <div class="card border-0 shadow-sm mb-4 p-2">
+          <div class="card border-0 shadow-sm p-2">
             <div class="card-body">
+              <a class="h3 pb-1 yt-toogle" data-toggle="collapse" data-target="#filters" aria-expanded="true" aria-controls="filters">
+                Filters
+                <i class="fa fa-caret-right fa-fw"></i>
+                <i class="fa fa-caret-down fa-fw"></i>
+              </a>
+              <div id="filters" class="collapse show">
+              <label>Sex</label>
               <div class="custom-control custom-checkbox mb-2">
-                <input class="custom-control-input" id="customCheck1" type="checkbox" checked>
-                <label class="custom-control-label" for="customCheck1">Sex</label>
+                <input class="custom-control-input" id="sexOption1" type="checkbox" [(ngModel)]="_filters.sex.male" [ngModelOptions]="{standalone:true}" (change)="applyFilter()">
+                <label class="custom-control-label text-small text-muted" for="sexOption1">Male</label>
               </div>
               <div class="custom-control custom-checkbox mb-2">
-                <input class="custom-control-input" id="customCheck2" type="checkbox" checked>
-                <label class="custom-control-label" for="customCheck2">Caste</label>
+                <input class="custom-control-input" id="sexOption2" type="checkbox" [(ngModel)]="_filters.sex.female"  [ngModelOptions]="{standalone:true}" (change)="applyFilter()">
+                <label class="custom-control-label text-small text-muted" for="sexOption2">Female</label>
               </div>
               <div class="custom-control custom-checkbox mb-2">
-                <input class="custom-control-input" id="customCheck3" type="checkbox">
-                <label class="custom-control-label" for="customCheck3">Party</label>
+                <input class="custom-control-input" id="sexOption3" type="checkbox" [(ngModel)]="_filters.sex.other"  [ngModelOptions]="{standalone:true}" (change)="applyFilter()">
+                <label class="custom-control-label text-small text-muted" for="sexOption3">Other</label>
+              </div>
+              <label>Tax Filled</label>
+              <div class="custom-control custom-checkbox mb-2">
+                <input class="custom-control-input" id="taxFilledOption1" type="checkbox" [(ngModel)]="_filters.taxFilled.yes"  [ngModelOptions]="{standalone:true}" (change)="applyFilter()">
+                <label class="custom-control-label text-small text-muted" for="taxFilledOption1">Yes</label>
               </div>
               <div class="custom-control custom-checkbox mb-2">
-                <input class="custom-control-input" id="customCheck4" type="checkbox">
-                <label class="custom-control-label" for="customCheck4">Independent</label>
+                <input class="custom-control-input" id="taxFilledOption2" type="checkbox" [(ngModel)]="_filters.taxFilled.no" [ngModelOptions]="{standalone:true}" (change)="applyFilter()">
+                <label class="custom-control-label text-small text-muted" for="taxFilledOption2">No</label>
+              </div>
+              <label>Case</label>
+              <div class="custom-control custom-checkbox mb-2">
+                <input class="custom-control-input" id="caseOption1" type="checkbox" [(ngModel)]="_filters.case.pendingCase"  [ngModelOptions]="{standalone:true}" (change)="applyFilter()">
+                <label class="custom-control-label text-small text-muted" for="caseOption1">Pending Case</label>
               </div>
               <div class="custom-control custom-checkbox mb-2">
-                <input class="custom-control-input" id="customCheck5" type="checkbox">
-                <label class="custom-control-label" for="customCheck5">Profession</label>
-              </div>
-              <div class="custom-control custom-checkbox mb-2">
-                <input class="custom-control-input" id="customCheck6" type="checkbox">
-                <label class="custom-control-label" for="customCheck6">Education</label>
-              </div>
-              <div class="custom-control custom-checkbox mb-2">
-                <input class="custom-control-input" id="customCheck7" type="checkbox">
-                <label class="custom-control-label" for="customCheck7">Tax Filed</label>
-              </div>
-              <div class="custom-control custom-checkbox mb-2">
-                <input class="custom-control-input" id="customCheck8" type="checkbox">
-                <label class="custom-control-label" for="customCheck8">Criminal Case</label>
-              </div>
-              <div class="custom-control custom-checkbox mb-2">
-                <input class="custom-control-input" id="customCheck9" type="checkbox">
-                <label class="custom-control-label" for="customCheck9">Convicted Case</label>
+                <input class="custom-control-input" id="caseOption2" type="checkbox" [(ngModel)]="_filters.case.convictedCase"  [ngModelOptions]="{standalone:true}" (change)="applyFilter()">
+                <label class="custom-control-label text-small text-muted" for="caseOption2">Convicted Case</label>
               </div>
             </div>
+            </div>
           </div>
-          <button class="btn btn-primary btn-block" type="submit"> <i
-              class="fas fa-search mr-2 small"></i>Search</button>
-        </form>
       </div>
       <!-- Listing-->
       <div class="col-lg-9 mb-5 mb-lg-0 order-2 order-lg-2">
@@ -110,8 +105,8 @@
 
         </div>
         <!-- Listing items-->
-        <div class="row mb-4" *ngIf="_candidateList.length > 0">
-          <div *ngFor="let candidate of _candidateList" class="col-lg-6 mb-4">
+        <div class="row mb-4" *ngIf="_filterCandidateList.length > 0">
+          <div *ngFor="let candidate of _filterCandidateList" class="col-lg-6 mb-4">
             <div class="card shadow-sm border-0 reset-anchor d-block hover-transition">
               <div class="row col-12">
                 
@@ -119,7 +114,7 @@
                   <img height="150px" width="auto" class="rounded-circle" src="{{candidate.officialPhotoLink}}"
                     alt="...">
                     <div class="row col-12 justify-content-center"> 
-                      <a href="{{candidate.officialProfileLink}}" target="_blank">Profile</a>
+                      <a href="{{candidate.officialProfileLink}}" target="_blank">Offical link</a>
                     </div>
                 </div>
                 <div class="col-7">
@@ -211,7 +206,7 @@
             </div>
           </div>
         </div>
-        <div class="row mb-4" *ngIf="_candidateList.length == 0">
+        <div class="row mb-4" *ngIf="_filterCandidateList.length == 0">
           No Candidate Details Available
         </div>
         <!-- Pagination-->

@@ -11,6 +11,7 @@ import { DataService } from './service/data.service';
 import { LoaderService } from './service/loader.service';
 import { InterceptorProvider } from './provider/interceptor.provider';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,6 +25,7 @@ import { CommonModule } from '@angular/common';
     CommonModule,
     AppRoutingModule,
     HttpClientModule,
+    FormsModule,
   ],
   providers: [
     DataService,

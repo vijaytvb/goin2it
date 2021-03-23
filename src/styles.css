@@ -61,3 +61,13 @@
       -webkit-transform: scaleY(1.0);
     }
   }
+
+  .yt-toogle.collapsed .fa-caret-down{
+    display:none;
+  }
+  .yt-toogle.collapsed .fa-caret-right{
+    display:inline-block;
+  }
+  .yt-toogle .fa-caret-right{
+    display:none;
+  }
