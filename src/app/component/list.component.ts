@@ -5,6 +5,7 @@ import { Constituency, Election, Item } from '../types/election';
 import * as  _ from 'lodash';
 import { HttpErrorResponse } from '@angular/common/http';
 import { Candidate } from '../types/candidate';
+import { Case, Filter, Sex, TaxFilled } from '../types/filters';
 
 @Component({
   templateUrl: './list.component.html'
@@ -16,6 +17,8 @@ export class ListComponent implements OnInit {
   public _districtList : Array<Item> = new Array<Item>();
   public _constituencyList : Array<Item> = new Array<Item>();
   public _candidateList : Array<Candidate> = new Array<Candidate>();
+  public _filterCandidateList : Array<Candidate> = new Array<Candidate>();
+  public _filters : Filter = new Filter();
 
   private _selectedElection : string = '';
   private _selectedState : string = '';
@@ -38,7 +41,27 @@ export class ListComponent implements OnInit {
       this._selectedElection = this._electionList[0].value;
       this._selectedState = this._stateList[0].value;
       this.loadDistrict();
-    });
+      this.initFilter();
+     });
+  }
+
+  initFilter(){
+    this._filters.sex = new Sex();
+    this._filters.case = new Case();
+    this._filters.taxFilled = new TaxFilled();
+  }
+
+  applyFilter(){
+    if(this._candidateList.length > 0){
+        this._filterCandidateList = this._candidateList.filter(x=> 
+          this._filters.sex.male ? x.sex.toLowerCase() == 'male' : true &&
+          this._filters.sex.female ? x.sex.toLowerCase() == "female" : true &&
+          this._filters.sex.other ? x.sex.toLowerCase() == "other" : true &&
+          this._filters.taxFilled.yes ? x.latestTaxReturn : true &&
+          this._filters.taxFilled.no ? !x.latestTaxReturn : true &&
+          this._filters.case.pendingCase ? x.pendingCase : true &&
+          this._filters.case.convictedCase ? x.convictedCase : true);
+    }
   }
 
   onClickDetail(candidateId : string){
@@ -104,10 +127,13 @@ export class ListComponent implements OnInit {
   loadConstituencyCandidate() : void {
     this._dataService.getCandidateByConstituency(this._selectedConstituency).subscribe((response : any) => {
       this._candidateList = response.candidates;
-      console.log(this._candidateList);
+      this._filterCandidateList = response.candidates;
+      this.initFilter();
     },(error:HttpErrorResponse) =>{
       if(error.status == 404){
         this._candidateList = new Array<Candidate>();
+        this._filterCandidateList = new Array<Candidate>();
+      this.initFilter();
       }
     });
   }
