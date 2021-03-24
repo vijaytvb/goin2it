@@ -27,120 +27,130 @@
         </select>
       </span>
     </div>
-    
-    <div class="row py-2">
-      <!-- Filter-->
-      <div class="col-lg-3 order-1 order-lg-1">
-          <div class="card border-0 shadow-sm p-2">
-            <div class="card-body">
-              <a class="h3 pb-1 yt-toogle" data-toggle="collapse" data-target="#filters" aria-expanded="true" aria-controls="filters">
-                Filters
-                <i class="fa fa-caret-right fa-fw"></i>
-                <i class="fa fa-caret-down fa-fw"></i>
-              </a>
-              <div id="filters" class="collapse show">
-              <label>Sex</label>
-              <div class="custom-control custom-checkbox mb-2">
-                <input class="custom-control-input" id="sexOption1" type="checkbox" [(ngModel)]="_filters.sex.male" [ngModelOptions]="{standalone:true}" (change)="applyFilter()">
-                <label class="custom-control-label text-small text-muted" for="sexOption1">Male</label>
-              </div>
-              <div class="custom-control custom-checkbox mb-2">
-                <input class="custom-control-input" id="sexOption2" type="checkbox" [(ngModel)]="_filters.sex.female"  [ngModelOptions]="{standalone:true}" (change)="applyFilter()">
-                <label class="custom-control-label text-small text-muted" for="sexOption2">Female</label>
-              </div>
-              <div class="custom-control custom-checkbox mb-2">
-                <input class="custom-control-input" id="sexOption3" type="checkbox" [(ngModel)]="_filters.sex.other"  [ngModelOptions]="{standalone:true}" (change)="applyFilter()">
-                <label class="custom-control-label text-small text-muted" for="sexOption3">Other</label>
-              </div>
-              <label>Tax Filled</label>
-              <div class="custom-control custom-checkbox mb-2">
-                <input class="custom-control-input" id="taxFilledOption1" type="checkbox" [(ngModel)]="_filters.taxFilled.yes"  [ngModelOptions]="{standalone:true}" (change)="applyFilter()">
-                <label class="custom-control-label text-small text-muted" for="taxFilledOption1">Yes</label>
-              </div>
-              <div class="custom-control custom-checkbox mb-2">
-                <input class="custom-control-input" id="taxFilledOption2" type="checkbox" [(ngModel)]="_filters.taxFilled.no" [ngModelOptions]="{standalone:true}" (change)="applyFilter()">
-                <label class="custom-control-label text-small text-muted" for="taxFilledOption2">No</label>
-              </div>
-              <label>Case</label>
-              <div class="custom-control custom-checkbox mb-2">
-                <input class="custom-control-input" id="caseOption1" type="checkbox" [(ngModel)]="_filters.case.pendingCase"  [ngModelOptions]="{standalone:true}" (change)="applyFilter()">
-                <label class="custom-control-label text-small text-muted" for="caseOption1">Pending Case</label>
-              </div>
-              <div class="custom-control custom-checkbox mb-2">
-                <input class="custom-control-input" id="caseOption2" type="checkbox" [(ngModel)]="_filters.case.convictedCase"  [ngModelOptions]="{standalone:true}" (change)="applyFilter()">
-                <label class="custom-control-label text-small text-muted" for="caseOption2">Convicted Case</label>
-              </div>
+  </div>
+  <div class="row py-2">
+    <!-- Filter-->
+    <div class="col-lg-3 order-1 order-lg-1">
+      <div class="card border-0 shadow-sm p-2">
+        <div class="card-body">
+          <a class="h3 pb-1 yt-toogle" data-toggle="collapse" data-target="#filters" aria-expanded="true"
+            aria-controls="filters">
+            Filters
+            <i class="fa fa-caret-right fa-fw"></i>
+            <i class="fa fa-caret-down fa-fw"></i>
+          </a>
+          <div id="filters" class="collapse show">
+            <label>Sex</label>
+            <div class="custom-control custom-checkbox mb-2">
+              <input class="custom-control-input" id="sexOption1" type="checkbox" [(ngModel)]="_filters.sex.male"
+                [ngModelOptions]="{standalone:true}" (change)="applyFilter()">
+              <label class="custom-control-label text-small text-muted" for="sexOption1">Male</label>
             </div>
+            <div class="custom-control custom-checkbox mb-2">
+              <input class="custom-control-input" id="sexOption2" type="checkbox" [(ngModel)]="_filters.sex.female"
+                [ngModelOptions]="{standalone:true}" (change)="applyFilter()">
+              <label class="custom-control-label text-small text-muted" for="sexOption2">Female</label>
+            </div>
+            <div class="custom-control custom-checkbox mb-2">
+              <input class="custom-control-input" id="sexOption3" type="checkbox" [(ngModel)]="_filters.sex.other"
+                [ngModelOptions]="{standalone:true}" (change)="applyFilter()">
+              <label class="custom-control-label text-small text-muted" for="sexOption3">Other</label>
+            </div>
+            <label>Tax Filled</label>
+            <div class="custom-control custom-checkbox mb-2">
+              <input class="custom-control-input" id="taxFilledOption1" type="checkbox"
+                [(ngModel)]="_filters.taxFilled.yes" [ngModelOptions]="{standalone:true}" (change)="applyFilter()">
+              <label class="custom-control-label text-small text-muted" for="taxFilledOption1">Yes</label>
+            </div>
+            <div class="custom-control custom-checkbox mb-2">
+              <input class="custom-control-input" id="taxFilledOption2" type="checkbox"
+                [(ngModel)]="_filters.taxFilled.no" [ngModelOptions]="{standalone:true}" (change)="applyFilter()">
+              <label class="custom-control-label text-small text-muted" for="taxFilledOption2">No</label>
+            </div>
+            <label>Case</label>
+            <div class="custom-control custom-checkbox mb-2">
+              <input class="custom-control-input" id="caseOption1" type="checkbox"
+                [(ngModel)]="_filters.case.pendingCase" [ngModelOptions]="{standalone:true}" (change)="applyFilter()">
+              <label class="custom-control-label text-small text-muted" for="caseOption1">Pending Case</label>
+            </div>
+            <div class="custom-control custom-checkbox mb-2">
+              <input class="custom-control-input" id="caseOption2" type="checkbox"
+                [(ngModel)]="_filters.case.convictedCase" [ngModelOptions]="{standalone:true}" (change)="applyFilter()">
+              <label class="custom-control-label text-small text-muted" for="caseOption2">Convicted Case</label>
             </div>
           </div>
-      </div>
-      <!-- Listing-->
-      <div class="col-lg-9 mb-5 mb-lg-0 order-2 order-lg-2">
-        <!-- Listing sorting-->
-        <div class="row mb-4 align-items-center">
-          <div class="col-md-2 text-md">
-            <p class="h6 mb-0 p-3 p-md-0">Sort By</p>
-          </div>
-          <div class="col-md-7">
-            <ul class="list-inline mb-0">
-              <li class="list-inline-item my-1 my-lg-0">
-                <select name="sort" data-style="btn btn-light shadow-xs bg-white border" data-title="Sort By"
-                  data-width="180">
-                  <option value="Ascending">Ascending</option>
-                  <option value="Descending">Descending</option>
-                </select>
-              </li>
-              <li class="list-inline-item my-1 my-lg-0">
-                <select name="type" data-style="btn btn-light shadow-xs bg-white border" data-width="180">
-                  <option value="Age">Age</option>
-                  <option value="Sex">Sex</option>
-                  <option value="Tax Filed">Tax Filed</option>
-                  <option value="Criminal Case">Criminal Case</option>
-                  <option value="Assets">Assets</option>
-                  <option value="Liability">Liability</option>
-                </select>
-              </li>
-            </ul>
-          </div>
-
         </div>
-        <!-- Listing items-->
-        <div class="row mb-4" *ngIf="_filterCandidateList.length > 0">
-          <div *ngFor="let candidate of _filterCandidateList" class="col-lg-6 mb-4">
-            <div class="card shadow-sm border-0 reset-anchor d-block hover-transition">
-              <div class="row col-12">
-                
-                <div class=" col-6">
-                  <div id="imagePreview" class="text-center">
-                     <img height="150px" width="auto" class="rounded-circle" src="{{candidate.officialPhotoLink}}"
+      </div>
+    </div>
+    <!-- Listing-->
+    <div class="col-lg-9 mb-5 mb-lg-0 order-2 order-lg-2">
+      <!-- Listing sorting-->
+      <div class="row mb-4 align-items-center">
+        <div class="col-md-2 text-md">
+          <p class="h6 mb-0 p-3 p-md-0">Sort By</p>
+        </div>
+        <div class="col-md-7">
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item my-1 my-lg-0">
+              <select name="sort" data-style="btn btn-light shadow-xs bg-white border" data-title="Sort By"
+                data-width="180">
+                <option value="Ascending">Ascending</option>
+                <option value="Descending">Descending</option>
+              </select>
+            </li>
+            <li class="list-inline-item my-1 my-lg-0">
+              <select name="type" data-style="btn btn-light shadow-xs bg-white border" data-width="180">
+                <option value="Age">Age</option>
+                <option value="Sex">Sex</option>
+                <option value="Tax Filed">Tax Filed</option>
+                <option value="Criminal Case">Criminal Case</option>
+                <option value="Assets">Assets</option>
+                <option value="Liability">Liability</option>
+              </select>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+      <!-- Listing items-->
+      <div class="row mb-4" *ngIf="_filterCandidateList.length > 0">
+        <div *ngFor="let candidate of _filterCandidateList" class="col-lg-6 mb-4">
+          <div class="card shadow-sm border-0 reset-anchor d-block hover-transition">
+            <div class="row col-12">
+
+              <div class=" col-6">
+                <div id="imagePreview" class="text-center">
+                  <img height="150px" width="auto" class="rounded-circle" src="{{candidate.officialPhotoLink}}"
                     alt="...">
-                <div class="no-gutter row col-12 justify-content-center"> 
-                      <a href="{{candidate.officialProfileLink}}" target="_blank">Offical link</a>
-                  </div>
-                </div>
-                <div class="col-6">
-                  <div class="media-body ml-0">
-                    <h6 class="mb-0">Name</h6>
-                    <p class="text-capitalize text-muted text-small mb-0">{{candidate.name}}</p>
-                  </div>
-                  <div class="media-body ml-0">
-                    <h6 class="mb-0">Age</h6>
-                    <p class="text-muted text-small mb-0">{{candidate.age}}</p>
-                  </div>
-                  <div class="media-body ml-0">
-                    <h6 class="mb-0">Party</h6>
-                    <p class="text-muted text-small mb-0">{{candidate.party}}</p>
-                  </div>
-                  <div class="media-body ml-0">
-                    <h6 class="mb-0">Education</h6>
-                    <p class="text-muted text-small mb-0">{{candidate.highestEducationLevel}}</p>
-                  </div>
-                  <div class="media-body ml-0">
-                    <h6 class="mb-0">Profession</h6>
-                    <p class="text-muted text-small mb-0">{{candidate.selfProfession}}</p>
+                  <div class="no-gutter row col-12 justify-content-center">
+                    <a href="{{candidate.officialProfileLink}}" target="_blank">Offical link</a>
                   </div>
                 </div>
               </div>
+
+              <div class="col-6">
+                <div class="media-body ml-0">
+                  <h6 class="mb-0">Name</h6>
+                  <p class="text-capitalize text-muted text-small mb-0">{{candidate.name}}</p>
+                </div>
+                <div class="media-body ml-0">
+                  <h6 class="mb-0">Age</h6>
+                  <p class="text-muted text-small mb-0">{{candidate.age}}</p>
+                </div>
+                <div class="media-body ml-0">
+                  <h6 class="mb-0">Party</h6>
+                  <p class="text-muted text-small mb-0">{{candidate.party}}</p>
+                </div>
+                <div class="media-body ml-0">
+                  <h6 class="mb-0">Education</h6>
+                  <p class="text-muted text-small mb-0">{{candidate.highestEducationLevel}}</p>
+                </div>
+                <div class="media-body ml-0">
+                  <h6 class="mb-0">Profession</h6>
+                  <p class="text-muted text-small mb-0">{{candidate.selfProfession}}</p>
+                </div>
+              </div>
+
 
               <div class="row col-12">
                 <div class="col-6">
@@ -149,7 +159,7 @@
                 </div>
                 <div class="col-6">
                   <h6 class="mb-0">Income</h6>
-                  <p class="text-muted text-small mb-0">{{candidate.candidateTotalIncome  | currency:'INR'}}</p>
+                  <p class="text-muted text-small mb-0">{{candidate.candidateTotalIncome | currency:'INR'}}</p>
                 </div>
                 <div class="col-6">
                   <h6 class="mb-0">Pending Case</h6>
