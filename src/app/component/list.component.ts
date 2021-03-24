@@ -19,11 +19,18 @@ export class ListComponent implements OnInit {
   public _candidateList : Array<Candidate> = new Array<Candidate>();
   public _filterCandidateList : Array<Candidate> = new Array<Candidate>();
   public _filters : Filter = new Filter();
+  public _availableSex : Array<string> = new Array<string>();
+  public _availableTaxFilled : Array<string> = new Array<string>();
+  public _availableCase : Array<string> = new Array<string>();
+
+
 
   private _selectedElection : string = '';
   private _selectedState : string = '';
   private _selectedDistrict : string = '';
   private _selectedConstituency : string = '';
+  private _sortOrder : string = 'ascending';
+  private _sortColumn : string = 'age';
 
 
   constructor(private route : ActivatedRoute,
@@ -49,14 +56,30 @@ export class ListComponent implements OnInit {
     this._filters.sex = new Sex();
     this._filters.case = new Case();
     this._filters.taxFilled = new TaxFilled();
+    this._availableCase = new Array<string>();
+    this._availableSex = new Array<string>();
+    this._availableTaxFilled = new Array<string>();
+    this._availableSex = _.uniqBy(this._candidateList,'sex').map(x=> x.sex.toLowerCase());
+    if(this._candidateList.findIndex(x=> x.latestTaxReturn != null) > -1){
+      this._availableTaxFilled.push("yes");
+    }
+    if(this._candidateList.findIndex(x=> x.latestTaxReturn == null) > -1){
+      this._availableTaxFilled.push("no");
+    }
+    if(this._candidateList.findIndex(x=> x.pendingCase != null) > -1){
+      this._availableCase.push("pendingCase");
+    }
+    if(this._candidateList.findIndex(x=> x.convictedCase != null) > -1){
+      this._availableCase.push("convictedCase");
+    }
   }
 
   applyFilter(){
     if(this._candidateList.length > 0){
         this._filterCandidateList = this._candidateList.filter(x=> 
           this._filters.sex.male ? x.sex.toLowerCase() == 'male' : true &&
-          this._filters.sex.female ? x.sex.toLowerCase() == "female" : true &&
-          this._filters.sex.other ? x.sex.toLowerCase() == "other" : true &&
+          this._filters.sex.female ? x.sex.toLowerCase() == 'female' : true &&
+          this._filters.sex.other ? x.sex.toLowerCase() == 'other' : true &&
           this._filters.taxFilled.yes ? x.latestTaxReturn : true &&
           this._filters.taxFilled.no ? !x.latestTaxReturn : true &&
           this._filters.case.pendingCase ? x.pendingCase : true &&
@@ -129,6 +152,7 @@ export class ListComponent implements OnInit {
       this._candidateList = response.candidates;
       this._filterCandidateList = response.candidates;
       this.initFilter();
+      this.applySort();
     },(error:HttpErrorResponse) =>{
       if(error.status == 404){
         this._candidateList = new Array<Candidate>();
@@ -138,5 +162,22 @@ export class ListComponent implements OnInit {
     });
   }
 
+  onSortOrder(event : any) : void {
+    this._sortOrder = event.target.value;
+    this.applySort();
+  }
+
+  onSortColumn(event : any) : void {
+    this._sortColumn = event.target.value;
+    this.applySort()
+  }
+
+  applySort():void{
+    if(this._sortOrder == 'ascending'){
+     this._filterCandidateList =  _.sortBy(this._filterCandidateList,this._sortColumn)
+    }else{
+     this._filterCandidateList =  _.sortBy(this._filterCandidateList,this._sortColumn).reverse();
+    }
+  }
 }
 
