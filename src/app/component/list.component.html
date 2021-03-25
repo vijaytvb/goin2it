@@ -138,7 +138,7 @@
               <div class="col-6">
                 <div class="media-body ml-0">
                   <h6 class="mb-0">Name</h6>
-                  <p class="text-capitalize text-muted text-small mb-0">{{candidate.name}}</p>
+                  <p class="text-capitalize text-muted text-small mb-0">{{candidate.name | titlecase}}</p>
                 </div>
                 <div class="media-body ml-0">
                   <h6 class="mb-0">Age</h6>
@@ -150,11 +150,11 @@
                 </div>
                 <div class="media-body ml-0">
                   <h6 class="mb-0">Education</h6>
-                  <p class="text-muted text-small mb-0">{{candidate.highestEducationLevel}}</p>
+                  <p class="text-muted text-small mb-0">{{candidate.highestEducationLevel | titlecase}}</p>
                 </div>
                 <div class="media-body ml-0">
                   <h6 class="mb-0">Profession</h6>
-                  <p class="text-muted text-small mb-0">{{candidate.selfProfession}}</p>
+                  <p class="text-muted text-small mb-0">{{candidate.selfProfession | titlecase}}</p>
                 </div>
               </div>
 

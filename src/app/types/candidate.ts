@@ -34,7 +34,7 @@
   
   export interface Self {
     year: string
-    amount: string
+    amount: string;
   }
   
   export interface Spouse {

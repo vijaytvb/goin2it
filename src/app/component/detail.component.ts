@@ -10,6 +10,7 @@ export class DetailComponent  implements OnInit {
   private _selectedConstituencyId :string = '';
   private _selectedCandidateId :string = '';
   public _candidate : Candidate;
+  public _loaded : boolean = false;
   constructor(private route : ActivatedRoute,
     private router : Router,
     private _dataService : DataService){
@@ -28,6 +29,11 @@ export class DetailComponent  implements OnInit {
      let candidates : Array<Candidate> = response.candidates;
      this._candidate = candidates.filter(x=> x.candidateId.toLowerCase() == this._selectedCandidateId)[0];
      console.log(this._candidate);
+     this._loaded = true;
     });
+  }
+
+  formatAmount(amount : string ) : number {
+    return Number(amount.toString().replace(/,/g, ""));
   }
 }

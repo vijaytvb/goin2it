@@ -1,4 +1,4 @@
-<section class="py-5">
+<section *ngIf="_loaded" class="py-5">
   <div class="container py-5">
     <div class="row">
       <div class="col-lg-8 mb-5 mb-lg-0">
@@ -21,7 +21,7 @@
               <div class="col-8">
                 <div class="media-body ml-2">
                   <h6 class="mb-0">Name</h6>
-                  <p class="text-capitalize text-muted text-small mb-0">{{_candidate.name | lowercase}}</p>
+                  <p class="text-capitalize text-muted text-small mb-0">{{_candidate.name | titlecase}}</p>
                 </div>
                 <div class="media-body ml-2">
                   <h6 class="mb-0">Age</h6>
@@ -48,17 +48,17 @@
 
                 <div class="media-body ml-2">
                   <h6 class="mb-0">Profession</h6>
-                  <p class="text-capitalize text-muted text-small mb-0">{{_candidate.selfProfession}}</p>
+                  <p class="text-capitalize text-muted text-small mb-0">{{_candidate.selfProfession | titlecase}}</p>
                 </div>
 
                 <div class="media-body ml-2">
                   <h6 class="mb-0">Spouse Profession</h6>
-                  <p class="text-muted text-small mb-0">{{_candidate.spouseProfession}}</p>
+                  <p class="text-muted text-small mb-0">{{_candidate.spouseProfession | titlecase}}</p>
                 </div>
 
                 <div class="media-body ml-2">
                   <h6 class="mb-0">Education</h6>
-                  <p class="text-muted text-small mb-0">{{_candidate.highestEducationLevel}}</p>
+                  <p class="text-muted text-small mb-0">{{_candidate.highestEducationLevel | titlecase}}</p>
                 </div>
 
               </div>
@@ -69,44 +69,42 @@
 
         <div class="card border-0 shadow-sm mb-4 mb-lg-5 p-2 p-lg-0">
           <div class="card-body p-lg-5">
-            <h2 class="h3 mb-4">Income</h2>
-            <h5 class="h5 mb-6">{{_candidate.latestTaxReturn.self.year}}</h5>
-
-            <div class="row col-12">
+            <h2 class="h3 mb-4">Last Income</h2>
+            <h5 *ngIf="_candidate.latestTaxReturn" class="h5 mb-6">{{_candidate.latestTaxReturn.self.year}}</h5>
+            <div *ngIf="_candidate.latestTaxReturn" class="row col-12">
               <div class="col-6">
                 <div class="media-body ml-2">
                   <h6 class="mb-0">Self</h6>
                   <p class="text-muted text-small mb-0" *ngIf="_candidate.latestTaxReturn.self.amount != ''">
-                    {{_candidate.latestTaxReturn.self.amount |
-                    currency:'INR' }}</p>
+                    {{ formatAmount(_candidate.latestTaxReturn.self.amount) | currency : 'INR'  }}</p>
                   <p class="text-muted text-small mb-0" *ngIf="_candidate.latestTaxReturn.self.amount == ''">NA</p>
                 </div>
-                <div class="media-body ml-2">
+                <div *ngIf="_candidate.latestTaxReturn.spouse" class="media-body ml-2">
                   <h6 class="mb-0">Spouse</h6>
                   <p class="text-muted text-small mb-0" *ngIf="_candidate.latestTaxReturn.spouse.amount != ''">
-                    {{_candidate.latestTaxReturn.self.amount |
-                    currency:'INR'}}</p>
+                    {{ formatAmount(_candidate.latestTaxReturn.self.amount) | currency:'INR'}}</p>
                   <p class="text-muted text-small mb-0" *ngIf="_candidate.latestTaxReturn.spouse.amount == ''">NA</p>
                 </div>
               </div>
-              <div class="col-6">
+              <div *ngIf="_candidate.latestTaxReturn.dependents" class="col-6">
                 <div *ngFor="let dependent of _candidate.latestTaxReturn.dependents" class="media-body ml-2">
                   <h6 class="mb-0">{{dependent.relation}}</h6>
-                  <p class="text-muted text-small mb-0">{{dependent.amount | currency : 'INR'}}</p>
+                  <p class="text-muted text-small mb-0">{{ formatAmount(dependent.amount)| currency : 'INR'}}</p>
+                </div>
+              </div>
+              <div class="row col-12">
+                <div class="col-6">
+                  <div class="media-body ml-2">
+                    <h6 class="mb-0">Total Income</h6>
+                    <p class="text-muted text-small mb-0">{{_candidate.candidateTotalIncome | currency :'INR'}}</p>
+                  </div>
                 </div>
               </div>
             </div>
-
-
-            <div class="row col-12">
-              <div class="col-6">
-                <div class="media-body ml-2">
-                  <h6 class="mb-0">Total Income</h6>
-                  <p class="text-muted text-small mb-0">{{_candidate.candidateTotalIncomeString | currency :
-                    'INR'}}</p>
-                </div>
-              </div>
+            <div *ngIf="!_candidate.latestTaxReturn" class="row col-12">
+              <p class="text-muted text-small mb-0">No income reported</p>
             </div>
+
           </div>
         </div>
 
@@ -120,116 +118,122 @@
 
                 <div class="media-body ml-2">
                   <h6 class="mb-0">Self</h6>
-                  <p class="text-muted text-small mb-0" *ngIf="_candidate.assets.movableSelf.amount != ''">
-                    {{_candidate.assets.movableSelf.amount | currency:'INR'}}</p>
-                  <p class="text-muted text-small mb-0" *ngIf="_candidate.assets.movableSelf.amount == ''">
-                    NA</p>
+                  <p class="text-muted text-small mb-0" *ngIf="_candidate.assets.movableSelf">
+                    {{ formatAmount(_candidate.assets.movableSelf.amount) | currency:'INR'}}</p>
+                  <p class="text-muted text-small mb-0" *ngIf="!_candidate.assets.movableSelf">
+                    No movable assets reported</p>
                 </div>
                 <div class="media-body ml-2">
                   <h6 class="mb-0">Spouse</h6>
-                  <p class="text-muted text-small mb-0" *ngIf="_candidate.assets.movableSelf.amount != ''">
-                    {{_candidate.assets.movableSpouse.amount | currency:'INR'}}</p>
-                  <p class="text-muted text-small mb-0" *ngIf="_candidate.assets.movableSelf.amount == ''">
-                    NA</p>
+                  <p class="text-muted text-small mb-0" *ngIf="_candidate.assets.movableSpouse">
+                    {{ formatAmount(_candidate.assets.movableSpouse.amount) | currency:'INR'}}</p>
+                  <p class="text-muted text-small mb-0" *ngIf="!_candidate.assets.movableSpouse">
+                    No movable assets reported</p>
                 </div>
               </div>
               <div class="col-6">
-                <div *ngFor="let dependent of _candidate.assets.movableDependents" class="media-body ml-2">
-                  <h6 class="mb-0">{{dependent.relation}}</h6>
-                  <p class="text-muted text-small mb-0">{{dependent.amount | currency : 'INR'}}</p>
+                 <div *ngFor="let dependent of _candidate.assets.movableDependents" class="media-body ml-2">
+                  <h6 class="mb-0">{{dependent.relation | titlecase }}</h6>
+                  <p class="text-muted text-small mb-0">{{ formatAmount(dependent.amount) | currency : 'INR'}}</p>
+                 </div>
+              </div>
+              <div class="row col-12">
+                <div class="col-6">
+                  <div class="media-body ml-2">
+                    <h6 class="mb-0">Total Movable Asserts</h6>
+                    <p class="text-muted text-small mb-0">{{ _candidate.assets.movableTotal | currency :'INR'}}</p>
+                  </div>
                 </div>
               </div>
             </div>
 
-            <div class="row col-12">
-              <div class="col-6">
-                <div class="media-body ml-2">
-                  <h6 class="mb-0">Total Movable Asserts</h6>
-                  <p class="text-muted text-small mb-0">{{_candidate.assets.movableTotal | currency :
-                    'INR'}}</p>
-                </div>
-              </div>
-            </div>
+           
 
             <h5 class="h5 mb-6">Immovable Assets</h5>
             <div class="row col-12">
               <div class="col-6">
                 <div class="media-body ml-2">
                   <h6 class="mb-0">Self</h6>
-                  <p class="text-muted text-small mb-0" *ngIf="_candidate.assets.immovableSelf.amount != ''">
-                    {{_candidate.assets.immovableSelf.amount | currency:'INR'}}</p>
-                  <p class="text-muted text-small mb-0" *ngIf="_candidate.assets.immovableSelf.amount == ''">
-                    NA</p>
+                  <p class="text-muted text-small mb-0" *ngIf="_candidate.assets.immovableSelf">
+                    {{  formatAmount(_candidate.assets.immovableSelf.amount) | currency:'INR'}}</p>
+                  <p class="text-muted text-small mb-0" *ngIf="!_candidate.assets.immovableSelf">
+                    No immovable assets reported</p>
                 </div>
                 <div class="media-body ml-2">
                   <h6 class="mb-0">Spouse</h6>
-                  <p class="text-muted text-small mb-0" *ngIf="_candidate.assets.immovableSelf.amount != ''">
-                    {{_candidate.assets.immovableSpouse.amount | currency:'INR'}}</p>
-                  <p class="text-muted text-small mb-0" *ngIf="_candidate.assets.immovableSelf.amount == ''">
-                    NA</p>
+                  <p class="text-muted text-small mb-0" *ngIf="_candidate.assets.immovableSpouse">
+                    {{ formatAmount(_candidate.assets.immovableSpouse.amount) | currency:'INR'}}</p>
+                  <p class="text-muted text-small mb-0" *ngIf="!_candidate.assets.immovableSpouse">
+                    No immovable assets reported</p>
                 </div>
               </div>
               <div class="col-6">
                 <div *ngFor="let dependent of _candidate.assets.immovableDependents" class="media-body ml-2">
-                  <h6 class="mb-0">{{dependent.relation}}</h6>
-                  <p class="text-muted text-small mb-0">{{dependent.amount | currency : 'INR'}}</p>
+                  <h6 class="mb-0">{{dependent.relation | titlecase}}</h6>
+                  <p class="text-muted text-small mb-0">{{ formatAmount(dependent.amount) | currency : 'INR'}}</p>
+                </div>
+              </div>
+              <div class="row col-12">
+                <div class="col-6">
+                  <div class="media-body ml-2">
+                    <h6 class="mb-0">Total Immovable Asserts</h6>
+                    <p class="text-muted text-small mb-0">{{ _candidate.assets.immovableTotal | currency :'INR'}}</p>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="row col-12">
-              <div class="col-6">
-                <div class="media-body ml-2">
-                  <h6 class="mb-0">Total Immovable Asserts</h6>
-                  <p class="text-muted text-small mb-0">{{_candidate.assets.immovableTotal | currency :
-                    'INR'}}</p>
-                </div>
-              </div>
-            </div>
+            
           </div>
         </div>
 
         <div class="card border-0 shadow-sm mb-4 mb-lg-5 p-2 p-lg-0">
           <div class="card-body p-lg-5">
-            <h2 class="h3 mb-4">Liabilities </h2>
-            <div class="row col-12">
+            <h2 class="h3 mb-4">Liabilities</h2>
+           
+            <div *ngIf="_candidate.liabilities" class="row col-12">
+               
               <div class="col-6">
-                <div class="media-body ml-2">
+                <div *ngIf="_candidate.liabilities.self" class="media-body ml-2">
                   <h6 class="mb-0">Self</h6>
                   <p class="text-muted text-small mb-0" *ngIf="_candidate.liabilities.self.amount != ''">
-                    {{_candidate.liabilities.self.amount | currency:'INR'}}</p>
+                    {{ formatAmount(_candidate.liabilities.self.amount) | currency:'INR'}}</p>
                   <p class="text-muted text-small mb-0" *ngIf="_candidate.liabilities.self.amount == ''">
                     NA</p>
                 </div>
-                <div class="media-body ml-2">
+                <div  *ngIf="_candidate.liabilities.spouse" class="media-body ml-2">
                   <h6 class="mb-0">Spouse</h6>
                   <p class="text-muted text-small mb-0" *ngIf="_candidate.liabilities.spouse.amount != ''">
-                    {{_candidate.liabilities.spouse.amount | currency:'INR'}}</p>
+                    {{ formatAmount(_candidate.liabilities.spouse.amount) | currency:'INR'}}</p>
                   <p class="text-muted text-small mb-0" *ngIf="_candidate.liabilities.spouse.amount == ''">
                     NA</p>
                 </div>
               </div>
-              <div class="col-6">
+              <div  *ngIf="_candidate.liabilities.dependents"  class="col-6">
                 <div *ngFor="let dependent of _candidate.liabilities.dependents" class="media-body ml-2">
-                  <h6 class="mb-0">{{dependent.relation}}</h6>
-                  <p class="text-muted text-small mb-0">{{dependent.amount | currency : 'INR'}}</p>
+                  <h6 class="mb-0">{{dependent.relation | titlecase}}</h6>
+                  <p class="text-muted text-small mb-0">{{ formatAmount(dependent.amount) | currency : 'INR'}}</p>
+                </div>
+              </div>
+              <div class="row col-12">
+                <div class="col-6">
+                  <div class="media-body ml-2">
+                    <h6 class="mb-0">Total Liabilities</h6>
+                    <p class="text-muted text-small mb-0">{{_candidate.liabilities.candidateTotalLiability | currency : 'INR'}}</p>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="row col-12">
-              <div class="col-6">
-                <div class="media-body ml-2">
-                  <h6 class="mb-0">Total Liabilities</h6>
-                  <p class="text-muted text-small mb-0">{{_candidate.liabilities.candidateTotalLiability | currency :
-                    'INR'}}</p>
-                </div>
-              </div>
+
+            <div *ngIf="!_candidate.liabilities">
+              <p class="text-muted text-small mb-0">No liabilities reported</p>
             </div>
-             
           </div>
         </div>
-        <div class="card border-0 shadow-sm mb-4 mb-lg-5 p-2 p-lg-0">
+        
+       <div class="card border-0 shadow-sm mb-4 mb-lg-5 p-2 p-lg-0">
           <div class="card-body p-lg-5">
-            <h2 class="h3 mb-4">Pending Cases </h2>
+            <h2 class="h3 mb-4">Pending Cases</h2>
+            <ng-container *ngIf="_candidate.pendingCase">
             <div class="row col-12">
               <div class="col-6">
 
@@ -258,38 +262,119 @@
               <div class="col-6">
                 <div class="media-body ml-2">
                   <h6 class="mb-0">Section Details </h6>
-                  <p class="text-muted text-small mb-0">dolor ipsum amet Lorem ipsum dolor amet</p>
+                  <p class="text-muted text-small mb-0">{{_candidate.pendingCase.section}}</p>
                 </div>
                 <div class="media-body ml-2">
                   <h6 class="mb-0">Case Number </h6>
-                  <p class="text-muted text-small mb-0">dolor ipsum amet Lorem ipsum dolor amet</p>
+                  <p class="text-muted text-small mb-0" *ngIf="_candidate.pendingCase.caseNumber != ''">{{_candidate.pendingCase.caseNumber}}</p>
+                  <p class="text-muted text-small mb-0" *ngIf="_candidate.pendingCase.caseNumber == ''">NA</p>
                 </div>
                 <div class="media-body ml-2">
                   <h6 class="mb-0">Court Name </h6>
-                  <p class="text-muted text-small mb-0">dolor ipsum amet Lorem ipsum dolor amet</p>
+                  <p class="text-muted text-small mb-0" *ngIf="_candidate.pendingCase.courtName != ''">{{_candidate.pendingCase.courtName}}</p>
+                  <p class="text-muted text-small mb-0" *ngIf="_candidate.pendingCase.courtName == ''">NA</p>
+                </div>
+                
+              </div>
+              <div class="col-6">
+                <div class="media-body ml-2">
+                  <h6 class="mb-0">Charges Handed </h6>
+                  <p class="text-muted text-small mb-0" *ngIf="_candidate.pendingCase.chargesFramed">Yes</p>
+                  <p class="text-muted text-small mb-0" *ngIf="!_candidate.pendingCase.chargesFramed">No</p>
+                </div>
+                <div class="media-body ml-2">
+                  <h6 class="mb-0">Date charges Handed </h6>
+                  <p class="text-muted text-small mb-0">{{_candidate.pendingCase.dateOfChargesFramed}}</p>
+                </div>
+                <div class="media-body ml-2">
+                  <h6 class="mb-0">Apeal Against Proccedings</h6>
+                  <p class="text-muted text-small mb-0" *ngIf="_candidate.pendingCase.appealAgainstProceedings">Yes</p>
+                  <p class="text-muted text-small mb-0" *ngIf="!_candidate.pendingCase.appealAgainstProceedings">No</p>
+                </div>
+                <div class="media-body ml-2">
+                  <h6 class="mb-0">Appealed Against proceedings details</h6>
+                  <p class="text-muted text-small mb-0" *ngIf="_candidate.pendingCase.appealAgainstProceedingsDetails != ''">{{_candidate.pendingCase.appealAgainstProceedingsDetails}}</p>
+                  <p class="text-muted text-small mb-0" *ngIf="_candidate.pendingCase.appealAgainstProceedingsDetails == ''">NA</p>
+                </div>
+              </div>
+            </div>
+            
+            </ng-container>
+            <div *ngIf="!_candidate.pendingCase">
+              <p class="text-muted text-small mb-0">No pending cases reported</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card border-0 shadow-sm mb-4 mb-lg-5 p-2 p-lg-0">
+          <div class="card-body p-lg-5">
+            <h2 class="h3 mb-4">Convicted Cases</h2>
+            <ng-container *ngIf="_candidate.convictedCase">
+            <div class="row col-12">
+              <div class="col-6">
+                <div class="media-body ml-2">
+                  <h6 class="mb-0">Section Details </h6>
+                  <p class="text-muted text-small mb-0">{{_candidate.convictedCase.section}}</p>
+                </div>
+                <div class="media-body ml-2">
+                  <h6 class="mb-0">Description </h6>
+                  <p class="text-muted text-small mb-0">{{_candidate.convictedCase.briefDescription}}</p>
                 </div>
               </div>
               <div class="col-6">
                 <div class="media-body ml-2">
                   <h6 class="mb-0">Charges Handed </h6>
-                  <p class="text-muted text-small mb-0">Yes/No</p>
+                  <p class="text-muted text-small mb-0" *ngIf="_candidate.convictedCase.chargesFramed">Yes</p>
+                  <p class="text-muted text-small mb-0" *ngIf="!_candidate.convictedCase.chargesFramed">No</p>
                 </div>
                 <div class="media-body ml-2">
-                  <h6 class="mb-0">Date charges Handed </h6>
-                  <p class="text-muted text-small mb-0">dolor ipsum amet Lorem ipsum dolor amet</p>
+                  <h6 class="mb-0">Conviction Dates</h6>
+                  <p class="text-muted text-small mb-0">{{_candidate.convictedCase.convictionOrderDate}}</p>
                 </div>
                 <div class="media-body ml-2">
                   <h6 class="mb-0">Apeal Against Proccedings</h6>
-                  <p class="text-muted text-small mb-0">dolor ipsum amet Lorem ipsum dolor amet</p>
+                  <p class="text-muted text-small mb-0" *ngIf="_candidate.convictedCase.appealAgainstProceedings">Yes</p>
+                  <p class="text-muted text-small mb-0" *ngIf="!_candidate.convictedCase.appealAgainstProceedings">No</p>
+                </div>
+                <div class="media-body ml-2">
+                  <h6 class="mb-0">Appealed Against Punishment</h6>
+                  <p class="text-muted text-small mb-0" *ngIf="_candidate.convictedCase.appealAgainstPunishment">Yes</p>
+                  <p class="text-muted text-small mb-0" *ngIf="!_candidate.convictedCase.appealAgainstPunishment">No</p>
+                </div>
+               
+              </div>
+            </div>
+            <div class="row col-12">
+              <div class="col-6">
+                <div class="media-body ml-2">
+                  <h6 class="mb-0">Case Number </h6>
+                  <p class="text-muted text-small mb-0" *ngIf="_candidate.convictedCase.caseNumber != ''">{{_candidate.convictedCase.caseNumber}}</p>
+                  <p class="text-muted text-small mb-0" *ngIf="_candidate.convictedCase.caseNumber == ''">NA</p>
+                </div>
+                <div class="media-body ml-2">
+                  <h6 class="mb-0">Court Name </h6>
+                  <p class="text-muted text-small mb-0" *ngIf="_candidate.convictedCase.courtName != ''">{{_candidate.convictedCase.courtName}}</p>
+                  <p class="text-muted text-small mb-0" *ngIf="_candidate.convictedCase.courtName == ''">NA</p>
+                </div>
+                
+              </div>
+              <div class="col-6">
+                <div class="media-body ml-2">
+                  <h6 class="mb-0">Appealed Against Punishment Detail</h6>
+                  <p class="text-muted text-small mb-0" *ngIf="_candidate.convictedCase.appealAgainstPunishmentDetails != ''">{{ _candidate.convictedCase.appealAgainstPunishmentDetails }}</p>
+                  <p class="text-muted text-small mb-0" *ngIf="_candidate.convictedCase.appealAgainstPunishmentDetails == ''">NA</p>
                 </div>
               </div>
-
+            </div>
+            
+            </ng-container>
+            <div *ngIf="!_candidate.convictedCase">
+              <p class="text-muted text-small mb-0">No Convicted cases reported</p>
             </div>
           </div>
         </div>
 
       </div>
-
     </div>
   </div>
 </section>
