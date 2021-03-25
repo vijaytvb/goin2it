@@ -179,5 +179,8 @@ export class ListComponent implements OnInit {
      this._filterCandidateList =  _.sortBy(this._filterCandidateList,this._sortColumn).reverse();
     }
   }
+ 
+  
+
 }
 
