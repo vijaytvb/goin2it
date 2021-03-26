@@ -12,6 +12,8 @@ import { LoaderService } from './service/loader.service';
 import { InterceptorProvider } from './provider/interceptor.provider';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { DisclaimerComponent } from './component/disclaimer.component';
+import { CookieService } from 'ngx-cookie-service';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,6 +21,7 @@ import { FormsModule } from '@angular/forms';
     FooterComponent,
     ListComponent,
     DetailComponent,
+    DisclaimerComponent
   ],
   imports: [
     BrowserModule,
@@ -30,9 +33,10 @@ import { FormsModule } from '@angular/forms';
   providers: [
     DataService,
     LoaderService,
-    { 
-      provide: HTTP_INTERCEPTORS, 
-      useClass: InterceptorProvider, multi: true 
+    CookieService,
+    {
+      provide: HTTP_INTERCEPTORS,
+      useClass: InterceptorProvider, multi: true
     }
   ],
   bootstrap: [AppComponent]

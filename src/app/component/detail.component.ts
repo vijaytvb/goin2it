@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 import { ActivatedRoute, Router } from '@angular/router';
 import { DataService } from '../service/data.service';
 import { Candidate } from '../types/candidate';
@@ -13,7 +14,8 @@ export class DetailComponent  implements OnInit {
   public _loaded : boolean = false;
   constructor(private route : ActivatedRoute,
     private router : Router,
-    private _dataService : DataService){
+    private _dataService : DataService,
+    private _title: Title){
 
   }
   ngOnInit(): void {
@@ -30,6 +32,7 @@ export class DetailComponent  implements OnInit {
      this._candidate = candidates.filter(x=> x.candidateId.toLowerCase() == this._selectedCandidateId)[0];
      console.log(this._candidate);
      this._loaded = true;
+     this._title.setTitle('s/Elect | ' + this._candidate.name);
     });
   }
 
