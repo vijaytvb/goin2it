@@ -20,8 +20,12 @@ export class DisclaimerComponent implements OnInit {
     }
 
     clickAgree(): void {
-        this._cookieSerivce.set(this._disclaimerKey,'true',1);
+        this._cookieSerivce.set(this._disclaimerKey, 'true', 1);
         $('#disclaimer').modal('hide');
+    }
+
+    chkAgree(): void {
+        $('#btnAgree').attr("disabled", false);
     }
 
 }
