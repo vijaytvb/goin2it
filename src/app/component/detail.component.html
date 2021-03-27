@@ -62,7 +62,7 @@
                 </div>
                 <div class="media-body ml-2">
                   <h6 class="mb-0">Total Wealth</h6>
-                  <p class="text-muted text-small mb-0">{{ _candidate.candidateTotalWealth.toLocaleString('en-IN' , { style: 'currency', currency: 'INR', maximumFractionDigits: 0}) }}</p>
+                  <p class="text-muted text-small mb-0">{{ _candidate.candidateTotalWealth.toLocaleString('en-IN' , { style: 'currency', currency: 'INR', maximumFractionDigits: 0, minimumFractionDigits: 0}) }}</p>
                   
                 </div>
               </div>
@@ -123,14 +123,14 @@
                 <div class="media-body ml-2">
                   <h6 class="mb-0">Self</h6>
                   <p class="text-muted text-small mb-0" *ngIf="_candidate.assets.movableSelf">
-                    {{ formatAmount(_candidate.assets.movableSelf.amount).toLocaleString('en-IN' , { style: 'currency', currency: 'INR', maximumFractionDigits: 0}) }}</p>
+                    {{ formatAmount(_candidate.assets.movableSelf.amount).toLocaleString('en-IN' , { style: 'currency', currency: 'INR', maximumFractionDigits: 0, minimumFractionDigits: 0}) }}</p>
                   <p class="text-muted text-small mb-0" *ngIf="!_candidate.assets.movableSelf">
                     No movable assets reported</p>
                 </div>
                 <div class="media-body ml-2">
                   <h6 class="mb-0">Spouse</h6>
                   <p class="text-muted text-small mb-0" *ngIf="_candidate.assets.movableSpouse">
-                    {{ formatAmount(_candidate.assets.movableSpouse.amount).toLocaleString('en-IN' , { style: 'currency', currency: 'INR', maximumFractionDigits: 0}) }}</p>
+                    {{ formatAmount(_candidate.assets.movableSpouse.amount).toLocaleString('en-IN' , { style: 'currency', currency: 'INR', maximumFractionDigits: 0, minimumFractionDigits: 0}) }}</p>
                   <p class="text-muted text-small mb-0" *ngIf="!_candidate.assets.movableSpouse">
                     No movable assets reported</p>
                 </div>
@@ -138,14 +138,14 @@
               <div class="col-6">
                  <div *ngFor="let dependent of _candidate.assets.movableDependents" class="media-body ml-2">
                   <h6 class="mb-0">{{dependent.relation | titlecase }}</h6>
-                  <p class="text-muted text-small mb-0">{{ formatAmount(dependent.amount).toLocaleString('en-IN' , { style: 'currency', currency: 'INR', maximumFractionDigits: 0}) }}</p>
+                  <p class="text-muted text-small mb-0">{{ formatAmount(dependent.amount).toLocaleString('en-IN' , { style: 'currency', currency: 'INR', maximumFractionDigits: 0, minimumFractionDigits: 0}) }}</p>
                  </div>
               </div>
               <div class="row col-12">
                 <div class="col-6">
                   <div class="media-body ml-2">
                     <h6 class="mb-0">Total Movable Asserts</h6>
-                    <p class="text-muted text-small mb-0">{{ _candidate.assets.movableTotal.toLocaleString('en-IN' , { style: 'currency', currency: 'INR', maximumFractionDigits: 0}) }}</p>
+                    <p class="text-muted text-small mb-0">{{ _candidate.assets.movableTotal.toLocaleString('en-IN' , { style: 'currency', currency: 'INR', maximumFractionDigits: 0, minimumFractionDigits: 0}) }}</p>
                   </div>
                 </div>
               </div>
@@ -159,14 +159,14 @@
                 <div class="media-body ml-2">
                   <h6 class="mb-0">Self</h6>
                   <p class="text-muted text-small mb-0" *ngIf="_candidate.assets.immovableSelf">
-                    {{  formatAmount(_candidate.assets.immovableSelf.amount).toLocaleString('en-IN' , { style: 'currency', currency: 'INR', maximumFractionDigits: 0}) }}</p>
+                    {{  formatAmount(_candidate.assets.immovableSelf.amount).toLocaleString('en-IN' , { style: 'currency', currency: 'INR', maximumFractionDigits: 0, minimumFractionDigits: 0}) }}</p>
                   <p class="text-muted text-small mb-0" *ngIf="!_candidate.assets.immovableSelf">
                     No immovable assets reported</p>
                 </div>
                 <div class="media-body ml-2">
                   <h6 class="mb-0">Spouse</h6>
                   <p class="text-muted text-small mb-0" *ngIf="_candidate.assets.immovableSpouse">
-                    {{ formatAmount(_candidate.assets.immovableSpouse.amount).toLocaleString('en-IN' , { style: 'currency', currency: 'INR', maximumFractionDigits: 0}) }}</p>
+                    {{ formatAmount(_candidate.assets.immovableSpouse.amount).toLocaleString('en-IN' , { style: 'currency', currency: 'INR', maximumFractionDigits: 0, minimumFractionDigits: 0}) }}</p>
                   <p class="text-muted text-small mb-0" *ngIf="!_candidate.assets.immovableSpouse">
                     No immovable assets reported</p>
                 </div>
@@ -174,14 +174,14 @@
               <div class="col-6">
                 <div *ngFor="let dependent of _candidate.assets.immovableDependents" class="media-body ml-2">
                   <h6 class="mb-0">{{dependent.relation | titlecase}}</h6>
-                  <p class="text-muted text-small mb-0">{{ formatAmount(dependent.amount).toLocaleString('en-IN' , { style: 'currency', currency: 'INR', maximumFractionDigits: 0}) }}</p>
+                  <p class="text-muted text-small mb-0">{{ formatAmount(dependent.amount).toLocaleString('en-IN' , { style: 'currency', currency: 'INR', maximumFractionDigits: 0, minimumFractionDigits: 0}) }}</p>
                 </div>
               </div>
               <div class="row col-12">
                 <div class="col-6">
                   <div class="media-body ml-2">
                     <h6 class="mb-0">Total Immovable Asserts</h6>
-                    <p class="text-muted text-small mb-0">{{ _candidate.assets.immovableTotal.toLocaleString('en-IN' , { style: 'currency', currency: 'INR', maximumFractionDigits: 0}) }}</p>
+                    <p class="text-muted text-small mb-0">{{ _candidate.assets.immovableTotal.toLocaleString('en-IN' , { style: 'currency', currency: 'INR', maximumFractionDigits: 0, minimumFractionDigits: 0}) }}</p>
                   </div>
                 </div>
               </div>
@@ -189,7 +189,7 @@
 
             <h5 class="h5 mb-6">Total Assets</h5>
             <div class="row col-12">
-              <p class="text-muted text-small mb-0">{{ _candidate.assets.candidateTotalAsset.toLocaleString('en-IN' , { style: 'currency', currency: 'INR', maximumFractionDigits: 0}) }}</p>
+              <p class="text-muted text-small mb-0">{{ _candidate.assets.candidateTotalAsset.toLocaleString('en-IN' , { style: 'currency', currency: 'INR', maximumFractionDigits: 0, minimumFractionDigits: 0}) }}</p>
             </div>
             
           </div>
@@ -205,14 +205,14 @@
                 <div *ngIf="_candidate.liabilities.self" class="media-body ml-2">
                   <h6 class="mb-0">Self</h6>
                   <p class="text-muted text-small mb-0" *ngIf="_candidate.liabilities.self.amount != ''">
-                    {{ formatAmount(_candidate.liabilities.self.amount).toLocaleString('en-IN' , { style: 'currency', currency: 'INR', maximumFractionDigits: 0}) }}</p>
+                    {{ formatAmount(_candidate.liabilities.self.amount).toLocaleString('en-IN' , { style: 'currency', currency: 'INR', maximumFractionDigits: 0, minimumFractionDigits: 0}) }}</p>
                   <p class="text-muted text-small mb-0" *ngIf="_candidate.liabilities.self.amount == ''">
                     NA</p>
                 </div>
                 <div  *ngIf="_candidate.liabilities.spouse" class="media-body ml-2">
                   <h6 class="mb-0">Spouse</h6>
                   <p class="text-muted text-small mb-0" *ngIf="_candidate.liabilities.spouse.amount != ''">
-                    {{ formatAmount(_candidate.liabilities.spouse.amount).toLocaleString('en-IN' , { style: 'currency', currency: 'INR', maximumFractionDigits: 0}) }}</p>
+                    {{ formatAmount(_candidate.liabilities.spouse.amount).toLocaleString('en-IN' , { style: 'currency', currency: 'INR', maximumFractionDigits: 0, minimumFractionDigits: 0}) }}</p>
                   <p class="text-muted text-small mb-0" *ngIf="_candidate.liabilities.spouse.amount == ''">
                     NA</p>
                 </div>
@@ -220,14 +220,14 @@
               <div  *ngIf="_candidate.liabilities.dependents"  class="col-6">
                 <div *ngFor="let dependent of _candidate.liabilities.dependents" class="media-body ml-2">
                   <h6 class="mb-0">{{dependent.relation | titlecase}}</h6>
-                  <p class="text-muted text-small mb-0">{{ formatAmount(dependent.amount).toLocaleString('en-IN' , { style: 'currency', currency: 'INR', maximumFractionDigits: 0}) }}</p>
+                  <p class="text-muted text-small mb-0">{{ formatAmount(dependent.amount).toLocaleString('en-IN' , { style: 'currency', currency: 'INR', maximumFractionDigits: 0, minimumFractionDigits: 0}) }}</p>
                 </div>
               </div>
               <div class="row col-12">
                 <div class="col-6">
                   <div class="media-body ml-2">
                     <h6 class="mb-0">Total Liabilities</h6>
-                    <p class="text-muted text-small mb-0">{{_candidate.liabilities.candidateTotalLiability.toLocaleString('en-IN' , { style: 'currency', currency: 'INR', maximumFractionDigits: 0}) }}</p>
+                    <p class="text-muted text-small mb-0">{{_candidate.liabilities.candidateTotalLiability.toLocaleString('en-IN' , { style: 'currency', currency: 'INR', maximumFractionDigits: 0, minimumFractionDigits: 0}) }}</p>
                   </div>
                 </div>
               </div>
