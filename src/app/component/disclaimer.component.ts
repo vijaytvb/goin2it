@@ -10,6 +10,7 @@ declare var $: any;
 
 export class DisclaimerComponent implements OnInit {
     private _disclaimerKey: string = 'DisclaimerAccepted';
+    public _disClaimerAccepted : boolean = false;
     constructor(private _cookieSerivce: CookieService) {
     }
     ngOnInit(): void {
@@ -24,8 +25,8 @@ export class DisclaimerComponent implements OnInit {
         $('#disclaimer').modal('hide');
     }
 
-    chkAgree(): void {
-        $('#btnAgree').attr("disabled", false);
+    chkAgree(event : any): void {
+        this._disClaimerAccepted = event.target.checked;
     }
 
 }

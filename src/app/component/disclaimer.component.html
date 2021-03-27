@@ -20,10 +20,10 @@
                     occur. We, assume no responsibility or liability for any errors or omissions in the content of this
                     site.
                 </p>
-                <input type="checkbox" id="chkAgree" name="chkAgree" value="chkAgree" onclick="chkAgree()">
+                <input type="checkbox" id="chkAgree" name="chkAgree" value="chkAgree" (click)="chkAgree($event)">
                 <label for="chkAgree"> 	&nbsp; I understand and agree</label><br>
                 <div class="modal-footer">
-                    <button id="btnAgree" type="button" disabled (click)="clickAgree()" class="btn btn-secondary">Agree</button>
+                    <button id="btnAgree" type="button" [disabled]="!_disClaimerAccepted" (click)="clickAgree()" class="btn btn-secondary">Agree</button>
                 </div>
             </div>
         </div>
