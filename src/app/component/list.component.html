@@ -162,11 +162,11 @@
               <div class="row col-12">
                 <div class="col-6">
                   <h6 class="mb-0">Total Wealth</h6>
-                  <p class="text-muted text-small mb-0">{{candidate.candidateTotalWealth | currency:'INR'}}</p>
+                  <p class="text-muted text-small mb-0">{{candidate.candidateTotalWealth | currency:'INR' : 'symbol' : '1.0-0'}}</p>
                 </div>
                 <div class="col-6">
                   <h6 class="mb-0">Income</h6>
-                  <p class="text-muted text-small mb-0">{{candidate.candidateTotalIncome | currency:'INR'}}</p>
+                  <p class="text-muted text-small mb-0">{{candidate.candidateTotalIncome | currency:'INR' : 'symbol' : '1.0-0'}}</p>
                 </div>
                 <div class="col-6">
                   <h6 class="mb-0">Pending Case</h6>
