@@ -1,4 +1,22 @@
 <section>
+
+  <div class="alert alert-info alert-dismissible fade show" role="alert">
+    <p> We are in the process of adding more constituencies candidates . Please bear with the delays. Please come back
+      after a day or two and we may have added your constituencies candidate details. If you want to contribute for
+      this, please send an email to goin3it@gmail.com.
+    </p>
+    <p>
+      Please let us know the details of any incorrect information, omissions by sending an email to goin3it@gmail.com
+      with the constituency name, candidate name and the description of what is incorrectly displayed with correct
+      information. We will try fixing it as early as possible.
+    </p>
+
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+
+
   <div class="container py-2">
     <div class="row">
       <span class="col-lg-3 col-md-3">
@@ -34,87 +52,90 @@
       <div class="card border-0 shadow-sm p-2">
         <div class="card-body">
           <div>
-          <a class="h3 pb-1 yt-toogle" data-toggle="collapse" data-target="#filters" aria-expanded="true"
-            aria-controls="filters">
-            Filters
-            <i class="fa fa-caret-right fa-fw"></i>
-            <i class="fa fa-caret-down fa-fw"></i>
-          </a>
-          <div id="filters" class="collapse show">
-            <label *ngIf="_availableSex.length > 0">Sex</label>
-            <ng-container *ngFor="let sex of _availableSex">
-            <div *ngIf="sex == 'male'" class="custom-control custom-checkbox mb-2">
-              <input class="custom-control-input" id="sexOption1" type="checkbox" [(ngModel)]="_filters.sex.male"
-                [ngModelOptions]="{standalone:true}" (change)="applyFilter()">
-              <label class="custom-control-label text-small text-muted" for="sexOption1">Male</label>
+            <a class="h3 pb-1 yt-toogle" data-toggle="collapse" data-target="#filters" aria-expanded="true"
+              aria-controls="filters">
+              Filters
+              <i class="fa fa-caret-right fa-fw"></i>
+              <i class="fa fa-caret-down fa-fw"></i>
+            </a>
+            <div id="filters" class="collapse show">
+              <label *ngIf="_availableSex.length > 0">Sex</label>
+              <ng-container *ngFor="let sex of _availableSex">
+                <div *ngIf="sex == 'male'" class="custom-control custom-checkbox mb-2">
+                  <input class="custom-control-input" id="sexOption1" type="checkbox" [(ngModel)]="_filters.sex.male"
+                    [ngModelOptions]="{standalone:true}" (change)="applyFilter()">
+                  <label class="custom-control-label text-small text-muted" for="sexOption1">Male</label>
+                </div>
+                <div *ngIf="sex == 'female'" class="custom-control custom-checkbox mb-2">
+                  <input class="custom-control-input" id="sexOption2" type="checkbox" [(ngModel)]="_filters.sex.female"
+                    [ngModelOptions]="{standalone:true}" (change)="applyFilter()">
+                  <label class="custom-control-label text-small text-muted" for="sexOption2">Female</label>
+                </div>
+                <div *ngIf="sex == 'other'" class="custom-control custom-checkbox mb-2">
+                  <input class="custom-control-input" id="sexOption3" type="checkbox" [(ngModel)]="_filters.sex.other"
+                    [ngModelOptions]="{standalone:true}" (change)="applyFilter()">
+                  <label class="custom-control-label text-small text-muted" for="sexOption3">Other</label>
+                </div>
+              </ng-container>
+              <label *ngIf="_availableTaxFilled.length > 0">Tax Filled</label>
+              <ng-container *ngFor="let tax of _availableTaxFilled">
+                <div *ngIf="tax == 'yes'" class="custom-control custom-checkbox mb-2">
+                  <input class="custom-control-input" id="taxFilledOption1" type="checkbox"
+                    [(ngModel)]="_filters.taxFilled.yes" [ngModelOptions]="{standalone:true}" (change)="applyFilter()">
+                  <label class="custom-control-label text-small text-muted" for="taxFilledOption1">Yes</label>
+                </div>
+                <div *ngIf="tax == 'no'" class="custom-control custom-checkbox mb-2">
+                  <input class="custom-control-input" id="taxFilledOption2" type="checkbox"
+                    [(ngModel)]="_filters.taxFilled.no" [ngModelOptions]="{standalone:true}" (change)="applyFilter()">
+                  <label class="custom-control-label text-small text-muted" for="taxFilledOption2">No</label>
+                </div>
+              </ng-container>
+              <label *ngIf="_availableCase.length > 0">Case</label>
+              <ng-container *ngFor="let case of _availableCase">
+
+                <div *ngIf="case == 'pendingCase'" class="custom-control custom-checkbox mb-2">
+                  <input class="custom-control-input" id="caseOption1" type="checkbox"
+                    [(ngModel)]="_filters.case.pendingCase" [ngModelOptions]="{standalone:true}"
+                    (change)="applyFilter()">
+                  <label class="custom-control-label text-small text-muted" for="caseOption1">Pending Case</label>
+                </div>
+                <div *ngIf="case == 'convictedCase'" class="custom-control custom-checkbox mb-2">
+                  <input class="custom-control-input" id="caseOption2" type="checkbox"
+                    [(ngModel)]="_filters.case.convictedCase" [ngModelOptions]="{standalone:true}"
+                    (change)="applyFilter()">
+                  <label class="custom-control-label text-small text-muted" for="caseOption2">Convicted Case</label>
+                </div>
+              </ng-container>
             </div>
-            <div *ngIf="sex == 'female'" class="custom-control custom-checkbox mb-2">
-              <input class="custom-control-input" id="sexOption2" type="checkbox" [(ngModel)]="_filters.sex.female"
-                [ngModelOptions]="{standalone:true}" (change)="applyFilter()">
-              <label class="custom-control-label text-small text-muted" for="sexOption2">Female</label>
+          </div>
+          <div>
+            <a class="h3 pb-1 yt-toogle" data-toggle="collapse" data-target="#sort" aria-expanded="true"
+              aria-controls="sort">
+              Sort By
+              <i class="fa fa-caret-right fa-fw"></i>
+              <i class="fa fa-caret-down fa-fw"></i>
+            </a>
+            <div id="sort" class="collpase show">
+              <ul class="list-inline mb-0">
+                <li class="list-inline-item my-1 my-lg-0">
+                  <select (change)="onSortOrder($event)" name="sort"
+                    data-style="btn btn-light shadow-xs bg-white border" data-title="Sort By" data-width="180">
+                    <option value="ascending">Ascending</option>
+                    <option value="descending">Descending</option>
+                  </select>
+                </li>
+                <li class="list-inline-item my-1 my-lg-0">
+                  <select (change)="onSortColumn($event)" name="type"
+                    data-style="btn btn-light shadow-xs bg-white border" data-width="180">
+                    <option value="age">Age</option>
+                    <option value="candidateTotalIncome">Total Income</option>
+                    <option value="candidateTotalWealth">Total Wealth</option>
+                  </select>
+                </li>
+              </ul>
             </div>
-            <div *ngIf="sex == 'other'" class="custom-control custom-checkbox mb-2">
-              <input class="custom-control-input" id="sexOption3" type="checkbox" [(ngModel)]="_filters.sex.other"
-                [ngModelOptions]="{standalone:true}" (change)="applyFilter()">
-              <label class="custom-control-label text-small text-muted" for="sexOption3">Other</label>
-            </div>
-          </ng-container>
-            <label *ngIf="_availableTaxFilled.length > 0">Tax Filled</label>
-            <ng-container *ngFor="let tax of _availableTaxFilled">
-            <div *ngIf="tax == 'yes'" class="custom-control custom-checkbox mb-2">
-              <input class="custom-control-input" id="taxFilledOption1" type="checkbox"
-                [(ngModel)]="_filters.taxFilled.yes" [ngModelOptions]="{standalone:true}" (change)="applyFilter()">
-              <label class="custom-control-label text-small text-muted" for="taxFilledOption1">Yes</label>
-            </div>
-            <div *ngIf="tax == 'no'" class="custom-control custom-checkbox mb-2">
-              <input class="custom-control-input" id="taxFilledOption2" type="checkbox"
-                [(ngModel)]="_filters.taxFilled.no" [ngModelOptions]="{standalone:true}" (change)="applyFilter()">
-              <label class="custom-control-label text-small text-muted" for="taxFilledOption2">No</label>
-            </div>
-          </ng-container>
-          <label *ngIf="_availableCase.length > 0">Case</label>
-          <ng-container *ngFor="let case of _availableCase">
-           
-            <div *ngIf="case == 'pendingCase'" class="custom-control custom-checkbox mb-2">
-              <input class="custom-control-input" id="caseOption1" type="checkbox"
-                [(ngModel)]="_filters.case.pendingCase" [ngModelOptions]="{standalone:true}" (change)="applyFilter()">
-              <label class="custom-control-label text-small text-muted" for="caseOption1">Pending Case</label>
-            </div>
-            <div *ngIf="case == 'convictedCase'" class="custom-control custom-checkbox mb-2">
-              <input class="custom-control-input" id="caseOption2" type="checkbox"
-                [(ngModel)]="_filters.case.convictedCase" [ngModelOptions]="{standalone:true}" (change)="applyFilter()">
-              <label class="custom-control-label text-small text-muted" for="caseOption2">Convicted Case</label>
-            </div>
-          </ng-container>
           </div>
         </div>
-        <div>
-          <a class="h3 pb-1 yt-toogle" data-toggle="collapse" data-target="#sort" aria-expanded="true"
-            aria-controls="sort">
-            Sort By
-            <i class="fa fa-caret-right fa-fw"></i>
-            <i class="fa fa-caret-down fa-fw"></i>
-          </a>
-          <div id="sort" class="collpase show">
-            <ul class="list-inline mb-0">
-              <li class="list-inline-item my-1 my-lg-0">
-                <select (change)="onSortOrder($event)" name="sort" data-style="btn btn-light shadow-xs bg-white border" data-title="Sort By"
-                  data-width="180">
-                  <option value="ascending">Ascending</option>
-                  <option value="descending">Descending</option>
-                </select>
-              </li>
-              <li class="list-inline-item my-1 my-lg-0">
-                <select (change)="onSortColumn($event)" name="type" data-style="btn btn-light shadow-xs bg-white border" data-width="180">
-                  <option value="age">Age</option>
-                  <option value="candidateTotalIncome">Total Income</option>
-                  <option value="candidateTotalWealth">Total Wealth</option>
-                </select>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
       </div>
     </div>
     <!-- Listing-->
@@ -162,7 +183,7 @@
               <div class="row col-12">
                 <div class="col-6">
                   <h6 class="mb-0">Total Wealth</h6>
-                  <p class="text-muted text-small mb-0">  {{ candidate.candidateTotalWealth.toLocaleString('en-IN', { style: 'currency', currency: 'INR', maximumFractionDigits: 0}) }}</p>
+                  <p class="text-muted text-small mb-0"> {{ candidate.candidateTotalWealth.toLocaleString('en-IN', { style: 'currency', currency: 'INR', maximumFractionDigits: 0}) }}</p>
                 </div>
                 <div class="col-6">
                   <h6 class="mb-0">Income</h6>
@@ -181,8 +202,9 @@
                 </div>
               </div>
 
-              <div class="row col-12 d-flex justify-content-center" style="padding-bottom: 2%;" >
-                <a class="btn-primary" routerLink='detail/{{_selectedConstituency}}/{{candidate.candidateId}}' target="blank">View More</a>
+              <div class="row col-12 d-flex justify-content-center" style="padding-bottom: 2%;">
+                <a class="btn-primary" routerLink='detail/{{_selectedConstituency}}/{{candidate.candidateId}}'
+                  target="blank">View More</a>
               </div>
             </div>
           </div>
@@ -190,7 +212,7 @@
         <div class="row mb-4" *ngIf="_filterCandidateList.length == 0">
           No Candidate Details Available
         </div>
-        
+
       </div>
     </div>
   </div>
