@@ -1,0 +1,1015 @@
+{
+  "candidates": [
+    {
+      "candidateId": "OTEtMDUtMzReQW50aG9ueSBMaW5vIEZlcm5hbmRlc141Ng==",
+      "constituencyId": "91-05-34",
+      "constituencyName": "St. Andre",
+      "name": "Anthony Lino Fernandes",
+      "age": "56",
+      "sex": "male",
+      "caste": null,
+      "party": "Indian National Congress",
+      "telephone": null,
+      "email": null,
+      "address": "H. No. 115/A, Padri Bhat, Agassaim",
+      "officialProfileLink": "https://affidavit.eci.gov.in/show-profile/MjE5MQ==/MjM=/MTM=/Mw==/QUM=",
+      "affidavitLink": null,
+      "officialPhotoLink": "https://suvidha.eci.gov.in/uploads1/candprofile/E13/2022/AC/s05/Antho-2022-20220127042239.jpg",
+      "socialMediaAccounts": null,
+      "socialMediaAccount": null,
+      "facebookId": null,
+      "twitterId": null,
+      "instagramId": null,
+      "whatsappId": null,
+      "selfProfession": "Self Employed",
+      "spouseProfession": "House wife",
+      "highestEducationLevel": "12thPass",
+      "highestEducationYear": null,
+      "latestTaxReturn": {
+        "self": {
+          "year": "None",
+          "amount": "Rs&nbsp;8,50,000",
+          "relation": null
+        },
+        "spouse": {
+          "year": "None",
+          "amount": "Rs&nbsp;0",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": "",
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": "",
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": "",
+            "amount": "Nil",
+            "relation": null
+          }
+        ]
+      },
+      "pendingCases": null,
+      "convictedCases": null,
+      "pendingCase": null,
+      "convictedCase": null,
+      "assets": {
+        "movableSelf": {
+          "year": null,
+          "amount": "8,25,000",
+          "relation": null
+        },
+        "movableSpouse": {
+          "year": null,
+          "amount": "15,50,000",
+          "relation": null
+        },
+        "movableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "immovableSelf": {
+          "year": null,
+          "amount": "0",
+          "relation": null
+        },
+        "immovableSpouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "immovableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "movableTotal": 0,
+        "immovableTotal": 0,
+        "candidateTotalAsset": 0,
+        "movableTotalString": "23,75,000",
+        "immovableTotalString": "0",
+        "candidateTotalAssetString": "0"
+      },
+      "liabilities": {
+        "self": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "spouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "candidateTotalLiability": 0,
+        "candidateTotalLiabilityString": "Nil"
+      },
+      "candidateTotalWealthString": "0",
+      "candidateTotalIncomeString": "0",
+      "candidateTotalWealth": 0,
+      "candidateTotalIncome": 0,
+      "promises": null,
+      "languages": null,
+      "mynetaCandidateUrl": "https://myneta.info/goa2022/candidate.php?candidate_id=196"
+    },
+    {
+      "candidateId": "OTEtMDUtMzReRXN0ZXZhbiBFbHZpcyBEJ1NvdXphXjMy",
+      "constituencyId": "91-05-34",
+      "constituencyName": "St. Andre",
+      "name": "Estevan Elvis D'Souza",
+      "age": "32",
+      "sex": "male",
+      "caste": null,
+      "party": "Nationalist Congress Party",
+      "telephone": null,
+      "email": null,
+      "address": "H. No. 613, St. Francis Waddo, Goa Velha, Tiswadi, Goa -403108",
+      "officialProfileLink": "https://affidavit.eci.gov.in/show-profile/MjA4OQ==/MjM=/MTM=/Mw==/QUM=",
+      "affidavitLink": null,
+      "officialPhotoLink": "https://suvidha.eci.gov.in/uploads1/candprofile/E13/2022/AC/s05/Estev-2022-20220127035935.jpg",
+      "socialMediaAccounts": null,
+      "socialMediaAccount": null,
+      "facebookId": null,
+      "twitterId": null,
+      "instagramId": null,
+      "whatsappId": null,
+      "selfProfession": null,
+      "spouseProfession": null,
+      "highestEducationLevel": null,
+      "highestEducationYear": null,
+      "latestTaxReturn": null,
+      "pendingCases": null,
+      "convictedCases": null,
+      "pendingCase": null,
+      "convictedCase": null,
+      "assets": null,
+      "liabilities": null,
+      "candidateTotalWealthString": null,
+      "candidateTotalIncomeString": null,
+      "candidateTotalWealth": 0,
+      "candidateTotalIncome": 0,
+      "promises": null,
+      "languages": null,
+      "mynetaCandidateUrl": null
+    },
+    {
+      "candidateId": "OTEtMDUtMzReRnJhbmNpc2NvIFNpbHZlaXJhXjUz",
+      "constituencyId": "91-05-34",
+      "constituencyName": "St. Andre",
+      "name": "Francisco Silveira",
+      "age": "53",
+      "sex": "male",
+      "caste": null,
+      "party": "Bharatiya Janata Party",
+      "telephone": null,
+      "email": null,
+      "address": "H. No. 38-1, Dandim, St. Lawrence, Agacaim, Ilhas, Goa- 403204",
+      "officialProfileLink": "https://affidavit.eci.gov.in/show-profile/MjI0Nw==/MjM=/MTM=/Mw==/QUM=",
+      "affidavitLink": null,
+      "officialPhotoLink": "https://suvidha.eci.gov.in/uploads1/candprofile/E13/2022/AC/s05/Franc-2022-20220127043709.jpg",
+      "socialMediaAccounts": null,
+      "socialMediaAccount": null,
+      "facebookId": null,
+      "twitterId": null,
+      "instagramId": null,
+      "whatsappId": null,
+      "selfProfession": "Fishing Business",
+      "spouseProfession": "Fishing Business",
+      "highestEducationLevel": "12thPass",
+      "highestEducationYear": null,
+      "latestTaxReturn": {
+        "self": {
+          "year": "",
+          "amount": "Rs&nbsp;4,88,574",
+          "relation": null
+        },
+        "spouse": {
+          "year": "",
+          "amount": "Rs&nbsp;4,88,574",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          }
+        ]
+      },
+      "pendingCases": null,
+      "convictedCases": null,
+      "pendingCase": null,
+      "convictedCase": null,
+      "assets": {
+        "movableSelf": {
+          "year": null,
+          "amount": "2,70,07,198.19",
+          "relation": null
+        },
+        "movableSpouse": {
+          "year": null,
+          "amount": "3,08,70,872",
+          "relation": null
+        },
+        "movableDependents": [
+          {
+            "year": null,
+            "amount": "4,35,799",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "immovableSelf": {
+          "year": null,
+          "amount": "4,79,00,000",
+          "relation": null
+        },
+        "immovableSpouse": {
+          "year": null,
+          "amount": "4,79,00,000",
+          "relation": null
+        },
+        "immovableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "movableTotal": 0,
+        "immovableTotal": 0,
+        "candidateTotalAsset": 0,
+        "movableTotalString": "5,83,13,869.19",
+        "immovableTotalString": "9,58,00,000",
+        "candidateTotalAssetString": "0"
+      },
+      "liabilities": {
+        "self": {
+          "year": null,
+          "amount": "1,12,21,069",
+          "relation": null
+        },
+        "spouse": {
+          "year": null,
+          "amount": "1,12,21,069",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "candidateTotalLiability": 0,
+        "candidateTotalLiabilityString": "2,24,42,138"
+      },
+      "candidateTotalWealthString": "0",
+      "candidateTotalIncomeString": "0",
+      "candidateTotalWealth": 0,
+      "candidateTotalIncome": 0,
+      "promises": null,
+      "languages": null,
+      "mynetaCandidateUrl": "https://myneta.info/goa2022/candidate.php?candidate_id=194"
+    },
+    {
+      "candidateId": "OTEtMDUtMzReSmFnZGlzaCBVbWFrYW50IEJob2JlXjUy",
+      "constituencyId": "91-05-34",
+      "constituencyName": "St. Andre",
+      "name": "Jagdish Umakant Bhobe",
+      "age": "52",
+      "sex": "male",
+      "caste": null,
+      "party": "All India Trinamool Congress",
+      "telephone": null,
+      "email": null,
+      "address": "H. No. 549, Forgotem, Goa Velha, Tiswadi, Goa",
+      "officialProfileLink": "https://affidavit.eci.gov.in/show-profile/MTcyNw==/MjM=/MTM=/Mw==/QUM=",
+      "affidavitLink": null,
+      "officialPhotoLink": "https://suvidha.eci.gov.in/uploads1/candprofile/E13/2022/AC/S05/Jagdi-2022-20220127010306.jpg",
+      "socialMediaAccounts": null,
+      "socialMediaAccount": null,
+      "facebookId": null,
+      "twitterId": null,
+      "instagramId": null,
+      "whatsappId": null,
+      "selfProfession": "Business/Karate Trainer",
+      "spouseProfession": "Business",
+      "highestEducationLevel": "Others",
+      "highestEducationYear": null,
+      "latestTaxReturn": {
+        "self": {
+          "year": "",
+          "amount": "Rs&nbsp;2,95,090",
+          "relation": null
+        },
+        "spouse": {
+          "year": "",
+          "amount": "Rs&nbsp;2,95,090",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          }
+        ]
+      },
+      "pendingCases": null,
+      "convictedCases": null,
+      "pendingCase": null,
+      "convictedCase": null,
+      "assets": {
+        "movableSelf": {
+          "year": null,
+          "amount": "25,94,796",
+          "relation": null
+        },
+        "movableSpouse": {
+          "year": null,
+          "amount": "25,60,605",
+          "relation": null
+        },
+        "movableDependents": [
+          {
+            "year": null,
+            "amount": "10,610",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "immovableSelf": {
+          "year": null,
+          "amount": "6,00,000",
+          "relation": null
+        },
+        "immovableSpouse": {
+          "year": null,
+          "amount": "6,00,000",
+          "relation": null
+        },
+        "immovableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "movableTotal": 0,
+        "immovableTotal": 0,
+        "candidateTotalAsset": 0,
+        "movableTotalString": "51,66,011",
+        "immovableTotalString": "12,00,000",
+        "candidateTotalAssetString": "0"
+      },
+      "liabilities": {
+        "self": {
+          "year": null,
+          "amount": "9,64,244",
+          "relation": null
+        },
+        "spouse": {
+          "year": null,
+          "amount": "9,64,244",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "candidateTotalLiability": 0,
+        "candidateTotalLiabilityString": "19,28,488"
+      },
+      "candidateTotalWealthString": "0",
+      "candidateTotalIncomeString": "0",
+      "candidateTotalWealth": 0,
+      "candidateTotalIncome": 0,
+      "promises": null,
+      "languages": null,
+      "mynetaCandidateUrl": "https://myneta.info/goa2022/candidate.php?candidate_id=198"
+    },
+    {
+      "candidateId": "OTEtMDUtMzReUmFtcmFvIFN1cnlhIE5haWsgV2FnaF41NQ==",
+      "constituencyId": "91-05-34",
+      "constituencyName": "St. Andre",
+      "name": "Ramrao Surya Naik Wagh",
+      "age": "55",
+      "sex": "male",
+      "caste": null,
+      "party": "Aam Aadmi Party",
+      "telephone": null,
+      "email": null,
+      "address": "H. No. 573, Vodle Bhat, Dongari, Mandur, Goa - 403104",
+      "officialProfileLink": "https://affidavit.eci.gov.in/show-profile/MTgxNQ==/MjM=/MTM=/Mw==/QUM=",
+      "affidavitLink": null,
+      "officialPhotoLink": "https://suvidha.eci.gov.in/uploads1/candprofile/E13/2022/AC/s05/Ramra-2022-20220127015635.jpg",
+      "socialMediaAccounts": null,
+      "socialMediaAccount": null,
+      "facebookId": null,
+      "twitterId": null,
+      "instagramId": null,
+      "whatsappId": null,
+      "selfProfession": "Associate Professor Goa University",
+      "spouseProfession": "House wife",
+      "highestEducationLevel": "PostGraduate",
+      "highestEducationYear": null,
+      "latestTaxReturn": {
+        "self": {
+          "year": "",
+          "amount": "Rs&nbsp;27,76,370",
+          "relation": null
+        },
+        "spouse": {
+          "year": "None",
+          "amount": "Rs&nbsp;0",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          }
+        ]
+      },
+      "pendingCases": null,
+      "convictedCases": null,
+      "pendingCase": null,
+      "convictedCase": null,
+      "assets": {
+        "movableSelf": {
+          "year": null,
+          "amount": "23,79,055",
+          "relation": null
+        },
+        "movableSpouse": {
+          "year": null,
+          "amount": "14,40,250",
+          "relation": null
+        },
+        "movableDependents": [
+          {
+            "year": null,
+            "amount": "2,00,060",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "immovableSelf": {
+          "year": null,
+          "amount": "78,00,000",
+          "relation": null
+        },
+        "immovableSpouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "immovableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "movableTotal": 0,
+        "immovableTotal": 0,
+        "candidateTotalAsset": 0,
+        "movableTotalString": "40,19,365",
+        "immovableTotalString": "78,00,000",
+        "candidateTotalAssetString": "0"
+      },
+      "liabilities": {
+        "self": {
+          "year": null,
+          "amount": "11,19,448",
+          "relation": null
+        },
+        "spouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "candidateTotalLiability": 0,
+        "candidateTotalLiabilityString": "11,19,448"
+      },
+      "candidateTotalWealthString": "0",
+      "candidateTotalIncomeString": "0",
+      "candidateTotalWealth": 0,
+      "candidateTotalIncome": 0,
+      "promises": null,
+      "languages": null,
+      "mynetaCandidateUrl": "https://myneta.info/goa2022/candidate.php?candidate_id=197"
+    },
+    {
+      "candidateId": "OTEtMDUtMzReVmlyZXNoIE11a2VzaCBCb3JrYXJeMjg=",
+      "constituencyId": "91-05-34",
+      "constituencyName": "St. Andre",
+      "name": "Viresh Mukesh Borkar",
+      "age": "28",
+      "sex": "male",
+      "caste": null,
+      "party": "Revolutionary Goans Party",
+      "telephone": null,
+      "email": null,
+      "address": "H. No. 332, Wada Bhat, Neura, Tiswadi - 403104",
+      "officialProfileLink": "https://affidavit.eci.gov.in/show-profile/MTc2Ng==/MjM=/MTM=/Mw==/QUM=",
+      "affidavitLink": null,
+      "officialPhotoLink": "https://suvidha.eci.gov.in/uploads1/candprofile/E13/2022/AC/s05/Vires-2022-20220127013433.jpg",
+      "socialMediaAccounts": null,
+      "socialMediaAccount": null,
+      "facebookId": null,
+      "twitterId": null,
+      "instagramId": null,
+      "whatsappId": null,
+      "selfProfession": "Business",
+      "spouseProfession": "",
+      "highestEducationLevel": "12thPass",
+      "highestEducationYear": null,
+      "latestTaxReturn": {
+        "self": {
+          "year": "",
+          "amount": "Rs&nbsp;2,44,820",
+          "relation": null
+        },
+        "spouse": {
+          "year": "None",
+          "amount": "Rs&nbsp;0",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          }
+        ]
+      },
+      "pendingCases": null,
+      "convictedCases": null,
+      "pendingCase": null,
+      "convictedCase": null,
+      "assets": {
+        "movableSelf": {
+          "year": null,
+          "amount": "8,29,155",
+          "relation": null
+        },
+        "movableSpouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "movableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "immovableSelf": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "immovableSpouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "immovableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "movableTotal": 0,
+        "immovableTotal": 0,
+        "candidateTotalAsset": 0,
+        "movableTotalString": "8,29,155",
+        "immovableTotalString": "Nil",
+        "candidateTotalAssetString": "0"
+      },
+      "liabilities": {
+        "self": {
+          "year": null,
+          "amount": "3,96,719",
+          "relation": null
+        },
+        "spouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "candidateTotalLiability": 0,
+        "candidateTotalLiabilityString": "3,96,719"
+      },
+      "candidateTotalWealthString": "0",
+      "candidateTotalIncomeString": "0",
+      "candidateTotalWealth": 0,
+      "candidateTotalIncome": 0,
+      "promises": null,
+      "languages": null,
+      "mynetaCandidateUrl": "https://myneta.info/goa2022/candidate.php?candidate_id=199"
+    },
+    {
+      "candidateId": "OTEtMDUtMzReUmFtYSBLYW5rb25rYXJeMzY=",
+      "constituencyId": "91-05-34",
+      "constituencyName": "St. Andre",
+      "name": "Rama Kankonkar",
+      "age": "36",
+      "sex": "male",
+      "caste": null,
+      "party": "Independent",
+      "telephone": null,
+      "email": null,
+      "address": "H. No. 231, Moule Bhat, Curca, Tiswadi, North Goa - 403108",
+      "officialProfileLink": "https://affidavit.eci.gov.in/show-profile/MTg5MQ==/MjM=/MTM=/Mw==/QUM=",
+      "affidavitLink": null,
+      "officialPhotoLink": "https://suvidha.eci.gov.in/uploads1/candprofile/E13/2022/AC/s05/RamaK-2022-20220127022937.jpg",
+      "socialMediaAccounts": null,
+      "socialMediaAccount": null,
+      "facebookId": null,
+      "twitterId": null,
+      "instagramId": null,
+      "whatsappId": null,
+      "selfProfession": "Business",
+      "spouseProfession": "Business",
+      "highestEducationLevel": "12thPass",
+      "highestEducationYear": null,
+      "latestTaxReturn": {
+        "self": {
+          "year": "",
+          "amount": "Rs&nbsp;3,36,896",
+          "relation": null
+        },
+        "spouse": {
+          "year": "",
+          "amount": "Rs&nbsp;3,02,749",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          }
+        ]
+      },
+      "pendingCases": [
+        {
+          "firNumber": "",
+          "policeStationName": "02/21 Valpoi P.S.",
+          "sections": null,
+          "section": "Sec.03 of PDPP Act, Under Investigation",
+          "briefDescription": "1",
+          "caseNumber": "",
+          "courtName": "",
+          "chargesFramed": false,
+          "dateOfChargesFramed": "",
+          "appealAgainstProceedings": false,
+          "appealAgainstProceedingsDetails": "",
+          "convictionOrderDate": null,
+          "punishment": null,
+          "appealAgainstPunishment": false,
+          "appealAgainstPunishmentDetails": null,
+          "dateReleasedFromPrison": null
+        },
+        {
+          "firNumber": "",
+          "policeStationName": "93/20 Agacaim P.S.",
+          "sections": null,
+          "section": "Under Investigation",
+          "briefDescription": "2",
+          "caseNumber": "",
+          "courtName": "",
+          "chargesFramed": false,
+          "dateOfChargesFramed": "",
+          "appealAgainstProceedings": false,
+          "appealAgainstProceedingsDetails": "",
+          "convictionOrderDate": null,
+          "punishment": null,
+          "appealAgainstPunishment": false,
+          "appealAgainstPunishmentDetails": null,
+          "dateReleasedFromPrison": null
+        },
+        {
+          "firNumber": "",
+          "policeStationName": "10/19 Agacaim P.S.",
+          "sections": null,
+          "section": "Under Investigation",
+          "briefDescription": "3",
+          "caseNumber": "",
+          "courtName": "",
+          "chargesFramed": false,
+          "dateOfChargesFramed": "",
+          "appealAgainstProceedings": false,
+          "appealAgainstProceedingsDetails": "",
+          "convictionOrderDate": null,
+          "punishment": null,
+          "appealAgainstPunishment": false,
+          "appealAgainstPunishmentDetails": null,
+          "dateReleasedFromPrison": null
+        },
+        {
+          "firNumber": "IPC/291/2018",
+          "policeStationName": "76/18 Old Goa P.S.",
+          "sections": null,
+          "section": "",
+          "briefDescription": "4",
+          "caseNumber": "IPC/291/2018",
+          "courtName": "D-Civil Judge (JMFC) Junior Division",
+          "chargesFramed": false,
+          "dateOfChargesFramed": "",
+          "appealAgainstProceedings": false,
+          "appealAgainstProceedingsDetails": "",
+          "convictionOrderDate": null,
+          "punishment": null,
+          "appealAgainstPunishment": false,
+          "appealAgainstPunishmentDetails": null,
+          "dateReleasedFromPrison": null
+        }
+      ],
+      "convictedCases": [],
+      "pendingCase": {
+        "firNumber": "",
+        "policeStationName": "02/21 Valpoi P.S.",
+        "sections": null,
+        "section": "Sec.03 of PDPP Act, Under Investigation",
+        "briefDescription": "1",
+        "caseNumber": "",
+        "courtName": "",
+        "chargesFramed": false,
+        "dateOfChargesFramed": "",
+        "appealAgainstProceedings": false,
+        "appealAgainstProceedingsDetails": "",
+        "convictionOrderDate": null,
+        "punishment": null,
+        "appealAgainstPunishment": false,
+        "appealAgainstPunishmentDetails": null,
+        "dateReleasedFromPrison": null
+      },
+      "convictedCase": {
+        "firNumber": null,
+        "policeStationName": null,
+        "sections": null,
+        "section": null,
+        "briefDescription": null,
+        "caseNumber": null,
+        "courtName": null,
+        "chargesFramed": false,
+        "dateOfChargesFramed": null,
+        "appealAgainstProceedings": false,
+        "appealAgainstProceedingsDetails": null,
+        "convictionOrderDate": null,
+        "punishment": null,
+        "appealAgainstPunishment": false,
+        "appealAgainstPunishmentDetails": null,
+        "dateReleasedFromPrison": null
+      },
+      "assets": {
+        "movableSelf": {
+          "year": null,
+          "amount": "1,15,121",
+          "relation": null
+        },
+        "movableSpouse": {
+          "year": null,
+          "amount": "4,22,934",
+          "relation": null
+        },
+        "movableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "immovableSelf": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "immovableSpouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "immovableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "movableTotal": 0,
+        "immovableTotal": 0,
+        "candidateTotalAsset": 0,
+        "movableTotalString": "5,38,055",
+        "immovableTotalString": "Nil",
+        "candidateTotalAssetString": "0"
+      },
+      "liabilities": {
+        "self": {
+          "year": null,
+          "amount": "9,14,899",
+          "relation": null
+        },
+        "spouse": {
+          "year": null,
+          "amount": "10,30,718",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "candidateTotalLiability": 0,
+        "candidateTotalLiabilityString": "19,45,617"
+      },
+      "candidateTotalWealthString": "0",
+      "candidateTotalIncomeString": "0",
+      "candidateTotalWealth": 0,
+      "candidateTotalIncome": 0,
+      "promises": null,
+      "languages": null,
+      "mynetaCandidateUrl": "https://myneta.info/goa2022/candidate.php?candidate_id=195"
+    }
+  ]
+}

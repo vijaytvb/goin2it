@@ -1,0 +1,1478 @@
+{
+  "candidates": [
+    {
+      "candidateId": "OTEtMDUtNl5HaWxiZXJ0IE1hcmlhbm8gUm9kcmlndWVzXjQz",
+      "constituencyId": "91-05-6",
+      "constituencyName": "Cortalim",
+      "name": "Gilbert Mariano Rodrigues",
+      "age": "43",
+      "sex": "male",
+      "caste": null,
+      "party": "All India Trinamool Congress",
+      "telephone": null,
+      "email": null,
+      "address": "H.no. 348 Near Bharat Petrol Pump, Zuarinagar, Cortalim",
+      "officialProfileLink": "https://affidavit.eci.gov.in/show-profile/Mjc5OA==/MjM=/MTM=/Mw==/QUM=",
+      "affidavitLink": null,
+      "officialPhotoLink": "https://suvidha.eci.gov.in/uploads1/candprofile/E13/2022/AC/s05/Gilbe-2022-20220127072732.JPG",
+      "socialMediaAccounts": null,
+      "socialMediaAccount": null,
+      "facebookId": null,
+      "twitterId": null,
+      "instagramId": null,
+      "whatsappId": null,
+      "selfProfession": "Selfemployed (Businessman)",
+      "spouseProfession": "Service",
+      "highestEducationLevel": "12thPass",
+      "highestEducationYear": null,
+      "latestTaxReturn": {
+        "self": {
+          "year": "",
+          "amount": "Rs&nbsp;11,13,882",
+          "relation": null
+        },
+        "spouse": {
+          "year": "",
+          "amount": "Rs&nbsp;6,27,879",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          }
+        ]
+      },
+      "pendingCases": [
+        {
+          "firNumber": "Labour Case No. 10/2013/A",
+          "policeStationName": "",
+          "sections": null,
+          "section": "Section 85A, 30, 40 &amp; 31 Regulation of E.S.I Act",
+          "briefDescription": "1",
+          "caseNumber": "Labour Case No. 10/2013/A",
+          "courtName": "J.M.F.C Panaji",
+          "chargesFramed": false,
+          "dateOfChargesFramed": "",
+          "appealAgainstProceedings": false,
+          "appealAgainstProceedingsDetails": "",
+          "convictionOrderDate": null,
+          "punishment": null,
+          "appealAgainstPunishment": false,
+          "appealAgainstPunishmentDetails": null,
+          "dateReleasedFromPrison": null
+        },
+        {
+          "firNumber": "102/S/2017/A",
+          "policeStationName": "30/2017, Verna Police Station at Verna South Goa, Goa",
+          "sections": null,
+          "section": "",
+          "briefDescription": "2",
+          "caseNumber": "102/S/2017/A",
+          "courtName": "J.M.F.C at Vasco Da Gama",
+          "chargesFramed": false,
+          "dateOfChargesFramed": "",
+          "appealAgainstProceedings": false,
+          "appealAgainstProceedingsDetails": "",
+          "convictionOrderDate": null,
+          "punishment": null,
+          "appealAgainstPunishment": false,
+          "appealAgainstPunishmentDetails": null,
+          "dateReleasedFromPrison": null
+        },
+        {
+          "firNumber": "12/S/2020/B",
+          "policeStationName": "105/2019, Verna Police Station at Verna South Goa, Goa",
+          "sections": null,
+          "section": "",
+          "briefDescription": "3",
+          "caseNumber": "12/S/2020/B",
+          "courtName": "J.M.F.C Vasco Da Gama",
+          "chargesFramed": false,
+          "dateOfChargesFramed": "",
+          "appealAgainstProceedings": false,
+          "appealAgainstProceedingsDetails": "",
+          "convictionOrderDate": null,
+          "punishment": null,
+          "appealAgainstPunishment": false,
+          "appealAgainstPunishmentDetails": null,
+          "dateReleasedFromPrison": null
+        },
+        {
+          "firNumber": "",
+          "policeStationName": "90/2021, Verna Police Station at Verna South Goa, Goa",
+          "sections": null,
+          "section": "",
+          "briefDescription": "4",
+          "caseNumber": "",
+          "courtName": "",
+          "chargesFramed": false,
+          "dateOfChargesFramed": "",
+          "appealAgainstProceedings": false,
+          "appealAgainstProceedingsDetails": "",
+          "convictionOrderDate": null,
+          "punishment": null,
+          "appealAgainstPunishment": false,
+          "appealAgainstPunishmentDetails": null,
+          "dateReleasedFromPrison": null
+        }
+      ],
+      "convictedCases": [],
+      "pendingCase": {
+        "firNumber": "Labour Case No. 10/2013/A",
+        "policeStationName": "",
+        "sections": null,
+        "section": "Section 85A, 30, 40 &amp; 31 Regulation of E.S.I Act",
+        "briefDescription": "1",
+        "caseNumber": "Labour Case No. 10/2013/A",
+        "courtName": "J.M.F.C Panaji",
+        "chargesFramed": false,
+        "dateOfChargesFramed": "",
+        "appealAgainstProceedings": false,
+        "appealAgainstProceedingsDetails": "",
+        "convictionOrderDate": null,
+        "punishment": null,
+        "appealAgainstPunishment": false,
+        "appealAgainstPunishmentDetails": null,
+        "dateReleasedFromPrison": null
+      },
+      "convictedCase": {
+        "firNumber": null,
+        "policeStationName": null,
+        "sections": null,
+        "section": null,
+        "briefDescription": null,
+        "caseNumber": null,
+        "courtName": null,
+        "chargesFramed": false,
+        "dateOfChargesFramed": null,
+        "appealAgainstProceedings": false,
+        "appealAgainstProceedingsDetails": null,
+        "convictionOrderDate": null,
+        "punishment": null,
+        "appealAgainstPunishment": false,
+        "appealAgainstPunishmentDetails": null,
+        "dateReleasedFromPrison": null
+      },
+      "assets": {
+        "movableSelf": {
+          "year": null,
+          "amount": "52,75,098",
+          "relation": null
+        },
+        "movableSpouse": {
+          "year": null,
+          "amount": "81,10,633",
+          "relation": null
+        },
+        "movableDependents": [
+          {
+            "year": null,
+            "amount": "5,00,000",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "immovableSelf": {
+          "year": null,
+          "amount": "15,00,000",
+          "relation": null
+        },
+        "immovableSpouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "immovableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "movableTotal": 0,
+        "immovableTotal": 0,
+        "candidateTotalAsset": 0,
+        "movableTotalString": "1,38,85,731",
+        "immovableTotalString": "15,00,000",
+        "candidateTotalAssetString": "0"
+      },
+      "liabilities": {
+        "self": {
+          "year": null,
+          "amount": "1,91,530",
+          "relation": null
+        },
+        "spouse": {
+          "year": null,
+          "amount": "4,69,491",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "candidateTotalLiability": 0,
+        "candidateTotalLiabilityString": "6,61,021"
+      },
+      "candidateTotalWealthString": "0",
+      "candidateTotalIncomeString": "0",
+      "candidateTotalWealth": 0,
+      "candidateTotalIncome": 0,
+      "promises": null,
+      "languages": null,
+      "mynetaCandidateUrl": "https://myneta.info/goa2022/candidate.php?candidate_id=329"
+    },
+    {
+      "candidateId": "OTEtMDUtNl5OYXJheWFuIE5haWteNTE=",
+      "constituencyId": "91-05-6",
+      "constituencyName": "Cortalim",
+      "name": "Narayan Naik",
+      "age": "51",
+      "sex": "male",
+      "caste": null,
+      "party": "Bharatiya Janata Party",
+      "telephone": null,
+      "email": null,
+      "address": "H.No. 355/6B, Upasnagar Housing Board, Sancoale, Goa 403726",
+      "officialProfileLink": "https://affidavit.eci.gov.in/show-profile/MjM0OA==/MjM=/MTM=/Mw==/QUM=",
+      "affidavitLink": null,
+      "officialPhotoLink": "https://suvidha.eci.gov.in/uploads1/candprofile/E13/2022/AC/s05/Naray-2022-20220127045906.JPG",
+      "socialMediaAccounts": null,
+      "socialMediaAccount": null,
+      "facebookId": null,
+      "twitterId": null,
+      "instagramId": null,
+      "whatsappId": null,
+      "selfProfession": "Service &amp; Panch Member",
+      "spouseProfession": "Service",
+      "highestEducationLevel": "12thPass",
+      "highestEducationYear": null,
+      "latestTaxReturn": {
+        "self": {
+          "year": "",
+          "amount": "Rs&nbsp;5,83,560",
+          "relation": null
+        },
+        "spouse": {
+          "year": "",
+          "amount": "Rs&nbsp;4,16,461",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          }
+        ]
+      },
+      "pendingCases": null,
+      "convictedCases": null,
+      "pendingCase": null,
+      "convictedCase": null,
+      "assets": {
+        "movableSelf": {
+          "year": null,
+          "amount": "41,88,722",
+          "relation": null
+        },
+        "movableSpouse": {
+          "year": null,
+          "amount": "23,32,647",
+          "relation": null
+        },
+        "movableDependents": [
+          {
+            "year": null,
+            "amount": "2,12,807",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "3,68,580",
+            "relation": null
+          }
+        ],
+        "immovableSelf": {
+          "year": null,
+          "amount": "52,00,000",
+          "relation": null
+        },
+        "immovableSpouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "immovableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "movableTotal": 0,
+        "immovableTotal": 0,
+        "candidateTotalAsset": 0,
+        "movableTotalString": "71,02,756",
+        "immovableTotalString": "52,00,000",
+        "candidateTotalAssetString": "0"
+      },
+      "liabilities": {
+        "self": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "spouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "candidateTotalLiability": 0,
+        "candidateTotalLiabilityString": "Nil"
+      },
+      "candidateTotalWealthString": "0",
+      "candidateTotalIncomeString": "0",
+      "candidateTotalWealth": 0,
+      "candidateTotalIncome": 0,
+      "promises": null,
+      "languages": null,
+      "mynetaCandidateUrl": "https://myneta.info/goa2022/candidate.php?candidate_id=72"
+    },
+    {
+      "candidateId": "OTEtMDUtNl5PbGVuY2lvIFNpbW9lc14zNQ==",
+      "constituencyId": "91-05-6",
+      "constituencyName": "Cortalim",
+      "name": "Olencio Simoes",
+      "age": "35",
+      "sex": "male",
+      "caste": null,
+      "party": "Indian National Congress",
+      "telephone": null,
+      "email": null,
+      "address": "H.no. 58, Opp Health Centre, Cansaulim, Mormugao",
+      "officialProfileLink": "https://affidavit.eci.gov.in/show-profile/MjUzNA==/MjM=/MTM=/Mw==/QUM=",
+      "affidavitLink": null,
+      "officialPhotoLink": "https://suvidha.eci.gov.in/uploads1/candprofile/E13/2022/AC/s05/Olenc-2022-20220127054653.JPG",
+      "socialMediaAccounts": null,
+      "socialMediaAccount": null,
+      "facebookId": null,
+      "twitterId": null,
+      "instagramId": null,
+      "whatsappId": null,
+      "selfProfession": "Agriculturist",
+      "spouseProfession": "NA",
+      "highestEducationLevel": "PostGraduate",
+      "highestEducationYear": null,
+      "latestTaxReturn": {
+        "self": {
+          "year": "",
+          "amount": "Rs&nbsp;4,04,450",
+          "relation": null
+        },
+        "spouse": {
+          "year": "None",
+          "amount": "Rs&nbsp;0",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          }
+        ]
+      },
+      "pendingCases": [
+        {
+          "firNumber": "53/2018",
+          "policeStationName": "103/2016, Panaji Police Station",
+          "sections": null,
+          "section": "",
+          "briefDescription": "1",
+          "caseNumber": "53/2018",
+          "courtName": "B Court, Panaji",
+          "chargesFramed": false,
+          "dateOfChargesFramed": "",
+          "appealAgainstProceedings": false,
+          "appealAgainstProceedingsDetails": "",
+          "convictionOrderDate": null,
+          "punishment": null,
+          "appealAgainstPunishment": false,
+          "appealAgainstPunishmentDetails": null,
+          "dateReleasedFromPrison": null
+        },
+        {
+          "firNumber": "291/2018",
+          "policeStationName": "76/2018, Panaji Police Station",
+          "sections": null,
+          "section": "",
+          "briefDescription": "2",
+          "caseNumber": "291/2018",
+          "courtName": "E Court, Panaji",
+          "chargesFramed": false,
+          "dateOfChargesFramed": "",
+          "appealAgainstProceedings": false,
+          "appealAgainstProceedingsDetails": "",
+          "convictionOrderDate": null,
+          "punishment": null,
+          "appealAgainstPunishment": false,
+          "appealAgainstPunishmentDetails": null,
+          "dateReleasedFromPrison": null
+        }
+      ],
+      "convictedCases": [],
+      "pendingCase": {
+        "firNumber": "53/2018",
+        "policeStationName": "103/2016, Panaji Police Station",
+        "sections": null,
+        "section": "",
+        "briefDescription": "1",
+        "caseNumber": "53/2018",
+        "courtName": "B Court, Panaji",
+        "chargesFramed": false,
+        "dateOfChargesFramed": "",
+        "appealAgainstProceedings": false,
+        "appealAgainstProceedingsDetails": "",
+        "convictionOrderDate": null,
+        "punishment": null,
+        "appealAgainstPunishment": false,
+        "appealAgainstPunishmentDetails": null,
+        "dateReleasedFromPrison": null
+      },
+      "convictedCase": {
+        "firNumber": null,
+        "policeStationName": null,
+        "sections": null,
+        "section": null,
+        "briefDescription": null,
+        "caseNumber": null,
+        "courtName": null,
+        "chargesFramed": false,
+        "dateOfChargesFramed": null,
+        "appealAgainstProceedings": false,
+        "appealAgainstProceedingsDetails": null,
+        "convictionOrderDate": null,
+        "punishment": null,
+        "appealAgainstPunishment": false,
+        "appealAgainstPunishmentDetails": null,
+        "dateReleasedFromPrison": null
+      },
+      "assets": {
+        "movableSelf": {
+          "year": null,
+          "amount": "52,71,629",
+          "relation": null
+        },
+        "movableSpouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "movableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "immovableSelf": {
+          "year": null,
+          "amount": "72,53,885",
+          "relation": null
+        },
+        "immovableSpouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "immovableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "movableTotal": 0,
+        "immovableTotal": 0,
+        "candidateTotalAsset": 0,
+        "movableTotalString": "52,71,629",
+        "immovableTotalString": "72,53,885",
+        "candidateTotalAssetString": "0"
+      },
+      "liabilities": {
+        "self": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "spouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "candidateTotalLiability": 0,
+        "candidateTotalLiabilityString": "Nil"
+      },
+      "candidateTotalWealthString": "0",
+      "candidateTotalIncomeString": "0",
+      "candidateTotalWealth": 0,
+      "candidateTotalIncome": 0,
+      "promises": null,
+      "languages": null,
+      "mynetaCandidateUrl": "https://myneta.info/goa2022/candidate.php?candidate_id=75"
+    },
+    {
+      "candidateId": "OTEtMDUtNl5BbGluYSBTYWxkYW5oYV42OQ==",
+      "constituencyId": "91-05-6",
+      "constituencyName": "Cortalim",
+      "name": "Alina Saldanha",
+      "age": "69",
+      "sex": "female",
+      "caste": null,
+      "party": "Aam Aadmi Party",
+      "telephone": null,
+      "email": null,
+      "address": "H.no. 59 Near Railway Station, Largos De Estesao, Cansaulim, Goa 403712",
+      "officialProfileLink": "https://affidavit.eci.gov.in/show-profile/MjM5MA==/MjM=/MTM=/Mw==/QUM=",
+      "affidavitLink": null,
+      "officialPhotoLink": "https://suvidha.eci.gov.in/uploads1/candprofile/E13/2022/AC/s05/Alina-2022-20220127050941.JPG",
+      "socialMediaAccounts": null,
+      "socialMediaAccount": null,
+      "facebookId": null,
+      "twitterId": null,
+      "instagramId": null,
+      "whatsappId": null,
+      "selfProfession": "Retired as Head Mistress of School",
+      "spouseProfession": "NA",
+      "highestEducationLevel": "GraduateProfessional",
+      "highestEducationYear": null,
+      "latestTaxReturn": {
+        "self": {
+          "year": "",
+          "amount": "Rs&nbsp;10,09,440",
+          "relation": null
+        },
+        "spouse": {
+          "year": "None",
+          "amount": "Rs&nbsp;0",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          }
+        ]
+      },
+      "pendingCases": null,
+      "convictedCases": null,
+      "pendingCase": null,
+      "convictedCase": null,
+      "assets": {
+        "movableSelf": {
+          "year": null,
+          "amount": "1,62,78,523",
+          "relation": null
+        },
+        "movableSpouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "movableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "immovableSelf": {
+          "year": null,
+          "amount": "7,57,00,000",
+          "relation": null
+        },
+        "immovableSpouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "immovableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "movableTotal": 0,
+        "immovableTotal": 0,
+        "candidateTotalAsset": 0,
+        "movableTotalString": "1,62,78,523",
+        "immovableTotalString": "7,57,00,000",
+        "candidateTotalAssetString": "0"
+      },
+      "liabilities": {
+        "self": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "spouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "candidateTotalLiability": 0,
+        "candidateTotalLiabilityString": "Nil"
+      },
+      "candidateTotalWealthString": "0",
+      "candidateTotalIncomeString": "0",
+      "candidateTotalWealth": 0,
+      "candidateTotalIncome": 0,
+      "promises": null,
+      "languages": null,
+      "mynetaCandidateUrl": "https://myneta.info/goa2022/candidate.php?candidate_id=73"
+    },
+    {
+      "candidateId": "OTEtMDUtNl5CaGFrdGkgQmhhbGNoYW5kcmEgS2hhZGFwa2FyXjQ5",
+      "constituencyId": "91-05-6",
+      "constituencyName": "Cortalim",
+      "name": "Bhakti Bhalchandra Khadapkar",
+      "age": "49",
+      "sex": "female",
+      "caste": null,
+      "party": "Shiv Sena",
+      "telephone": null,
+      "email": null,
+      "address": "H.no. 75/16, Road Sindolim, Sancoale, Cortalim, Mormugao, South Goa403710",
+      "officialProfileLink": "https://affidavit.eci.gov.in/show-profile/MzQ1NA==/MjM=/MTM=/Mw==/QUM=",
+      "affidavitLink": null,
+      "officialPhotoLink": "https://suvidha.eci.gov.in/uploads1/candprofile/E13/2022/AC/s05/Bhakt-2022-20220128033254.JPG",
+      "socialMediaAccounts": null,
+      "socialMediaAccount": null,
+      "facebookId": null,
+      "twitterId": null,
+      "instagramId": null,
+      "whatsappId": null,
+      "selfProfession": "Service",
+      "spouseProfession": "Business",
+      "highestEducationLevel": "Graduate",
+      "highestEducationYear": null,
+      "latestTaxReturn": {
+        "self": {
+          "year": "",
+          "amount": "Rs&nbsp;4,27,590",
+          "relation": null
+        },
+        "spouse": {
+          "year": "",
+          "amount": "Rs&nbsp;5,33,500",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          }
+        ]
+      },
+      "pendingCases": null,
+      "convictedCases": null,
+      "pendingCase": null,
+      "convictedCase": null,
+      "assets": {
+        "movableSelf": {
+          "year": null,
+          "amount": "52,01,933",
+          "relation": null
+        },
+        "movableSpouse": {
+          "year": null,
+          "amount": "50,66,736",
+          "relation": null
+        },
+        "movableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "immovableSelf": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "immovableSpouse": {
+          "year": null,
+          "amount": "3,38,00,000",
+          "relation": null
+        },
+        "immovableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "movableTotal": 0,
+        "immovableTotal": 0,
+        "candidateTotalAsset": 0,
+        "movableTotalString": "1,02,68,669",
+        "immovableTotalString": "3,38,00,000",
+        "candidateTotalAssetString": "0"
+      },
+      "liabilities": {
+        "self": {
+          "year": null,
+          "amount": "8,25,000",
+          "relation": null
+        },
+        "spouse": {
+          "year": null,
+          "amount": "54,95,000",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "candidateTotalLiability": 0,
+        "candidateTotalLiabilityString": "63,20,000"
+      },
+      "candidateTotalWealthString": "0",
+      "candidateTotalIncomeString": "0",
+      "candidateTotalWealth": 0,
+      "candidateTotalIncome": 0,
+      "promises": null,
+      "languages": null,
+      "mynetaCandidateUrl": "https://myneta.info/goa2022/candidate.php?candidate_id=234"
+    },
+    {
+      "candidateId": "OTEtMDUtNl5UZW90b25pbyBJbmFjaW8gU2FudGFuYSBDb3N0YV41Nw==",
+      "constituencyId": "91-05-6",
+      "constituencyName": "Cortalim",
+      "name": "Teotonio Inacio Santana Costa",
+      "age": "57",
+      "sex": "male",
+      "caste": null,
+      "party": "Revolutionary Goans Party",
+      "telephone": null,
+      "email": null,
+      "address": "H.No. 298/1 Ultima Parte, Majorda, Salcete, South Goa 403713",
+      "officialProfileLink": "https://affidavit.eci.gov.in/show-profile/MjAyOQ==/MjM=/MTM=/Mw==/QUM=",
+      "affidavitLink": null,
+      "officialPhotoLink": "https://suvidha.eci.gov.in/uploads1/candprofile/E13/2022/AC/s05/Teoto-2022-20220127034904.JPG",
+      "socialMediaAccounts": null,
+      "socialMediaAccount": null,
+      "facebookId": null,
+      "twitterId": null,
+      "instagramId": null,
+      "whatsappId": null,
+      "selfProfession": "Resigned From Service of Goa Shipyard Ltd",
+      "spouseProfession": "Nil",
+      "highestEducationLevel": "10thPass",
+      "highestEducationYear": null,
+      "latestTaxReturn": {
+        "self": {
+          "year": "",
+          "amount": "Rs&nbsp;11,42,920",
+          "relation": null
+        },
+        "spouse": {
+          "year": "None",
+          "amount": "Rs&nbsp;0",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          }
+        ]
+      },
+      "pendingCases": null,
+      "convictedCases": null,
+      "pendingCase": null,
+      "convictedCase": null,
+      "assets": {
+        "movableSelf": {
+          "year": null,
+          "amount": "21,41,140",
+          "relation": null
+        },
+        "movableSpouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "movableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "immovableSelf": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "immovableSpouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "immovableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "movableTotal": 0,
+        "immovableTotal": 0,
+        "candidateTotalAsset": 0,
+        "movableTotalString": "21,41,140",
+        "immovableTotalString": "Nil",
+        "candidateTotalAssetString": "0"
+      },
+      "liabilities": {
+        "self": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "spouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "candidateTotalLiability": 0,
+        "candidateTotalLiabilityString": "Nil"
+      },
+      "candidateTotalWealthString": "0",
+      "candidateTotalIncomeString": "0",
+      "candidateTotalWealth": 0,
+      "candidateTotalIncome": 0,
+      "promises": null,
+      "languages": null,
+      "mynetaCandidateUrl": "https://myneta.info/goa2022/candidate.php?candidate_id=76"
+    },
+    {
+      "candidateId": "OTEtMDUtNl5BbnRvbmlvIFZhc141Nw==",
+      "constituencyId": "91-05-6",
+      "constituencyName": "Cortalim",
+      "name": "Antonio Vas",
+      "age": "57",
+      "sex": "male",
+      "caste": null,
+      "party": "Independent",
+      "telephone": null,
+      "email": null,
+      "address": "H.no. 386, 2nd Arvale, Cortalim Mormugao Goa",
+      "officialProfileLink": "https://affidavit.eci.gov.in/show-profile/MjA3NQ==/MjM=/MTM=/Mw==/QUM=",
+      "affidavitLink": null,
+      "officialPhotoLink": "https://suvidha.eci.gov.in/uploads1/candprofile/E13/2022/AC/s05/Anton-2022-20220127035747.JPG",
+      "socialMediaAccounts": null,
+      "socialMediaAccount": null,
+      "facebookId": null,
+      "twitterId": null,
+      "instagramId": null,
+      "whatsappId": null,
+      "selfProfession": "Trader in Fresh Fish &amp; Bus Operator",
+      "spouseProfession": "Bus Opertor",
+      "highestEducationLevel": "10thPass",
+      "highestEducationYear": null,
+      "latestTaxReturn": {
+        "self": {
+          "year": "",
+          "amount": "Rs&nbsp;14,05,320",
+          "relation": null
+        },
+        "spouse": {
+          "year": "",
+          "amount": "Rs&nbsp;14,05,320",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          }
+        ]
+      },
+      "pendingCases": null,
+      "convictedCases": null,
+      "pendingCase": null,
+      "convictedCase": null,
+      "assets": {
+        "movableSelf": {
+          "year": null,
+          "amount": "81,36,967",
+          "relation": null
+        },
+        "movableSpouse": {
+          "year": null,
+          "amount": "78,20,606",
+          "relation": null
+        },
+        "movableDependents": [
+          {
+            "year": null,
+            "amount": "90,000",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "67,500",
+            "relation": null
+          }
+        ],
+        "immovableSelf": {
+          "year": null,
+          "amount": "2,87,00,000",
+          "relation": null
+        },
+        "immovableSpouse": {
+          "year": null,
+          "amount": "50,00,000",
+          "relation": null
+        },
+        "immovableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "movableTotal": 0,
+        "immovableTotal": 0,
+        "candidateTotalAsset": 0,
+        "movableTotalString": "1,61,82,573",
+        "immovableTotalString": "3,37,00,000",
+        "candidateTotalAssetString": "0"
+      },
+      "liabilities": {
+        "self": {
+          "year": null,
+          "amount": "1,30,44,719",
+          "relation": null
+        },
+        "spouse": {
+          "year": null,
+          "amount": "4,11,885",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "candidateTotalLiability": 0,
+        "candidateTotalLiabilityString": "1,34,56,604"
+      },
+      "candidateTotalWealthString": "0",
+      "candidateTotalIncomeString": "0",
+      "candidateTotalWealth": 0,
+      "candidateTotalIncome": 0,
+      "promises": null,
+      "languages": null,
+      "mynetaCandidateUrl": "https://myneta.info/goa2022/candidate.php?candidate_id=71"
+    },
+    {
+      "candidateId": "OTEtMDUtNl5HaXJpc2ggUGlsbGFpXjQz",
+      "constituencyId": "91-05-6",
+      "constituencyName": "Cortalim",
+      "name": "Girish Pillai",
+      "age": "43",
+      "sex": "male",
+      "caste": null,
+      "party": "Independent",
+      "telephone": null,
+      "email": null,
+      "address": "H.no. G-2, Tamarind Court Phase B, Chowgule Garden, Zari, Zuari Nagar, Sancoale, Goa- 403726",
+      "officialProfileLink": "https://affidavit.eci.gov.in/show-profile/MTgyOQ==/MjM=/MTM=/Mw==/QUM=",
+      "affidavitLink": null,
+      "officialPhotoLink": "https://suvidha.eci.gov.in/uploads1/candprofile/E13/2022/AC/s05/Giris-2022-20220127015013.JPG",
+      "socialMediaAccounts": null,
+      "socialMediaAccount": null,
+      "facebookId": null,
+      "twitterId": null,
+      "instagramId": null,
+      "whatsappId": null,
+      "selfProfession": "Proprietary Concern by name as (1) Shree Damodar Enterprises (2) Damodar Fuels (3) Damodar Farms",
+      "spouseProfession": "Nil",
+      "highestEducationLevel": "Graduate",
+      "highestEducationYear": null,
+      "latestTaxReturn": {
+        "self": {
+          "year": "",
+          "amount": "Rs&nbsp;44,13,400",
+          "relation": null
+        },
+        "spouse": {
+          "year": "None",
+          "amount": "Rs&nbsp;0",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          }
+        ]
+      },
+      "pendingCases": null,
+      "convictedCases": null,
+      "pendingCase": null,
+      "convictedCase": null,
+      "assets": {
+        "movableSelf": {
+          "year": null,
+          "amount": "1,35,35,633",
+          "relation": null
+        },
+        "movableSpouse": {
+          "year": null,
+          "amount": "12,10,000",
+          "relation": null
+        },
+        "movableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "immovableSelf": {
+          "year": null,
+          "amount": "3,65,02,777",
+          "relation": null
+        },
+        "immovableSpouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "immovableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "movableTotal": 0,
+        "immovableTotal": 0,
+        "candidateTotalAsset": 0,
+        "movableTotalString": "1,47,45,633",
+        "immovableTotalString": "3,65,02,777",
+        "candidateTotalAssetString": "0"
+      },
+      "liabilities": {
+        "self": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "spouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "candidateTotalLiability": 0,
+        "candidateTotalLiabilityString": "Nil"
+      },
+      "candidateTotalWealthString": "0",
+      "candidateTotalIncomeString": "0",
+      "candidateTotalWealth": 0,
+      "candidateTotalIncome": 0,
+      "promises": null,
+      "languages": null,
+      "mynetaCandidateUrl": "https://myneta.info/goa2022/candidate.php?candidate_id=70"
+    },
+    {
+      "candidateId": "OTEtMDUtNl5WaXNoYWwgR2FqYW5hbiBOYWlrXjMx",
+      "constituencyId": "91-05-6",
+      "constituencyName": "Cortalim",
+      "name": "Vishal Gajanan Naik",
+      "age": "31",
+      "sex": "male",
+      "caste": null,
+      "party": "Independent",
+      "telephone": null,
+      "email": null,
+      "address": "H.no. 128/1, Near SBI Sanvorfond, Sancoale, Cortalim Goa",
+      "officialProfileLink": "https://affidavit.eci.gov.in/show-profile/MTE5OA==/MjM=/MTM=/Mw==/QUM=",
+      "affidavitLink": null,
+      "officialPhotoLink": "https://suvidha.eci.gov.in/uploads1/candprofile/E13/2022/AC/s05/Visha-2022-20220124020931.JPG",
+      "socialMediaAccounts": null,
+      "socialMediaAccount": null,
+      "facebookId": null,
+      "twitterId": null,
+      "instagramId": null,
+      "whatsappId": null,
+      "selfProfession": "IT Freelancer-Web Development &amp; Graphic Designing, Farming and Social Activism in The Field Year",
+      "spouseProfession": "NA",
+      "highestEducationLevel": "12thPass",
+      "highestEducationYear": null,
+      "latestTaxReturn": {
+        "self": {
+          "year": "None",
+          "amount": "Rs&nbsp;0",
+          "relation": null
+        },
+        "spouse": {
+          "year": "",
+          "amount": "Nil",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": "",
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": "",
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": "",
+            "amount": "Nil",
+            "relation": null
+          }
+        ]
+      },
+      "pendingCases": null,
+      "convictedCases": null,
+      "pendingCase": null,
+      "convictedCase": null,
+      "assets": {
+        "movableSelf": {
+          "year": null,
+          "amount": "3,80,719",
+          "relation": null
+        },
+        "movableSpouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "movableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "immovableSelf": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "immovableSpouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "immovableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "movableTotal": 0,
+        "immovableTotal": 0,
+        "candidateTotalAsset": 0,
+        "movableTotalString": "3,80,719",
+        "immovableTotalString": "Nil",
+        "candidateTotalAssetString": "0"
+      },
+      "liabilities": {
+        "self": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "spouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "candidateTotalLiability": 0,
+        "candidateTotalLiabilityString": "Nil"
+      },
+      "candidateTotalWealthString": "0",
+      "candidateTotalIncomeString": "0",
+      "candidateTotalWealth": 0,
+      "candidateTotalIncome": 0,
+      "promises": null,
+      "languages": null,
+      "mynetaCandidateUrl": "https://myneta.info/goa2022/candidate.php?candidate_id=9"
+    }
+  ]
+}

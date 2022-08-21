@@ -1,0 +1,777 @@
+{
+  "candidates": [
+    {
+      "candidateId": "OTEtMDUtMzVeQW50b25pbyBDYWV0YW5vIEZlcm5hbmRlc141Ng==",
+      "constituencyId": "91-05-35",
+      "constituencyName": "St.Cruz",
+      "name": "Antonio Caetano Fernandes",
+      "age": "56",
+      "sex": "male",
+      "caste": null,
+      "party": "Bharatiya Janata Party",
+      "telephone": null,
+      "email": null,
+      "address": "H. No. 1143, Segundo Bairro, Santa Cruz, Tiswadi - Goa",
+      "officialProfileLink": "https://affidavit.eci.gov.in/show-profile/MzE5Ng==/MjM=/MTM=/Mw==/QUM=",
+      "affidavitLink": null,
+      "officialPhotoLink": "https://suvidha.eci.gov.in/uploads1/candprofile/E13/2022/AC/s05/Anton-2022-20220128021348.jpg",
+      "socialMediaAccounts": null,
+      "socialMediaAccount": null,
+      "facebookId": null,
+      "twitterId": null,
+      "instagramId": null,
+      "whatsappId": null,
+      "selfProfession": "Business",
+      "spouseProfession": "Business",
+      "highestEducationLevel": "Others",
+      "highestEducationYear": null,
+      "latestTaxReturn": {
+        "self": {
+          "year": "",
+          "amount": "Rs&nbsp;5,71,831",
+          "relation": null
+        },
+        "spouse": {
+          "year": "",
+          "amount": "Rs&nbsp;3,83,031",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          }
+        ]
+      },
+      "pendingCases": null,
+      "convictedCases": null,
+      "pendingCase": null,
+      "convictedCase": null,
+      "assets": {
+        "movableSelf": {
+          "year": null,
+          "amount": "3,77,86,899",
+          "relation": null
+        },
+        "movableSpouse": {
+          "year": null,
+          "amount": "39,62,232",
+          "relation": null
+        },
+        "movableDependents": [
+          {
+            "year": null,
+            "amount": "3,10,000",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "immovableSelf": {
+          "year": null,
+          "amount": "2,68,00,000",
+          "relation": null
+        },
+        "immovableSpouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "immovableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "movableTotal": 0,
+        "immovableTotal": 0,
+        "candidateTotalAsset": 0,
+        "movableTotalString": "4,20,59,131",
+        "immovableTotalString": "2,68,00,000",
+        "candidateTotalAssetString": "0"
+      },
+      "liabilities": {
+        "self": {
+          "year": null,
+          "amount": "4,97,72,700",
+          "relation": null
+        },
+        "spouse": {
+          "year": null,
+          "amount": "22,45,668",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "candidateTotalLiability": 0,
+        "candidateTotalLiabilityString": "5,20,18,368"
+      },
+      "candidateTotalWealthString": "0",
+      "candidateTotalIncomeString": "0",
+      "candidateTotalWealth": 0,
+      "candidateTotalIncome": 0,
+      "promises": null,
+      "languages": null,
+      "mynetaCandidateUrl": "https://myneta.info/goa2022/candidate.php?candidate_id=190"
+    },
+    {
+      "candidateId": "OTEtMDUtMzVeUm9kb2xmbyBMb3VpcyBGZXJuYW5kZXNeNTU=",
+      "constituencyId": "91-05-35",
+      "constituencyName": "St.Cruz",
+      "name": "Rodolfo Louis Fernandes",
+      "age": "55",
+      "sex": "male",
+      "caste": null,
+      "party": "Indian National Congress",
+      "telephone": null,
+      "email": null,
+      "address": "H. No. 1310, Bondir, St. Cruz, Tiswadi, North Goa.",
+      "officialProfileLink": "https://affidavit.eci.gov.in/show-profile/MTU1Ng==/MjM=/MTM=/Mw==/QUM=",
+      "affidavitLink": null,
+      "officialPhotoLink": "https://suvidha.eci.gov.in/uploads1/candprofile/E13/2022/AC/S05/Rodol-2022-20220125051322.jpeg",
+      "socialMediaAccounts": null,
+      "socialMediaAccount": null,
+      "facebookId": null,
+      "twitterId": null,
+      "instagramId": null,
+      "whatsappId": null,
+      "selfProfession": "Business",
+      "spouseProfession": "Business",
+      "highestEducationLevel": "10thPass",
+      "highestEducationYear": null,
+      "latestTaxReturn": {
+        "self": {
+          "year": "",
+          "amount": "Rs&nbsp;38,62,277",
+          "relation": null
+        },
+        "spouse": {
+          "year": "",
+          "amount": "Rs&nbsp;38,62,277",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          }
+        ]
+      },
+      "pendingCases": [
+        {
+          "firNumber": "",
+          "policeStationName": "14/2019, Old Goa Police Station",
+          "sections": null,
+          "section": "",
+          "briefDescription": "1",
+          "caseNumber": "",
+          "courtName": "",
+          "chargesFramed": false,
+          "dateOfChargesFramed": "",
+          "appealAgainstProceedings": false,
+          "appealAgainstProceedingsDetails": "",
+          "convictionOrderDate": null,
+          "punishment": null,
+          "appealAgainstPunishment": false,
+          "appealAgainstPunishmentDetails": null,
+          "dateReleasedFromPrison": null
+        }
+      ],
+      "convictedCases": [],
+      "pendingCase": {
+        "firNumber": "",
+        "policeStationName": "14/2019, Old Goa Police Station",
+        "sections": null,
+        "section": "",
+        "briefDescription": "1",
+        "caseNumber": "",
+        "courtName": "",
+        "chargesFramed": false,
+        "dateOfChargesFramed": "",
+        "appealAgainstProceedings": false,
+        "appealAgainstProceedingsDetails": "",
+        "convictionOrderDate": null,
+        "punishment": null,
+        "appealAgainstPunishment": false,
+        "appealAgainstPunishmentDetails": null,
+        "dateReleasedFromPrison": null
+      },
+      "convictedCase": {
+        "firNumber": null,
+        "policeStationName": null,
+        "sections": null,
+        "section": null,
+        "briefDescription": null,
+        "caseNumber": null,
+        "courtName": null,
+        "chargesFramed": false,
+        "dateOfChargesFramed": null,
+        "appealAgainstProceedings": false,
+        "appealAgainstProceedingsDetails": null,
+        "convictionOrderDate": null,
+        "punishment": null,
+        "appealAgainstPunishment": false,
+        "appealAgainstPunishmentDetails": null,
+        "dateReleasedFromPrison": null
+      },
+      "assets": {
+        "movableSelf": {
+          "year": null,
+          "amount": "4,91,83,389",
+          "relation": null
+        },
+        "movableSpouse": {
+          "year": null,
+          "amount": "4,91,83,389",
+          "relation": null
+        },
+        "movableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "immovableSelf": {
+          "year": null,
+          "amount": "12,41,47,487",
+          "relation": null
+        },
+        "immovableSpouse": {
+          "year": null,
+          "amount": "12,41,47,487",
+          "relation": null
+        },
+        "immovableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "movableTotal": 0,
+        "immovableTotal": 0,
+        "candidateTotalAsset": 0,
+        "movableTotalString": "9,83,66,778",
+        "immovableTotalString": "24,82,94,974",
+        "candidateTotalAssetString": "0"
+      },
+      "liabilities": {
+        "self": {
+          "year": null,
+          "amount": "36,08,091",
+          "relation": null
+        },
+        "spouse": {
+          "year": null,
+          "amount": "36,08,091",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "candidateTotalLiability": 0,
+        "candidateTotalLiabilityString": "72,16,182"
+      },
+      "candidateTotalWealthString": "0",
+      "candidateTotalIncomeString": "0",
+      "candidateTotalWealth": 0,
+      "candidateTotalIncome": 0,
+      "promises": null,
+      "languages": null,
+      "mynetaCandidateUrl": "https://myneta.info/goa2022/candidate.php?candidate_id=53"
+    },
+    {
+      "candidateId": "OTEtMDUtMzVeVmljdG9yIEJlbmphbWluIEdvbnNhbHZlc142MA==",
+      "constituencyId": "91-05-35",
+      "constituencyName": "St.Cruz",
+      "name": "Victor Benjamin Gonsalves",
+      "age": "60",
+      "sex": "male",
+      "caste": null,
+      "party": "All India Trinamool Congress",
+      "telephone": null,
+      "email": null,
+      "address": "H. No. 1057, Premeiro Bairro, St. Cruz, Calapor, Tiswadi, North Goa - 403602",
+      "officialProfileLink": "https://affidavit.eci.gov.in/show-profile/MzExNQ==/MjM=/MTM=/Mw==/QUM=",
+      "affidavitLink": null,
+      "officialPhotoLink": "https://suvidha.eci.gov.in/uploads1/candprofile/E13/2022/AC/s05/Victo-2022-20220128013922.jpg",
+      "socialMediaAccounts": null,
+      "socialMediaAccount": null,
+      "facebookId": null,
+      "twitterId": null,
+      "instagramId": null,
+      "whatsappId": null,
+      "selfProfession": "Social Worker",
+      "spouseProfession": "Engineer",
+      "highestEducationLevel": "Graduate",
+      "highestEducationYear": null,
+      "latestTaxReturn": {
+        "self": {
+          "year": "",
+          "amount": "Rs&nbsp;0",
+          "relation": null
+        },
+        "spouse": {
+          "year": "None",
+          "amount": "Rs&nbsp;0",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          }
+        ]
+      },
+      "pendingCases": null,
+      "convictedCases": null,
+      "pendingCase": null,
+      "convictedCase": null,
+      "assets": {
+        "movableSelf": {
+          "year": null,
+          "amount": "8,06,975",
+          "relation": null
+        },
+        "movableSpouse": {
+          "year": null,
+          "amount": "5,00,000",
+          "relation": null
+        },
+        "movableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "immovableSelf": {
+          "year": null,
+          "amount": "30,00,000",
+          "relation": null
+        },
+        "immovableSpouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "immovableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "movableTotal": 0,
+        "immovableTotal": 0,
+        "candidateTotalAsset": 0,
+        "movableTotalString": "13,06,975",
+        "immovableTotalString": "30,00,000",
+        "candidateTotalAssetString": "0"
+      },
+      "liabilities": {
+        "self": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "spouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "candidateTotalLiability": 0,
+        "candidateTotalLiabilityString": "Nil"
+      },
+      "candidateTotalWealthString": "0",
+      "candidateTotalIncomeString": "0",
+      "candidateTotalWealth": 0,
+      "candidateTotalIncome": 0,
+      "promises": null,
+      "languages": null,
+      "mynetaCandidateUrl": "https://myneta.info/goa2022/candidate.php?candidate_id=191"
+    },
+    {
+      "candidateId": "OTEtMDUtMzVeQWpheSBUaXB1IEtob2xrYXJeMzM=",
+      "constituencyId": "91-05-35",
+      "constituencyName": "St.Cruz",
+      "name": "Ajay Tipu Kholkar",
+      "age": "33",
+      "sex": "male",
+      "caste": null,
+      "party": "Revolutionary Goans Party",
+      "telephone": null,
+      "email": null,
+      "address": "H.No. 25, Gawantwado Chimbel Tiswadi Goa 403006",
+      "officialProfileLink": "https://affidavit.eci.gov.in/show-profile/MTMxOQ==/MjM=/MTM=/Mw==/QUM=",
+      "affidavitLink": null,
+      "officialPhotoLink": "https://suvidha.eci.gov.in/uploads1/candprofile/2022/ac/E13/S05/13/1643011246AJAY NEW 1.jpg",
+      "socialMediaAccounts": null,
+      "socialMediaAccount": null,
+      "facebookId": null,
+      "twitterId": null,
+      "instagramId": null,
+      "whatsappId": null,
+      "selfProfession": "Service",
+      "spouseProfession": "Nil",
+      "highestEducationLevel": "Graduate",
+      "highestEducationYear": null,
+      "latestTaxReturn": {
+        "self": {
+          "year": "",
+          "amount": "Rs&nbsp;5,59,380",
+          "relation": null
+        },
+        "spouse": {
+          "year": "None",
+          "amount": "Rs&nbsp;0",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          }
+        ]
+      },
+      "pendingCases": null,
+      "convictedCases": null,
+      "pendingCase": null,
+      "convictedCase": null,
+      "assets": {
+        "movableSelf": {
+          "year": null,
+          "amount": "1,33,283",
+          "relation": null
+        },
+        "movableSpouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "movableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "immovableSelf": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "immovableSpouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "immovableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "movableTotal": 0,
+        "immovableTotal": 0,
+        "candidateTotalAsset": 0,
+        "movableTotalString": "1,33,283",
+        "immovableTotalString": "Nil",
+        "candidateTotalAssetString": "0"
+      },
+      "liabilities": {
+        "self": {
+          "year": null,
+          "amount": "31,035",
+          "relation": null
+        },
+        "spouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "candidateTotalLiability": 0,
+        "candidateTotalLiabilityString": "31,035"
+      },
+      "candidateTotalWealthString": "0",
+      "candidateTotalIncomeString": "0",
+      "candidateTotalWealth": 0,
+      "candidateTotalIncome": 0,
+      "promises": null,
+      "languages": null,
+      "mynetaCandidateUrl": "https://myneta.info/goa2022/candidate.php?candidate_id=37"
+    },
+    {
+      "candidateId": "OTEtMDUtMzVeQW1pdCBQYWxla2FyXjQ1",
+      "constituencyId": "91-05-35",
+      "constituencyName": "St.Cruz",
+      "name": "Amit Palekar",
+      "age": "45",
+      "sex": "male",
+      "caste": null,
+      "party": "Aam Aadmi Party",
+      "telephone": null,
+      "email": null,
+      "address": "H. No. 120/2, Merces, St. Caetano Dorovnem, St. Cruz, Goa - 403005",
+      "officialProfileLink": "https://affidavit.eci.gov.in/show-profile/MzI0MA==/MjM=/MTM=/Mw==/QUM=",
+      "affidavitLink": null,
+      "officialPhotoLink": "https://suvidha.eci.gov.in/uploads1/candprofile/E13/2022/AC/s05/AmitP-2022-20220128022836.jpg",
+      "socialMediaAccounts": null,
+      "socialMediaAccount": null,
+      "facebookId": null,
+      "twitterId": null,
+      "instagramId": null,
+      "whatsappId": null,
+      "selfProfession": "Legal Professional",
+      "spouseProfession": "Business",
+      "highestEducationLevel": "PostGraduate",
+      "highestEducationYear": null,
+      "latestTaxReturn": {
+        "self": {
+          "year": "",
+          "amount": "Rs&nbsp;19,07,670",
+          "relation": null
+        },
+        "spouse": {
+          "year": "",
+          "amount": "Rs&nbsp;19,07,670",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          }
+        ]
+      },
+      "pendingCases": null,
+      "convictedCases": null,
+      "pendingCase": null,
+      "convictedCase": null,
+      "assets": {
+        "movableSelf": {
+          "year": null,
+          "amount": "6,66,61,350",
+          "relation": null
+        },
+        "movableSpouse": {
+          "year": null,
+          "amount": "11,25,469",
+          "relation": null
+        },
+        "movableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "immovableSelf": {
+          "year": null,
+          "amount": "4,78,14,666",
+          "relation": null
+        },
+        "immovableSpouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "immovableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "movableTotal": 0,
+        "immovableTotal": 0,
+        "candidateTotalAsset": 0,
+        "movableTotalString": "6,77,86,819",
+        "immovableTotalString": "4,78,14,666",
+        "candidateTotalAssetString": "0"
+      },
+      "liabilities": {
+        "self": {
+          "year": null,
+          "amount": "9,15,42,039",
+          "relation": null
+        },
+        "spouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "candidateTotalLiability": 0,
+        "candidateTotalLiabilityString": "9,15,42,039"
+      },
+      "candidateTotalWealthString": "0",
+      "candidateTotalIncomeString": "0",
+      "candidateTotalWealth": 0,
+      "candidateTotalIncome": 0,
+      "promises": null,
+      "languages": null,
+      "mynetaCandidateUrl": "https://myneta.info/goa2022/candidate.php?candidate_id=192"
+    }
+  ]
+}

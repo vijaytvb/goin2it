@@ -17,6 +17,21 @@
   </div>
 
 
+	  <div class="media-body ml-0">
+		<a href="https://goin2it-com.translate.goog/?_x_tr_sch=http&_x_tr_sl=en&_x_tr_tl=hi&_x_tr_hl=en&_x_tr_pto=wapp" target="blank">हिंदी संस्करण पर जाएं</a> 
+	  </div>
+	  <div class="media-body ml-0">
+		<a href="https://goin2it-com.translate.goog/?_x_tr_sch=http&_x_tr_sl=en&_x_tr_tl=ur&_x_tr_hl=en&_x_tr_pto=wapp" target="blank">اردو ورژن پر جائیں۔</a> 
+	  </div>
+	  <div class="media-body ml-0">
+		<a href="https://goin2it-com.translate.goog/?_x_tr_sch=http&_x_tr_sl=en&_x_tr_tl=mr&_x_tr_hl=en&_x_tr_pto=wapp" target="blank">मराठी आवृत्तीवर जा </a> 
+	  </div>
+	  <div class="media-body ml-0">
+		<a href="https://goin2it-com.translate.goog/?_x_tr_sch=http&_x_tr_sl=en&_x_tr_tl=pa&_x_tr_hl=en&_x_tr_pto=wapp" target="blank">ਪੰਜਾਬੀ ਸੰਸਕਰਣ 'ਤੇ ਜਾਓ </a> 
+	  </div>
+
+
+
   <div class="container py-2">
     <div class="row">
       <span class="col-lg-3 col-md-3">
@@ -59,7 +74,7 @@
               <i class="fa fa-caret-down fa-fw"></i>
             </a>
             <div id="filters" class="collapse show">
-              <label *ngIf="_availableSex.length > 0">Sex</label>
+              <label *ngIf="_availableSex.length > 0">Gender</label>
               <ng-container *ngFor="let sex of _availableSex">
                 <div *ngIf="sex == 'male'" class="custom-control custom-checkbox mb-2">
                   <input class="custom-control-input" id="sexOption1" type="checkbox" [(ngModel)]="_filters.sex.male"
@@ -146,41 +161,45 @@
           <div class="card shadow-sm border-0 reset-anchor d-block hover-transition">
             <div class="row col-12">
 
-              <div class=" col-6">
+              <!--<div class=" col-6">
                 <div id="imagePreview" class="text-center">
-                  <img height="150px" width="auto" class="rounded-circle" src="{{candidate.officialPhotoLink}}"
-                    alt="...">
+                <img height="150px" width="auto" class="rounded-circle" src="{{candidate.officialPhotoLink}}"
+                    alt="..."> 
                   <div class="no-gutter row col-12 justify-content-center">
                     <a href="{{candidate.officialProfileLink}}" target="_blank">Offical link</a>
                   </div>
                 </div>
-              </div>
+              </div>-->
 
-              <div class="col-6">
-                <div class="media-body ml-0">
-                  <h6 class="mb-0">Name</h6>
-                  <p class="text-capitalize text-muted text-small mb-0">{{candidate.name | titlecase}}</p>
+              
+
+              <div class="row col-12">
+                <div class="col-6">
+                      <a href="{{candidate.officialProfileLink}}" target="_blank">ECI Candidate link</a>
                 </div>
-                <div class="media-body ml-0">
-                  <h6 class="mb-0">Age</h6>
-                  <p class="text-muted text-small mb-0">{{candidate.age}}</p>
+                <div class="col-6">
+                      <a href="{{candidate.mynetaCandidateUrl}}" target="_blank">MyNeta candidate link</a>
                 </div>
-                <div class="media-body ml-0">
-                  <h6 class="mb-0">Party</h6>
-                  <p class="text-muted text-small mb-0">{{candidate.party}}</p>
+                <div class="col-5">
+                   <h6 class="mb-0">Name</h6>
+                    <p class="text-capitalize text-muted text-small mb-0">{{candidate.name | titlecase}}</p>
                 </div>
-                <div class="media-body ml-0">
+                <div class="col-2">
+                   <h6 class="mb-0">Age</h6>
+                    <p class="text-muted text-small mb-0">{{candidate.age}}</p>
+                </div>
+                <div class="col-5">
+                    <h6 class="mb-0">Party</h6>
+                    <p class="text-muted text-small mb-0">{{candidate.party}}</p>
+                </div>
+                <div class="col-6">
                   <h6 class="mb-0">Education</h6>
                   <p class="text-muted text-small mb-0">{{candidate.highestEducationLevel | titlecase}}</p>
                 </div>
-                <div class="media-body ml-0">
+                <div class="col-6">
                   <h6 class="mb-0">Profession</h6>
                   <p class="text-muted text-small mb-0">{{candidate.selfProfession | titlecase}}</p>
                 </div>
-              </div>
-
-
-              <div class="row col-12">
                 <div class="col-6">
                   <h6 class="mb-0">Total Wealth</h6>
                   <p class="text-muted text-small mb-0"> {{ candidate.candidateTotalWealth.toLocaleString('en-IN', { style: 'currency', currency: 'INR', maximumFractionDigits: 0 , minimumFractionDigits: 0}) }}</p>
@@ -188,7 +207,6 @@
                 <div class="col-6">
                   <h6 class="mb-0">Income</h6>
                   <p class="text-muted text-small mb-0"> {{ candidate.candidateTotalIncome.toLocaleString('en-IN' , { style: 'currency', currency: 'INR', maximumFractionDigits: 0, minimumFractionDigits: 0}) }}</p>
-
                 </div>
                 <div class="col-6">
                   <h6 class="mb-0">Pending Case</h6>
@@ -201,9 +219,32 @@
                   <p class="text-muted text-small mb-0" *ngIf="candidate.convictedCase">Yes</p>
                 </div>
               </div>
-
-              <div class="row col-12 d-flex justify-content-center" style="padding-bottom: 2%;">
-                <a class="btn-primary" routerLink='detail/{{_selectedConstituency}}/{{candidate.candidateId}}'
+              <div class="col-6">
+                <h6 class="mb-0">EMail</h6>
+                <p class="text-muted text-small mb-0">{{candidate.email}}</p>
+              </div>
+              <div class="col-6">
+                <h6 class="mb-0">Phone</h6>
+                <p class="text-muted text-small mb-0">{{candidate.telephone}}</p>
+              </div>
+              <div class="col-3" *ngIf="candidate.whatsappId">
+                <a href="{{candidate.whatsappId}}" target="_blank">WhatsApp Link</a>
+              </div>
+              <div class="col-3" *ngIf="candidate.facebookId">
+                <a href="{{candidate.facebookId}}" target="_blank">Facebook Link</a>
+              </div>
+              <div class="col-3" *ngIf="candidate.twitterId">
+                <a href="{{candidate.twitterId}}" target="_blank">Twitter Link</a>
+              </div>
+              <div class="col-3" *ngIf="candidate.instagramId">
+                <a href="{{candidate.instagramId}}" target="_blank">Instagram Link</a>
+              </div>
+              <!--<div class="col-6 d-flex justify-content-center" style="padding-bottom: 2%;">
+                <a style="background-color: chocolate; color:white;" routerLink='candidate/{{candidate.candidateId}}' 
+                  target="blank">View Promises</a>
+              </div>-->
+              <div class="col-6 d-flex justify-content-center" style="padding-bottom: 2%;">
+                <a class="btn-info" routerLink='detail/{{_selectedConstituency}}/{{candidate.candidateId}}' 
                   target="blank">View More</a>
               </div>
             </div>

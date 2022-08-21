@@ -1,0 +1,1640 @@
+{
+  "candidates": [
+    {
+      "candidateId": "OTEtMjQtMV5LdW53YXIgQ2hhbmReNjM=",
+      "constituencyId": "91-24-1",
+      "constituencyName": "Agra Cantt.",
+      "name": "Kunwar Chand",
+      "age": "63",
+      "sex": "male",
+      "caste": null,
+      "party": "Samajwadi Party",
+      "telephone": null,
+      "email": null,
+      "address": "66/711 Jagner Road Varwali Gali Naripura Agra",
+      "officialProfileLink": "https://affidavit.eci.gov.in/show-profile/MjE2/MjM=/MTM=/Mw==/QUM=",
+      "affidavitLink": null,
+      "officialPhotoLink": "https://suvidha.eci.gov.in/uploads1/candprofile/E13/2022/AC/s24/KUNWA-2022-20220119051715.jpeg",
+      "socialMediaAccounts": null,
+      "socialMediaAccount": null,
+      "facebookId": null,
+      "twitterId": null,
+      "instagramId": null,
+      "whatsappId": null,
+      "selfProfession": "Private work",
+      "spouseProfession": "Housewife",
+      "highestEducationLevel": "GraduateProfessional",
+      "highestEducationYear": null,
+      "latestTaxReturn": {
+        "self": {
+          "year": "",
+          "amount": "Rs&nbsp;2,48,960",
+          "relation": null
+        },
+        "spouse": {
+          "year": "None",
+          "amount": "Rs&nbsp;0",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          }
+        ]
+      },
+      "pendingCases": null,
+      "convictedCases": null,
+      "pendingCase": null,
+      "convictedCase": null,
+      "assets": {
+        "movableSelf": {
+          "year": null,
+          "amount": "13,40,202",
+          "relation": null
+        },
+        "movableSpouse": {
+          "year": null,
+          "amount": "4,76,562",
+          "relation": null
+        },
+        "movableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "immovableSelf": {
+          "year": null,
+          "amount": "81,00,000",
+          "relation": null
+        },
+        "immovableSpouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "immovableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "movableTotal": 1816764,
+        "immovableTotal": 8100000,
+        "candidateTotalAsset": 9916764,
+        "movableTotalString": "18,16,764",
+        "immovableTotalString": "81,00,000",
+        "candidateTotalAssetString": "99,16,764"
+      },
+      "liabilities": {
+        "self": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "spouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "candidateTotalLiability": 0,
+        "candidateTotalLiabilityString": "Nil"
+      },
+      "candidateTotalWealthString": "99,16,764",
+      "candidateTotalIncomeString": "2,48,960",
+      "candidateTotalWealth": 9916764,
+      "candidateTotalIncome": 248960,
+      "promises": null,
+      "languages": null,
+      "mynetaCandidateUrl": "https://myneta.info/Uttarpradesh2022/candidate.php?candidate_id=83"
+    },
+    {
+      "candidateId": "OTEtMjQtMV5Eci4gRyBTIERoYXJtZXNoXjY4",
+      "constituencyId": "91-24-1",
+      "constituencyName": "Agra Cantt.",
+      "name": "Dr. G S Dharmesh",
+      "age": "68",
+      "sex": "male",
+      "caste": null,
+      "party": "Bharatiya Janata Party",
+      "telephone": null,
+      "email": null,
+      "address": "85 Defence State Phase-1 Thana Sadar Tehsil Agra District Agra-282001",
+      "officialProfileLink": "https://affidavit.eci.gov.in/show-profile/MTk3/MjM=/MTM=/Mw==/QUM=",
+      "affidavitLink": null,
+      "officialPhotoLink": "https://suvidha.eci.gov.in/uploads1/candprofile/E13/2022/AC/S24/Dr.GS-2022-20220119045143.jpeg",
+      "socialMediaAccounts": null,
+      "socialMediaAccount": null,
+      "facebookId": null,
+      "twitterId": null,
+      "instagramId": null,
+      "whatsappId": null,
+      "selfProfession": "Medical Business and Petrol pump , MLA allowances",
+      "spouseProfession": "Rent income",
+      "highestEducationLevel": "GraduateProfessional",
+      "highestEducationYear": null,
+      "latestTaxReturn": {
+        "self": {
+          "year": "",
+          "amount": "Rs&nbsp;8,17,146",
+          "relation": null
+        },
+        "spouse": {
+          "year": "",
+          "amount": "Rs&nbsp;3,92,500",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          }
+        ]
+      },
+      "pendingCases": [
+        {
+          "firNumber": "2700038/2013",
+          "policeStationName": "NCR No.11/2012, Rakabganj Agra",
+          "sections": null,
+          "section": "Sec.127A Representation of Peoples Act",
+          "briefDescription": "1",
+          "caseNumber": "2700038/2013",
+          "courtName": "A.C.J.M. First Agra",
+          "chargesFramed": false,
+          "dateOfChargesFramed": "05 Dec 2016",
+          "appealAgainstProceedings": false,
+          "appealAgainstProceedingsDetails": "",
+          "convictionOrderDate": null,
+          "punishment": null,
+          "appealAgainstPunishment": false,
+          "appealAgainstPunishmentDetails": null,
+          "dateReleasedFromPrison": null
+        }
+      ],
+      "convictedCases": [],
+      "pendingCase": {
+        "firNumber": "2700038/2013",
+        "policeStationName": "NCR No.11/2012, Rakabganj Agra",
+        "sections": null,
+        "section": "Sec.127A Representation of Peoples Act",
+        "briefDescription": "1",
+        "caseNumber": "2700038/2013",
+        "courtName": "A.C.J.M. First Agra",
+        "chargesFramed": false,
+        "dateOfChargesFramed": "05 Dec 2016",
+        "appealAgainstProceedings": false,
+        "appealAgainstProceedingsDetails": "",
+        "convictionOrderDate": null,
+        "punishment": null,
+        "appealAgainstPunishment": false,
+        "appealAgainstPunishmentDetails": null,
+        "dateReleasedFromPrison": null
+      },
+      "convictedCase": {
+        "firNumber": null,
+        "policeStationName": null,
+        "sections": null,
+        "section": null,
+        "briefDescription": null,
+        "caseNumber": null,
+        "courtName": null,
+        "chargesFramed": false,
+        "dateOfChargesFramed": null,
+        "appealAgainstProceedings": false,
+        "appealAgainstProceedingsDetails": null,
+        "convictionOrderDate": null,
+        "punishment": null,
+        "appealAgainstPunishment": false,
+        "appealAgainstPunishmentDetails": null,
+        "dateReleasedFromPrison": null
+      },
+      "assets": {
+        "movableSelf": {
+          "year": null,
+          "amount": "85,57,778",
+          "relation": null
+        },
+        "movableSpouse": {
+          "year": null,
+          "amount": "10,40,000",
+          "relation": null
+        },
+        "movableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "immovableSelf": {
+          "year": null,
+          "amount": "1,90,00,000",
+          "relation": null
+        },
+        "immovableSpouse": {
+          "year": null,
+          "amount": "1,50,00,000",
+          "relation": null
+        },
+        "immovableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "movableTotal": 9597778,
+        "immovableTotal": 34000000,
+        "candidateTotalAsset": 43597778,
+        "movableTotalString": "95,97,778",
+        "immovableTotalString": "3,40,00,000",
+        "candidateTotalAssetString": "4,35,97,778"
+      },
+      "liabilities": {
+        "self": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "spouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "candidateTotalLiability": 0,
+        "candidateTotalLiabilityString": "Nil"
+      },
+      "candidateTotalWealthString": "4,35,97,778",
+      "candidateTotalIncomeString": "12,09,646",
+      "candidateTotalWealth": 43597778,
+      "candidateTotalIncome": 1209646,
+      "promises": null,
+      "languages": null,
+      "mynetaCandidateUrl": "https://myneta.info/Uttarpradesh2022/candidate.php?candidate_id=82"
+    },
+    {
+      "candidateId": "OTEtMjQtMV5Eci4gQmhhcnRlbmRyYSBLdW1hciBBcnVuXjQ3",
+      "constituencyId": "91-24-1",
+      "constituencyName": "Agra Cantt.",
+      "name": "Dr. Bhartendra Kumar Arun",
+      "age": "47",
+      "sex": "male",
+      "caste": null,
+      "party": "Bahujan Samaj Party",
+      "telephone": null,
+      "email": null,
+      "address": "39/88Q/12A Nandpura Arun Market Devri Road Tehsil Sadar Agra-282001",
+      "officialProfileLink": "https://affidavit.eci.gov.in/show-profile/Mzkx/MjM=/MTM=/Mw==/QUM=",
+      "affidavitLink": null,
+      "officialPhotoLink": "https://suvidha.eci.gov.in/uploads1/candprofile/E13/2022/AC/s24/DRBHA-2022-20220120042856.jpeg",
+      "socialMediaAccounts": null,
+      "socialMediaAccount": null,
+      "facebookId": null,
+      "twitterId": null,
+      "instagramId": null,
+      "whatsappId": null,
+      "selfProfession": "Property dealer, rent income from shops",
+      "spouseProfession": "Housewife",
+      "highestEducationLevel": "Graduate",
+      "highestEducationYear": null,
+      "latestTaxReturn": {
+        "self": {
+          "year": "",
+          "amount": "Rs&nbsp;3,74,000",
+          "relation": null
+        },
+        "spouse": {
+          "year": "",
+          "amount": "Rs&nbsp;4,50,120",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          }
+        ]
+      },
+      "pendingCases": [
+        {
+          "firNumber": "132/2018",
+          "policeStationName": "Sadar Police Station, Agra",
+          "sections": null,
+          "section": "Sec.138 N.I. Act",
+          "briefDescription": "1",
+          "caseNumber": "132/2018",
+          "courtName": "Additional Court no.2",
+          "chargesFramed": false,
+          "dateOfChargesFramed": "",
+          "appealAgainstProceedings": false,
+          "appealAgainstProceedingsDetails": "",
+          "convictionOrderDate": null,
+          "punishment": null,
+          "appealAgainstPunishment": false,
+          "appealAgainstPunishmentDetails": null,
+          "dateReleasedFromPrison": null
+        },
+        {
+          "firNumber": "120/2018",
+          "policeStationName": "Sadar Police Station, Agra",
+          "sections": null,
+          "section": "Sec.138 N.I. Act",
+          "briefDescription": "2",
+          "caseNumber": "120/2018",
+          "courtName": "Additional Court no.2",
+          "chargesFramed": false,
+          "dateOfChargesFramed": "",
+          "appealAgainstProceedings": false,
+          "appealAgainstProceedingsDetails": "",
+          "convictionOrderDate": null,
+          "punishment": null,
+          "appealAgainstPunishment": false,
+          "appealAgainstPunishmentDetails": null,
+          "dateReleasedFromPrison": null
+        },
+        {
+          "firNumber": "118/2018",
+          "policeStationName": "Sadar Police Station, Agra",
+          "sections": null,
+          "section": "Sec.138 N.I. Act",
+          "briefDescription": "3",
+          "caseNumber": "118/2018",
+          "courtName": "Additional Court no.2",
+          "chargesFramed": false,
+          "dateOfChargesFramed": "",
+          "appealAgainstProceedings": false,
+          "appealAgainstProceedingsDetails": "",
+          "convictionOrderDate": null,
+          "punishment": null,
+          "appealAgainstPunishment": false,
+          "appealAgainstPunishmentDetails": null,
+          "dateReleasedFromPrison": null
+        },
+        {
+          "firNumber": "133/2018",
+          "policeStationName": "Sadar Police Station, Agra",
+          "sections": null,
+          "section": "Sec.138 N.I. Act",
+          "briefDescription": "4",
+          "caseNumber": "133/2018",
+          "courtName": "Additional Court no.2",
+          "chargesFramed": false,
+          "dateOfChargesFramed": "",
+          "appealAgainstProceedings": false,
+          "appealAgainstProceedingsDetails": "",
+          "convictionOrderDate": null,
+          "punishment": null,
+          "appealAgainstPunishment": false,
+          "appealAgainstPunishmentDetails": null,
+          "dateReleasedFromPrison": null
+        },
+        {
+          "firNumber": "112/2018",
+          "policeStationName": "Sadar Police Station, Agra",
+          "sections": null,
+          "section": "Sec.138 N.I. Act",
+          "briefDescription": "5",
+          "caseNumber": "112/2018",
+          "courtName": "Additional Court no.2",
+          "chargesFramed": false,
+          "dateOfChargesFramed": "",
+          "appealAgainstProceedings": false,
+          "appealAgainstProceedingsDetails": "",
+          "convictionOrderDate": null,
+          "punishment": null,
+          "appealAgainstPunishment": false,
+          "appealAgainstPunishmentDetails": null,
+          "dateReleasedFromPrison": null
+        },
+        {
+          "firNumber": "134/2018",
+          "policeStationName": "Sadar Police Station, Agra",
+          "sections": null,
+          "section": "Sec.138 N.I. Act",
+          "briefDescription": "6",
+          "caseNumber": "134/2018",
+          "courtName": "Additional Court no.2",
+          "chargesFramed": false,
+          "dateOfChargesFramed": "",
+          "appealAgainstProceedings": false,
+          "appealAgainstProceedingsDetails": "",
+          "convictionOrderDate": null,
+          "punishment": null,
+          "appealAgainstPunishment": false,
+          "appealAgainstPunishmentDetails": null,
+          "dateReleasedFromPrison": null
+        }
+      ],
+      "convictedCases": [],
+      "pendingCase": {
+        "firNumber": "132/2018",
+        "policeStationName": "Sadar Police Station, Agra",
+        "sections": null,
+        "section": "Sec.138 N.I. Act",
+        "briefDescription": "1",
+        "caseNumber": "132/2018",
+        "courtName": "Additional Court no.2",
+        "chargesFramed": false,
+        "dateOfChargesFramed": "",
+        "appealAgainstProceedings": false,
+        "appealAgainstProceedingsDetails": "",
+        "convictionOrderDate": null,
+        "punishment": null,
+        "appealAgainstPunishment": false,
+        "appealAgainstPunishmentDetails": null,
+        "dateReleasedFromPrison": null
+      },
+      "convictedCase": {
+        "firNumber": null,
+        "policeStationName": null,
+        "sections": null,
+        "section": null,
+        "briefDescription": null,
+        "caseNumber": null,
+        "courtName": null,
+        "chargesFramed": false,
+        "dateOfChargesFramed": null,
+        "appealAgainstProceedings": false,
+        "appealAgainstProceedingsDetails": null,
+        "convictionOrderDate": null,
+        "punishment": null,
+        "appealAgainstPunishment": false,
+        "appealAgainstPunishmentDetails": null,
+        "dateReleasedFromPrison": null
+      },
+      "assets": {
+        "movableSelf": {
+          "year": null,
+          "amount": "57,96,887",
+          "relation": null
+        },
+        "movableSpouse": {
+          "year": null,
+          "amount": "33,34,711",
+          "relation": null
+        },
+        "movableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "immovableSelf": {
+          "year": null,
+          "amount": "4,48,27,000",
+          "relation": null
+        },
+        "immovableSpouse": {
+          "year": null,
+          "amount": "1,14,62,000",
+          "relation": null
+        },
+        "immovableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "movableTotal": 9131598,
+        "immovableTotal": 56289000,
+        "candidateTotalAsset": 65420598,
+        "movableTotalString": "91,31,598",
+        "immovableTotalString": "5,62,89,000",
+        "candidateTotalAssetString": "6,54,20,598"
+      },
+      "liabilities": {
+        "self": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "spouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "candidateTotalLiability": 0,
+        "candidateTotalLiabilityString": "Nil"
+      },
+      "candidateTotalWealthString": "6,54,20,598",
+      "candidateTotalIncomeString": "8,24,120",
+      "candidateTotalWealth": 65420598,
+      "candidateTotalIncome": 824120,
+      "promises": null,
+      "languages": null,
+      "mynetaCandidateUrl": "https://myneta.info/Uttarpradesh2022/candidate.php?candidate_id=264"
+    },
+    {
+      "candidateId": "OTEtMjQtMV5TaWthbmRhciBTaW5naF4zNA==",
+      "constituencyId": "91-24-1",
+      "constituencyName": "Agra Cantt.",
+      "name": "Sikandar Singh",
+      "age": "34",
+      "sex": "male",
+      "caste": null,
+      "party": "Indian National Congress",
+      "telephone": null,
+      "email": null,
+      "address": "36/12/10 Mohanpura Agra",
+      "officialProfileLink": "https://affidavit.eci.gov.in/show-profile/MTA3OA==/MjM=/MTM=/Mw==/QUM=",
+      "affidavitLink": null,
+      "officialPhotoLink": "https://suvidha.eci.gov.in/uploads1/candprofile/E13/2022/AC/s24/SIKAN-2022-20220121091528.jpeg",
+      "socialMediaAccounts": null,
+      "socialMediaAccount": null,
+      "facebookId": null,
+      "twitterId": null,
+      "instagramId": null,
+      "whatsappId": null,
+      "selfProfession": "Business",
+      "spouseProfession": "Housewife",
+      "highestEducationLevel": "12thPass",
+      "highestEducationYear": null,
+      "latestTaxReturn": {
+        "self": {
+          "year": "None",
+          "amount": "Rs&nbsp;0",
+          "relation": null
+        },
+        "spouse": {
+          "year": "",
+          "amount": "Nil",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": "",
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": "",
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": "",
+            "amount": "Nil",
+            "relation": null
+          }
+        ]
+      },
+      "pendingCases": null,
+      "convictedCases": null,
+      "pendingCase": null,
+      "convictedCase": null,
+      "assets": {
+        "movableSelf": {
+          "year": null,
+          "amount": "19,94,000",
+          "relation": null
+        },
+        "movableSpouse": {
+          "year": null,
+          "amount": "1,88,000",
+          "relation": null
+        },
+        "movableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "immovableSelf": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "immovableSpouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "immovableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "movableTotal": 2182000,
+        "immovableTotal": 0,
+        "candidateTotalAsset": 2182000,
+        "movableTotalString": "21,82,000",
+        "immovableTotalString": "Nil",
+        "candidateTotalAssetString": "21,82,000"
+      },
+      "liabilities": {
+        "self": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "spouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "candidateTotalLiability": 0,
+        "candidateTotalLiabilityString": "Nil"
+      },
+      "candidateTotalWealthString": "21,82,000",
+      "candidateTotalIncomeString": "0",
+      "candidateTotalWealth": 2182000,
+      "candidateTotalIncome": 0,
+      "promises": null,
+      "languages": null,
+      "mynetaCandidateUrl": "https://myneta.info/Uttarpradesh2022/candidate.php?candidate_id=646"
+    },
+    {
+      "candidateId": "OTEtMjQtMV5QcmVtIFNpbmdoXjMy",
+      "constituencyId": "91-24-1",
+      "constituencyName": "Agra Cantt.",
+      "name": "Prem Singh",
+      "age": "32",
+      "sex": "male",
+      "caste": null,
+      "party": "Aam Aadmi Party",
+      "telephone": null,
+      "email": null,
+      "address": "53/170A Nagla Chhaua Agra",
+      "officialProfileLink": "https://affidavit.eci.gov.in/show-profile/MjIx/MjM=/MTM=/Mw==/QUM=",
+      "affidavitLink": null,
+      "officialPhotoLink": "https://suvidha.eci.gov.in/uploads1/candprofile/E13/2022/AC/s24/PREMS-2022-20220119052944.jpeg",
+      "socialMediaAccounts": null,
+      "socialMediaAccount": null,
+      "facebookId": null,
+      "twitterId": null,
+      "instagramId": null,
+      "whatsappId": null,
+      "selfProfession": "Business",
+      "spouseProfession": "Not Applicable",
+      "highestEducationLevel": "PostGraduate",
+      "highestEducationYear": null,
+      "latestTaxReturn": {
+        "self": {
+          "year": "",
+          "amount": "Rs&nbsp;4,85,060",
+          "relation": null
+        },
+        "spouse": {
+          "year": "None",
+          "amount": "Rs&nbsp;0",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          }
+        ]
+      },
+      "pendingCases": null,
+      "convictedCases": null,
+      "pendingCase": null,
+      "convictedCase": null,
+      "assets": {
+        "movableSelf": {
+          "year": null,
+          "amount": "1,07,121",
+          "relation": null
+        },
+        "movableSpouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "movableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "immovableSelf": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "immovableSpouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "immovableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "movableTotal": 107121,
+        "immovableTotal": 0,
+        "candidateTotalAsset": 107121,
+        "movableTotalString": "1,07,121",
+        "immovableTotalString": "Nil",
+        "candidateTotalAssetString": "1,07,121"
+      },
+      "liabilities": {
+        "self": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "spouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "candidateTotalLiability": 0,
+        "candidateTotalLiabilityString": "Nil"
+      },
+      "candidateTotalWealthString": "1,07,121",
+      "candidateTotalIncomeString": "4,85,060",
+      "candidateTotalWealth": 107121,
+      "candidateTotalIncome": 485060,
+      "promises": null,
+      "languages": null,
+      "mynetaCandidateUrl": "https://myneta.info/Uttarpradesh2022/candidate.php?candidate_id=84"
+    },
+    {
+      "candidateId": "OTEtMjQtMV5Nb25hXjMz",
+      "constituencyId": "91-24-1",
+      "constituencyName": "Agra Cantt.",
+      "name": "Mona",
+      "age": "33",
+      "sex": "female",
+      "caste": null,
+      "party": "Peace Party",
+      "telephone": null,
+      "email": null,
+      "address": "E.W.S 223 Tajnagari Phase-1 Tajganj Agra",
+      "officialProfileLink": "https://affidavit.eci.gov.in/show-profile/MTA3Mw==/MjM=/MTM=/Mw==/QUM=",
+      "affidavitLink": null,
+      "officialPhotoLink": "https://suvidha.eci.gov.in/uploads1/candprofile/E13/2022/AC/S24/MONA-2022-20220121090526.jpeg",
+      "socialMediaAccounts": null,
+      "socialMediaAccount": null,
+      "facebookId": null,
+      "twitterId": null,
+      "instagramId": null,
+      "whatsappId": null,
+      "selfProfession": "Housewife",
+      "spouseProfession": "Private job",
+      "highestEducationLevel": "12thPass",
+      "highestEducationYear": null,
+      "latestTaxReturn": {
+        "self": {
+          "year": "None",
+          "amount": "Rs&nbsp;0",
+          "relation": null
+        },
+        "spouse": {
+          "year": "",
+          "amount": "Rs&nbsp;3,60,000",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          }
+        ]
+      },
+      "pendingCases": null,
+      "convictedCases": null,
+      "pendingCase": null,
+      "convictedCase": null,
+      "assets": {
+        "movableSelf": {
+          "year": null,
+          "amount": "4,01,000",
+          "relation": null
+        },
+        "movableSpouse": {
+          "year": null,
+          "amount": "2,34,000",
+          "relation": null
+        },
+        "movableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "immovableSelf": {
+          "year": null,
+          "amount": "5,00,000",
+          "relation": null
+        },
+        "immovableSpouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "immovableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "movableTotal": 635000,
+        "immovableTotal": 500000,
+        "candidateTotalAsset": 1135000,
+        "movableTotalString": "6,35,000",
+        "immovableTotalString": "5,00,000",
+        "candidateTotalAssetString": "11,35,000"
+      },
+      "liabilities": {
+        "self": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "spouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "candidateTotalLiability": 0,
+        "candidateTotalLiabilityString": "Nil"
+      },
+      "candidateTotalWealthString": "11,35,000",
+      "candidateTotalIncomeString": "3,60,000",
+      "candidateTotalWealth": 1135000,
+      "candidateTotalIncome": 360000,
+      "promises": null,
+      "languages": null,
+      "mynetaCandidateUrl": "https://myneta.info/Uttarpradesh2022/candidate.php?candidate_id=645"
+    },
+    {
+      "candidateId": "OTEtMjQtMV5TdW5kYXIgU2luZ2heMzU=",
+      "constituencyId": "91-24-1",
+      "constituencyName": "Agra Cantt.",
+      "name": "Sundar Singh",
+      "age": "35",
+      "sex": "male",
+      "caste": null,
+      "party": "Bharatiya Majdoor Janta Party",
+      "telephone": null,
+      "email": null,
+      "address": "Nai Abadi Nagla Pyare Lal Dhandhupura Agra",
+      "officialProfileLink": "https://affidavit.eci.gov.in/show-profile/MTA4Mg==/MjM=/MTM=/Mw==/QUM=",
+      "affidavitLink": null,
+      "officialPhotoLink": "https://suvidha.eci.gov.in/uploads1/candprofile/E13/2022/AC/s24/SUNDA-2022-20220121092922.jpeg",
+      "socialMediaAccounts": null,
+      "socialMediaAccount": null,
+      "facebookId": null,
+      "twitterId": null,
+      "instagramId": null,
+      "whatsappId": null,
+      "selfProfession": "Labour",
+      "spouseProfession": "Housewife",
+      "highestEducationLevel": "Literate",
+      "highestEducationYear": null,
+      "latestTaxReturn": {
+        "self": {
+          "year": "",
+          "amount": "Rs&nbsp;4,67,500",
+          "relation": null
+        },
+        "spouse": {
+          "year": "None",
+          "amount": "Rs&nbsp;0",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          }
+        ]
+      },
+      "pendingCases": null,
+      "convictedCases": null,
+      "pendingCase": null,
+      "convictedCase": null,
+      "assets": {
+        "movableSelf": {
+          "year": null,
+          "amount": "1,76,300",
+          "relation": null
+        },
+        "movableSpouse": {
+          "year": null,
+          "amount": "2,80,562",
+          "relation": null
+        },
+        "movableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "immovableSelf": {
+          "year": null,
+          "amount": "0",
+          "relation": null
+        },
+        "immovableSpouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "immovableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "movableTotal": 456862,
+        "immovableTotal": 0,
+        "candidateTotalAsset": 456862,
+        "movableTotalString": "4,56,862",
+        "immovableTotalString": "0",
+        "candidateTotalAssetString": "4,56,862"
+      },
+      "liabilities": {
+        "self": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "spouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "candidateTotalLiability": 0,
+        "candidateTotalLiabilityString": "Nil"
+      },
+      "candidateTotalWealthString": "4,56,862",
+      "candidateTotalIncomeString": "4,67,500",
+      "candidateTotalWealth": 456862,
+      "candidateTotalIncome": 467500,
+      "promises": null,
+      "languages": null,
+      "mynetaCandidateUrl": "https://myneta.info/Uttarpradesh2022/candidate.php?candidate_id=647"
+    },
+    {
+      "candidateId": "OTEtMjQtMV5Ba2FzaCBTb25pXjI2",
+      "constituencyId": "91-24-1",
+      "constituencyName": "Agra Cantt.",
+      "name": "Akash Soni",
+      "age": "26",
+      "sex": "third",
+      "caste": null,
+      "party": "Independent",
+      "telephone": null,
+      "email": null,
+      "address": "52/90 Nagla Gareeb Das Barah Khambha Agra",
+      "officialProfileLink": "https://affidavit.eci.gov.in/show-profile/MzQ=/MjM=/MTM=/Mw==/QUM=",
+      "affidavitLink": null,
+      "officialPhotoLink": "https://suvidha.eci.gov.in/uploads1/candprofile/E13/2022/AC/s24/AKASH-2022-20220117051735.jpeg",
+      "socialMediaAccounts": null,
+      "socialMediaAccount": null,
+      "facebookId": null,
+      "twitterId": null,
+      "instagramId": null,
+      "whatsappId": null,
+      "selfProfession": "Entertainment greetings",
+      "spouseProfession": "Not Applicable",
+      "highestEducationLevel": "5thPass",
+      "highestEducationYear": null,
+      "latestTaxReturn": {
+        "self": {
+          "year": "None",
+          "amount": "Rs&nbsp;0",
+          "relation": null
+        },
+        "spouse": {
+          "year": "",
+          "amount": "Nil",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": "",
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": "",
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": "",
+            "amount": "Nil",
+            "relation": null
+          }
+        ]
+      },
+      "pendingCases": null,
+      "convictedCases": null,
+      "pendingCase": null,
+      "convictedCase": null,
+      "assets": {
+        "movableSelf": {
+          "year": null,
+          "amount": "1,25,891",
+          "relation": null
+        },
+        "movableSpouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "movableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "immovableSelf": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "immovableSpouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "immovableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "movableTotal": 125891,
+        "immovableTotal": 0,
+        "candidateTotalAsset": 125891,
+        "movableTotalString": "1,25,891",
+        "immovableTotalString": "Nil",
+        "candidateTotalAssetString": "1,25,891"
+      },
+      "liabilities": {
+        "self": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "spouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "candidateTotalLiability": 0,
+        "candidateTotalLiabilityString": "Nil"
+      },
+      "candidateTotalWealthString": "1,25,891",
+      "candidateTotalIncomeString": "0",
+      "candidateTotalWealth": 125891,
+      "candidateTotalIncome": 0,
+      "promises": null,
+      "languages": null,
+      "mynetaCandidateUrl": "https://myneta.info/Uttarpradesh2022/candidate.php?candidate_id=20"
+    },
+    {
+      "candidateId": "OTEtMjQtMV5QcmFrYXNoIEluZGl2ZXJeMzg=",
+      "constituencyId": "91-24-1",
+      "constituencyName": "Agra Cantt.",
+      "name": "Prakash Indiver",
+      "age": "38",
+      "sex": "male",
+      "caste": null,
+      "party": "Independent",
+      "telephone": null,
+      "email": null,
+      "address": "52/125 Nagla Gareeb Das Barah Khambha Agra",
+      "officialProfileLink": "https://affidavit.eci.gov.in/show-profile/MTA0OA==/MjM=/MTM=/Mw==/QUM=",
+      "affidavitLink": null,
+      "officialPhotoLink": "https://suvidha.eci.gov.in/uploads1/candprofile/E13/2022/AC/s24/PRAKA-2022-20220121082627.jpeg",
+      "socialMediaAccounts": null,
+      "socialMediaAccount": null,
+      "facebookId": null,
+      "twitterId": null,
+      "instagramId": null,
+      "whatsappId": null,
+      "selfProfession": "Business",
+      "spouseProfession": "Housewife",
+      "highestEducationLevel": "12thPass",
+      "highestEducationYear": null,
+      "latestTaxReturn": {
+        "self": {
+          "year": "None",
+          "amount": "Rs&nbsp;0",
+          "relation": null
+        },
+        "spouse": {
+          "year": "None",
+          "amount": "Rs&nbsp;0",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": "",
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": "",
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": "",
+            "amount": "Nil",
+            "relation": null
+          }
+        ]
+      },
+      "pendingCases": null,
+      "convictedCases": null,
+      "pendingCase": null,
+      "convictedCase": null,
+      "assets": {
+        "movableSelf": {
+          "year": null,
+          "amount": "34,950",
+          "relation": null
+        },
+        "movableSpouse": {
+          "year": null,
+          "amount": "11,500",
+          "relation": null
+        },
+        "movableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "immovableSelf": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "immovableSpouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "immovableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "movableTotal": 46450,
+        "immovableTotal": 0,
+        "candidateTotalAsset": 46450,
+        "movableTotalString": "46,450",
+        "immovableTotalString": "Nil",
+        "candidateTotalAssetString": "46,450"
+      },
+      "liabilities": {
+        "self": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "spouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "candidateTotalLiability": 0,
+        "candidateTotalLiabilityString": "Nil"
+      },
+      "candidateTotalWealthString": "46,450",
+      "candidateTotalIncomeString": "0",
+      "candidateTotalWealth": 46450,
+      "candidateTotalIncome": 0,
+      "promises": null,
+      "languages": null,
+      "mynetaCandidateUrl": "https://myneta.info/Uttarpradesh2022/candidate.php?candidate_id=644"
+    },
+    {
+      "candidateId": "OTEtMjQtMV5IYXJpIEtpc2hhbl42MQ==",
+      "constituencyId": "91-24-1",
+      "constituencyName": "Agra Cantt.",
+      "name": "Hari Kishan",
+      "age": "61",
+      "sex": "male",
+      "caste": null,
+      "party": "Independent",
+      "telephone": null,
+      "email": null,
+      "address": "7/70 Oliya Road Chhipitola Agra",
+      "officialProfileLink": "https://affidavit.eci.gov.in/show-profile/MTAzNQ==/MjM=/MTM=/Mw==/QUM=",
+      "affidavitLink": null,
+      "officialPhotoLink": "https://suvidha.eci.gov.in/uploads1/candprofile/E13/2022/AC/s24/HARIK-2022-20220121081814.jpeg",
+      "socialMediaAccounts": null,
+      "socialMediaAccount": null,
+      "facebookId": null,
+      "twitterId": null,
+      "instagramId": null,
+      "whatsappId": null,
+      "selfProfession": "Shoe work",
+      "spouseProfession": "Not Applicable",
+      "highestEducationLevel": "8thPass",
+      "highestEducationYear": null,
+      "latestTaxReturn": {
+        "self": {
+          "year": "None",
+          "amount": "Rs&nbsp;0",
+          "relation": null
+        },
+        "spouse": {
+          "year": "",
+          "amount": "Nil",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": "",
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": "",
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": "",
+            "amount": "Nil",
+            "relation": null
+          }
+        ]
+      },
+      "pendingCases": null,
+      "convictedCases": null,
+      "pendingCase": null,
+      "convictedCase": null,
+      "assets": {
+        "movableSelf": {
+          "year": null,
+          "amount": "3,38,000",
+          "relation": null
+        },
+        "movableSpouse": {
+          "year": null,
+          "amount": "2,10,000",
+          "relation": null
+        },
+        "movableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "immovableSelf": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "immovableSpouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "immovableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "movableTotal": 548000,
+        "immovableTotal": 0,
+        "candidateTotalAsset": 548000,
+        "movableTotalString": "5,48,000",
+        "immovableTotalString": "Nil",
+        "candidateTotalAssetString": "5,48,000"
+      },
+      "liabilities": {
+        "self": {
+          "year": null,
+          "amount": "1,20,540",
+          "relation": null
+        },
+        "spouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "candidateTotalLiability": 120540,
+        "candidateTotalLiabilityString": "1,20,540"
+      },
+      "candidateTotalWealthString": "4,27,460",
+      "candidateTotalIncomeString": "0",
+      "candidateTotalWealth": 427460,
+      "candidateTotalIncome": 0,
+      "promises": null,
+      "languages": null,
+      "mynetaCandidateUrl": "https://myneta.info/Uttarpradesh2022/candidate.php?candidate_id=643"
+    }
+  ]
+}

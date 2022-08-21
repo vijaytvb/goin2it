@@ -1,0 +1,1157 @@
+{
+  "candidates": [
+    {
+      "candidateId": "OTEtMDUtNF5BbnRob255IE1lbmV6ZXNeNTg=",
+      "constituencyId": "91-05-4",
+      "constituencyName": "Calangute",
+      "name": "Anthony Menezes",
+      "age": "58",
+      "sex": "male",
+      "caste": null,
+      "party": "All India Trinamool Congress",
+      "telephone": null,
+      "email": null,
+      "address": "House No. 36, Naika Vaddo, Calangute, Bardez, Goa-403516",
+      "officialProfileLink": "https://affidavit.eci.gov.in/show-profile/MzE2NQ==/MjM=/MTM=/Mw==/QUM=",
+      "affidavitLink": null,
+      "officialPhotoLink": "https://suvidha.eci.gov.in/uploads1/candprofile/E13/2022/AC/S05/Antho-2022-20220128022112.jpeg",
+      "socialMediaAccounts": null,
+      "socialMediaAccount": null,
+      "facebookId": null,
+      "twitterId": null,
+      "instagramId": null,
+      "whatsappId": null,
+      "selfProfession": "Business",
+      "spouseProfession": "Business",
+      "highestEducationLevel": "Others",
+      "highestEducationYear": null,
+      "latestTaxReturn": {
+        "self": {
+          "year": "",
+          "amount": "Rs&nbsp;14,76,062",
+          "relation": null
+        },
+        "spouse": {
+          "year": "",
+          "amount": "Rs&nbsp;14,76,062",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          }
+        ]
+      },
+      "pendingCases": null,
+      "convictedCases": null,
+      "pendingCase": null,
+      "convictedCase": null,
+      "assets": {
+        "movableSelf": {
+          "year": null,
+          "amount": "4,35,59,939",
+          "relation": null
+        },
+        "movableSpouse": {
+          "year": null,
+          "amount": "1,44,95,482",
+          "relation": null
+        },
+        "movableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "immovableSelf": {
+          "year": null,
+          "amount": "30,51,38,000",
+          "relation": null
+        },
+        "immovableSpouse": {
+          "year": null,
+          "amount": "90,00,000",
+          "relation": null
+        },
+        "immovableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "movableTotal": 0,
+        "immovableTotal": 0,
+        "candidateTotalAsset": 0,
+        "movableTotalString": "5,80,55,421",
+        "immovableTotalString": "31,41,38,000",
+        "candidateTotalAssetString": "0"
+      },
+      "liabilities": {
+        "self": {
+          "year": null,
+          "amount": "2,07,74,076",
+          "relation": null
+        },
+        "spouse": {
+          "year": null,
+          "amount": "38,54,631",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "candidateTotalLiability": 0,
+        "candidateTotalLiabilityString": "2,46,28,707"
+      },
+      "candidateTotalWealthString": "0",
+      "candidateTotalIncomeString": "0",
+      "candidateTotalWealth": 0,
+      "candidateTotalIncome": 0,
+      "promises": null,
+      "languages": null,
+      "mynetaCandidateUrl": "https://myneta.info/goa2022/candidate.php?candidate_id=233"
+    },
+    {
+      "candidateId": "OTEtMDUtNF5Kb3NlcGggUm9iZXJ0IFNlcXVlaXJhXjYx",
+      "constituencyId": "91-05-4",
+      "constituencyName": "Calangute",
+      "name": "Joseph Robert Sequeira",
+      "age": "61",
+      "sex": "male",
+      "caste": null,
+      "party": "Bharatiya Janata Party",
+      "telephone": null,
+      "email": null,
+      "address": "E1/196, GauraVaddo, Calangute, Bardez, Goa, 403516",
+      "officialProfileLink": "https://affidavit.eci.gov.in/show-profile/MjQyNQ==/MjM=/MTM=/Mw==/QUM=",
+      "affidavitLink": null,
+      "officialPhotoLink": "https://suvidha.eci.gov.in/uploads1/candprofile/E13/2022/AC/S05/Josep-2022-20220127062417.jpeg",
+      "socialMediaAccounts": null,
+      "socialMediaAccount": null,
+      "facebookId": null,
+      "twitterId": null,
+      "instagramId": null,
+      "whatsappId": null,
+      "selfProfession": "Business",
+      "spouseProfession": "Business",
+      "highestEducationLevel": "10thPass",
+      "highestEducationYear": null,
+      "latestTaxReturn": {
+        "self": {
+          "year": "",
+          "amount": "Rs&nbsp;9,02,890",
+          "relation": null
+        },
+        "spouse": {
+          "year": "",
+          "amount": "Rs&nbsp;9,02,890",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          }
+        ]
+      },
+      "pendingCases": [
+        {
+          "firNumber": "136/S/C",
+          "policeStationName": "117/2003, Calangute Police Station, North Goa",
+          "sections": null,
+          "section": "",
+          "briefDescription": "1",
+          "caseNumber": "136/S/C",
+          "courtName": "JMFC C Mapusa Goa",
+          "chargesFramed": false,
+          "dateOfChargesFramed": "16 Aug 2010",
+          "appealAgainstProceedings": false,
+          "appealAgainstProceedingsDetails": "",
+          "convictionOrderDate": null,
+          "punishment": null,
+          "appealAgainstPunishment": false,
+          "appealAgainstPunishmentDetails": null,
+          "dateReleasedFromPrison": null
+        },
+        {
+          "firNumber": "499/S/2019/E",
+          "policeStationName": "166/2019, Calangute Police Station, North Goa",
+          "sections": null,
+          "section": "",
+          "briefDescription": "2",
+          "caseNumber": "499/S/2019/E",
+          "courtName": "JMFC E Court Mapusa",
+          "chargesFramed": false,
+          "dateOfChargesFramed": "",
+          "appealAgainstProceedings": false,
+          "appealAgainstProceedingsDetails": "",
+          "convictionOrderDate": null,
+          "punishment": null,
+          "appealAgainstPunishment": false,
+          "appealAgainstPunishmentDetails": null,
+          "dateReleasedFromPrison": null
+        },
+        {
+          "firNumber": "123/S/2015/B",
+          "policeStationName": "16/2014, Calangute Police Station, North Goa",
+          "sections": null,
+          "section": "",
+          "briefDescription": "3",
+          "caseNumber": "123/S/2015/B",
+          "courtName": "JMFC B Court Mapusa",
+          "chargesFramed": false,
+          "dateOfChargesFramed": "20 Aug 2016",
+          "appealAgainstProceedings": false,
+          "appealAgainstProceedingsDetails": "",
+          "convictionOrderDate": null,
+          "punishment": null,
+          "appealAgainstPunishment": false,
+          "appealAgainstPunishmentDetails": null,
+          "dateReleasedFromPrison": null
+        }
+      ],
+      "convictedCases": [],
+      "pendingCase": {
+        "firNumber": "136/S/C",
+        "policeStationName": "117/2003, Calangute Police Station, North Goa",
+        "sections": null,
+        "section": "",
+        "briefDescription": "1",
+        "caseNumber": "136/S/C",
+        "courtName": "JMFC C Mapusa Goa",
+        "chargesFramed": false,
+        "dateOfChargesFramed": "16 Aug 2010",
+        "appealAgainstProceedings": false,
+        "appealAgainstProceedingsDetails": "",
+        "convictionOrderDate": null,
+        "punishment": null,
+        "appealAgainstPunishment": false,
+        "appealAgainstPunishmentDetails": null,
+        "dateReleasedFromPrison": null
+      },
+      "convictedCase": {
+        "firNumber": null,
+        "policeStationName": null,
+        "sections": null,
+        "section": null,
+        "briefDescription": null,
+        "caseNumber": null,
+        "courtName": null,
+        "chargesFramed": false,
+        "dateOfChargesFramed": null,
+        "appealAgainstProceedings": false,
+        "appealAgainstProceedingsDetails": null,
+        "convictionOrderDate": null,
+        "punishment": null,
+        "appealAgainstPunishment": false,
+        "appealAgainstPunishmentDetails": null,
+        "dateReleasedFromPrison": null
+      },
+      "assets": {
+        "movableSelf": {
+          "year": null,
+          "amount": "47,78,722",
+          "relation": null
+        },
+        "movableSpouse": {
+          "year": null,
+          "amount": "40,83,615",
+          "relation": null
+        },
+        "movableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "immovableSelf": {
+          "year": null,
+          "amount": "6,71,00,000",
+          "relation": null
+        },
+        "immovableSpouse": {
+          "year": null,
+          "amount": "5,13,39,984",
+          "relation": null
+        },
+        "immovableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "movableTotal": 0,
+        "immovableTotal": 0,
+        "candidateTotalAsset": 0,
+        "movableTotalString": "88,62,337",
+        "immovableTotalString": "11,84,39,984",
+        "candidateTotalAssetString": "0"
+      },
+      "liabilities": {
+        "self": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "spouse": {
+          "year": null,
+          "amount": "11,00,000",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "candidateTotalLiability": 0,
+        "candidateTotalLiabilityString": "11,00,000"
+      },
+      "candidateTotalWealthString": "0",
+      "candidateTotalIncomeString": "0",
+      "candidateTotalWealth": 0,
+      "candidateTotalIncome": 0,
+      "promises": null,
+      "languages": null,
+      "mynetaCandidateUrl": "https://myneta.info/goa2022/candidate.php?candidate_id=62"
+    },
+    {
+      "candidateId": "OTEtMDUtNF5NaWNoYWVsIFZpbmNlbnQgTG9ib140NQ==",
+      "constituencyId": "91-05-4",
+      "constituencyName": "Calangute",
+      "name": "Michael Vincent Lobo",
+      "age": "45",
+      "sex": "male",
+      "caste": null,
+      "party": "Indian National Congress",
+      "telephone": null,
+      "email": null,
+      "address": "House No. 181/15, Bhatti Vaddo, Parra Bardez, Goa",
+      "officialProfileLink": "https://affidavit.eci.gov.in/show-profile/MTkwMQ==/MjM=/MTM=/Mw==/QUM=",
+      "affidavitLink": null,
+      "officialPhotoLink": "https://suvidha.eci.gov.in/uploads1/candprofile/E13/2022/AC/S05/Micha-2022-20220127061201.jpeg",
+      "socialMediaAccounts": null,
+      "socialMediaAccount": null,
+      "facebookId": null,
+      "twitterId": null,
+      "instagramId": null,
+      "whatsappId": null,
+      "selfProfession": "Business",
+      "spouseProfession": "Business",
+      "highestEducationLevel": "12thPass",
+      "highestEducationYear": null,
+      "latestTaxReturn": {
+        "self": {
+          "year": "",
+          "amount": "Rs&nbsp;92,70,452",
+          "relation": null
+        },
+        "spouse": {
+          "year": "",
+          "amount": "Rs&nbsp;89,42,130",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": "",
+            "amount": "Rs&nbsp;3,97,090",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          }
+        ]
+      },
+      "pendingCases": [
+        {
+          "firNumber": "73/S/2016",
+          "policeStationName": "29/2010, Crime Branch Raibander",
+          "sections": null,
+          "section": "",
+          "briefDescription": "1",
+          "caseNumber": "73/S/2016",
+          "courtName": "JMFC, A Court, Mapusa",
+          "chargesFramed": false,
+          "dateOfChargesFramed": "",
+          "appealAgainstProceedings": false,
+          "appealAgainstProceedingsDetails": "",
+          "convictionOrderDate": null,
+          "punishment": null,
+          "appealAgainstPunishment": false,
+          "appealAgainstPunishmentDetails": null,
+          "dateReleasedFromPrison": null
+        },
+        {
+          "firNumber": "224/2016",
+          "policeStationName": "31/2015, P.S.- Calangute",
+          "sections": null,
+          "section": "",
+          "briefDescription": "2",
+          "caseNumber": "224/2016",
+          "courtName": "JMFC A Court Mapusa",
+          "chargesFramed": false,
+          "dateOfChargesFramed": "23 Jul 2019",
+          "appealAgainstProceedings": false,
+          "appealAgainstProceedingsDetails": "",
+          "convictionOrderDate": null,
+          "punishment": null,
+          "appealAgainstPunishment": false,
+          "appealAgainstPunishmentDetails": null,
+          "dateReleasedFromPrison": null
+        },
+        {
+          "firNumber": "",
+          "policeStationName": "06/2022, P.S.-Saligao",
+          "sections": null,
+          "section": "",
+          "briefDescription": "3",
+          "caseNumber": "",
+          "courtName": "",
+          "chargesFramed": false,
+          "dateOfChargesFramed": "",
+          "appealAgainstProceedings": false,
+          "appealAgainstProceedingsDetails": "",
+          "convictionOrderDate": null,
+          "punishment": null,
+          "appealAgainstPunishment": false,
+          "appealAgainstPunishmentDetails": null,
+          "dateReleasedFromPrison": null
+        }
+      ],
+      "convictedCases": [],
+      "pendingCase": {
+        "firNumber": "73/S/2016",
+        "policeStationName": "29/2010, Crime Branch Raibander",
+        "sections": null,
+        "section": "",
+        "briefDescription": "1",
+        "caseNumber": "73/S/2016",
+        "courtName": "JMFC, A Court, Mapusa",
+        "chargesFramed": false,
+        "dateOfChargesFramed": "",
+        "appealAgainstProceedings": false,
+        "appealAgainstProceedingsDetails": "",
+        "convictionOrderDate": null,
+        "punishment": null,
+        "appealAgainstPunishment": false,
+        "appealAgainstPunishmentDetails": null,
+        "dateReleasedFromPrison": null
+      },
+      "convictedCase": {
+        "firNumber": null,
+        "policeStationName": null,
+        "sections": null,
+        "section": null,
+        "briefDescription": null,
+        "caseNumber": null,
+        "courtName": null,
+        "chargesFramed": false,
+        "dateOfChargesFramed": null,
+        "appealAgainstProceedings": false,
+        "appealAgainstProceedingsDetails": null,
+        "convictionOrderDate": null,
+        "punishment": null,
+        "appealAgainstPunishment": false,
+        "appealAgainstPunishmentDetails": null,
+        "dateReleasedFromPrison": null
+      },
+      "assets": {
+        "movableSelf": {
+          "year": null,
+          "amount": "25,14,71,581",
+          "relation": null
+        },
+        "movableSpouse": {
+          "year": null,
+          "amount": "1,60,03,006",
+          "relation": null
+        },
+        "movableDependents": [
+          {
+            "year": null,
+            "amount": "5,77,370",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "2,30,000",
+            "relation": null
+          }
+        ],
+        "immovableSelf": {
+          "year": null,
+          "amount": "59,24,17,000",
+          "relation": null
+        },
+        "immovableSpouse": {
+          "year": null,
+          "amount": "4,19,02,228",
+          "relation": null
+        },
+        "immovableDependents": [
+          {
+            "year": null,
+            "amount": "1,14,40,000",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "movableTotal": 0,
+        "immovableTotal": 0,
+        "candidateTotalAsset": 0,
+        "movableTotalString": "26,82,81,957",
+        "immovableTotalString": "64,57,59,228",
+        "candidateTotalAssetString": "0"
+      },
+      "liabilities": {
+        "self": {
+          "year": null,
+          "amount": "22,54,29,521",
+          "relation": null
+        },
+        "spouse": {
+          "year": null,
+          "amount": "6,17,05,915",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": null,
+            "amount": "16,00,000",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "candidateTotalLiability": 0,
+        "candidateTotalLiabilityString": "28,87,35,436"
+      },
+      "candidateTotalWealthString": "0",
+      "candidateTotalIncomeString": "0",
+      "candidateTotalWealth": 0,
+      "candidateTotalIncome": 0,
+      "promises": null,
+      "languages": null,
+      "mynetaCandidateUrl": "https://myneta.info/goa2022/candidate.php?candidate_id=61"
+    },
+    {
+      "candidateId": "OTEtMDUtNF5NYXJjZWxpbm8gRnJhbmNpc2NvIEdvbnNhbHZlc141Mg==",
+      "constituencyId": "91-05-4",
+      "constituencyName": "Calangute",
+      "name": "Marcelino Francisco Gonsalves",
+      "age": "52",
+      "sex": "male",
+      "caste": null,
+      "party": "Revolutionary Goans Party",
+      "telephone": null,
+      "email": null,
+      "address": "House No. 1209a, Annawaddo, Near Malini Garage, Candolim, Bardez, Goa",
+      "officialProfileLink": "https://affidavit.eci.gov.in/show-profile/MjM5Mg==/MjM=/MTM=/Mw==/QUM=",
+      "affidavitLink": null,
+      "officialPhotoLink": "https://suvidha.eci.gov.in/uploads1/candprofile/E13/2022/AC/S05/Marce-2022-20220127061652.jpeg",
+      "socialMediaAccounts": null,
+      "socialMediaAccount": null,
+      "facebookId": null,
+      "twitterId": null,
+      "instagramId": null,
+      "whatsappId": null,
+      "selfProfession": "Unemployed",
+      "spouseProfession": "House Wife",
+      "highestEducationLevel": "12thPass",
+      "highestEducationYear": null,
+      "latestTaxReturn": {
+        "self": {
+          "year": "",
+          "amount": "Rs&nbsp;2,10,000",
+          "relation": null
+        },
+        "spouse": {
+          "year": "None",
+          "amount": "Rs&nbsp;0",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          }
+        ]
+      },
+      "pendingCases": null,
+      "convictedCases": null,
+      "pendingCase": null,
+      "convictedCase": null,
+      "assets": {
+        "movableSelf": {
+          "year": null,
+          "amount": "55,78,082",
+          "relation": null
+        },
+        "movableSpouse": {
+          "year": null,
+          "amount": "25,04,340",
+          "relation": null
+        },
+        "movableDependents": [
+          {
+            "year": null,
+            "amount": "81,538",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "2,39,908",
+            "relation": null
+          }
+        ],
+        "immovableSelf": {
+          "year": null,
+          "amount": "40,00,000",
+          "relation": null
+        },
+        "immovableSpouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "immovableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "movableTotal": 0,
+        "immovableTotal": 0,
+        "candidateTotalAsset": 0,
+        "movableTotalString": "84,03,868",
+        "immovableTotalString": "40,00,000",
+        "candidateTotalAssetString": "0"
+      },
+      "liabilities": {
+        "self": {
+          "year": null,
+          "amount": "1,00,000",
+          "relation": null
+        },
+        "spouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "candidateTotalLiability": 0,
+        "candidateTotalLiabilityString": "1,00,000"
+      },
+      "candidateTotalWealthString": "0",
+      "candidateTotalIncomeString": "0",
+      "candidateTotalWealth": 0,
+      "candidateTotalIncome": 0,
+      "promises": null,
+      "languages": null,
+      "mynetaCandidateUrl": "https://myneta.info/goa2022/candidate.php?candidate_id=60"
+    },
+    {
+      "candidateId": "OTEtMDUtNF5ST1NIQU4gTFVLRSBNQVRISUFTXjQz",
+      "constituencyId": "91-05-4",
+      "constituencyName": "Calangute",
+      "name": "ROSHAN LUKE MATHIAS",
+      "age": "43",
+      "sex": "male",
+      "caste": null,
+      "party": "Goencho Swabhiman Party",
+      "telephone": null,
+      "email": null,
+      "address": "House NO. 280, FORT AGUADA ROAD, BAMMON VADDO CANDOLIM BARDEZ GOA",
+      "officialProfileLink": "https://affidavit.eci.gov.in/show-profile/MzE0Mg==/MjM=/MTM=/Mw==/QUM=",
+      "affidavitLink": null,
+      "officialPhotoLink": "https://suvidha.eci.gov.in/uploads1/candprofile/E13/2022/AC/S05/ROSHA-2022-20220128031453.jpeg",
+      "socialMediaAccounts": null,
+      "socialMediaAccount": null,
+      "facebookId": null,
+      "twitterId": null,
+      "instagramId": null,
+      "whatsappId": null,
+      "selfProfession": "Business",
+      "spouseProfession": "Teacher",
+      "highestEducationLevel": "12thPass",
+      "highestEducationYear": null,
+      "latestTaxReturn": {
+        "self": {
+          "year": "",
+          "amount": "Rs&nbsp;3,51,575",
+          "relation": null
+        },
+        "spouse": {
+          "year": "",
+          "amount": "Rs&nbsp;8,47,620",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          }
+        ]
+      },
+      "pendingCases": [
+        {
+          "firNumber": "IPC/125/2019",
+          "policeStationName": "56/2018, Calangute Police Station",
+          "sections": null,
+          "section": "",
+          "briefDescription": "1",
+          "caseNumber": "IPC/125/2019",
+          "courtName": "Civil Judge Senior Division &amp; JMFC Mapusa",
+          "chargesFramed": false,
+          "dateOfChargesFramed": "29 Nov 2021",
+          "appealAgainstProceedings": false,
+          "appealAgainstProceedingsDetails": "",
+          "convictionOrderDate": null,
+          "punishment": null,
+          "appealAgainstPunishment": false,
+          "appealAgainstPunishmentDetails": null,
+          "dateReleasedFromPrison": null
+        },
+        {
+          "firNumber": "IPC/291/2018",
+          "policeStationName": "76/2018, Old Goa Police Station",
+          "sections": null,
+          "section": "",
+          "briefDescription": "2",
+          "caseNumber": "IPC/291/2018",
+          "courtName": "Civil Judge Junior Division &amp; JMFC Panaji",
+          "chargesFramed": false,
+          "dateOfChargesFramed": "15 Feb 2021",
+          "appealAgainstProceedings": false,
+          "appealAgainstProceedingsDetails": "WPCR/362/2021(F)",
+          "convictionOrderDate": null,
+          "punishment": null,
+          "appealAgainstPunishment": false,
+          "appealAgainstPunishmentDetails": null,
+          "dateReleasedFromPrison": null
+        }
+      ],
+      "convictedCases": [],
+      "pendingCase": {
+        "firNumber": "IPC/125/2019",
+        "policeStationName": "56/2018, Calangute Police Station",
+        "sections": null,
+        "section": "",
+        "briefDescription": "1",
+        "caseNumber": "IPC/125/2019",
+        "courtName": "Civil Judge Senior Division &amp; JMFC Mapusa",
+        "chargesFramed": false,
+        "dateOfChargesFramed": "29 Nov 2021",
+        "appealAgainstProceedings": false,
+        "appealAgainstProceedingsDetails": "",
+        "convictionOrderDate": null,
+        "punishment": null,
+        "appealAgainstPunishment": false,
+        "appealAgainstPunishmentDetails": null,
+        "dateReleasedFromPrison": null
+      },
+      "convictedCase": {
+        "firNumber": null,
+        "policeStationName": null,
+        "sections": null,
+        "section": null,
+        "briefDescription": null,
+        "caseNumber": null,
+        "courtName": null,
+        "chargesFramed": false,
+        "dateOfChargesFramed": null,
+        "appealAgainstProceedings": false,
+        "appealAgainstProceedingsDetails": null,
+        "convictionOrderDate": null,
+        "punishment": null,
+        "appealAgainstPunishment": false,
+        "appealAgainstPunishmentDetails": null,
+        "dateReleasedFromPrison": null
+      },
+      "assets": {
+        "movableSelf": {
+          "year": null,
+          "amount": "9,94,024",
+          "relation": null
+        },
+        "movableSpouse": {
+          "year": null,
+          "amount": "16,40,277",
+          "relation": null
+        },
+        "movableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "immovableSelf": {
+          "year": null,
+          "amount": "12,39,90,000",
+          "relation": null
+        },
+        "immovableSpouse": {
+          "year": null,
+          "amount": "12,39,90,000",
+          "relation": null
+        },
+        "immovableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "movableTotal": 0,
+        "immovableTotal": 0,
+        "candidateTotalAsset": 0,
+        "movableTotalString": "26,34,301",
+        "immovableTotalString": "24,79,80,000",
+        "candidateTotalAssetString": "0"
+      },
+      "liabilities": {
+        "self": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "spouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "candidateTotalLiability": 0,
+        "candidateTotalLiabilityString": "Nil"
+      },
+      "candidateTotalWealthString": "0",
+      "candidateTotalIncomeString": "0",
+      "candidateTotalWealth": 0,
+      "candidateTotalIncome": 0,
+      "promises": null,
+      "languages": null,
+      "mynetaCandidateUrl": "https://myneta.info/goa2022/candidate.php?candidate_id=232"
+    },
+    {
+      "candidateId": "OTEtMDUtNF5TdWRlc2ggU3VyZXNoIE1heWVrYXJeMzM=",
+      "constituencyId": "91-05-4",
+      "constituencyName": "Calangute",
+      "name": "Sudesh Suresh Mayekar",
+      "age": "33",
+      "sex": "male",
+      "caste": null,
+      "party": "Aam Aadmi Party",
+      "telephone": null,
+      "email": null,
+      "address": "House No. 2/214, Naikawaddo, Calangute, Bardez, Goa 403516",
+      "officialProfileLink": "https://affidavit.eci.gov.in/show-profile/MzIwOQ==/MjM=/MTM=/Mw==/QUM=",
+      "affidavitLink": null,
+      "officialPhotoLink": "https://suvidha.eci.gov.in/uploads1/candprofile/E13/2022/AC/S05/Sudes-2022-20220128023856.jpeg",
+      "socialMediaAccounts": null,
+      "socialMediaAccount": null,
+      "facebookId": null,
+      "twitterId": null,
+      "instagramId": null,
+      "whatsappId": null,
+      "selfProfession": "Business",
+      "spouseProfession": "NA",
+      "highestEducationLevel": "Graduate",
+      "highestEducationYear": null,
+      "latestTaxReturn": {
+        "self": {
+          "year": "",
+          "amount": "Rs&nbsp;4,15,690",
+          "relation": null
+        },
+        "spouse": {
+          "year": "None",
+          "amount": "Rs&nbsp;0",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          }
+        ]
+      },
+      "pendingCases": null,
+      "convictedCases": null,
+      "pendingCase": null,
+      "convictedCase": null,
+      "assets": {
+        "movableSelf": {
+          "year": null,
+          "amount": "57,99,446",
+          "relation": null
+        },
+        "movableSpouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "movableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "immovableSelf": {
+          "year": null,
+          "amount": "5,00,000",
+          "relation": null
+        },
+        "immovableSpouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "immovableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "movableTotal": 0,
+        "immovableTotal": 0,
+        "candidateTotalAsset": 0,
+        "movableTotalString": "57,99,446",
+        "immovableTotalString": "5,00,000",
+        "candidateTotalAssetString": "0"
+      },
+      "liabilities": {
+        "self": {
+          "year": null,
+          "amount": "29,99,752",
+          "relation": null
+        },
+        "spouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "candidateTotalLiability": 0,
+        "candidateTotalLiabilityString": "29,99,752"
+      },
+      "candidateTotalWealthString": "0",
+      "candidateTotalIncomeString": "0",
+      "candidateTotalWealth": 0,
+      "candidateTotalIncome": 0,
+      "promises": null,
+      "languages": null,
+      "mynetaCandidateUrl": "https://myneta.info/goa2022/candidate.php?candidate_id=230"
+    },
+    {
+      "candidateId": "OTEtMDUtNF5SaWNhcmRvIEQnU291emFeNTQ=",
+      "constituencyId": "91-05-4",
+      "constituencyName": "Calangute",
+      "name": "Ricardo D'Souza",
+      "age": "54",
+      "sex": "male",
+      "caste": null,
+      "party": "Independent",
+      "telephone": null,
+      "email": null,
+      "address": "House No. 7/5, Sauntavaddo, Club Tito's, Baga, Calangute, Bardez, Goa",
+      "officialProfileLink": "https://affidavit.eci.gov.in/show-profile/MTcxNg==/MjM=/MTM=/Mw==/QUM=",
+      "affidavitLink": null,
+      "officialPhotoLink": "https://suvidha.eci.gov.in/uploads1/candprofile/E13/2022/AC/S05/Ricar-2022-20220127123507.jpeg",
+      "socialMediaAccounts": null,
+      "socialMediaAccount": null,
+      "facebookId": null,
+      "twitterId": null,
+      "instagramId": null,
+      "whatsappId": null,
+      "selfProfession": null,
+      "spouseProfession": null,
+      "highestEducationLevel": null,
+      "highestEducationYear": null,
+      "latestTaxReturn": null,
+      "pendingCases": null,
+      "convictedCases": null,
+      "pendingCase": null,
+      "convictedCase": null,
+      "assets": null,
+      "liabilities": null,
+      "candidateTotalWealthString": null,
+      "candidateTotalIncomeString": null,
+      "candidateTotalWealth": 0,
+      "candidateTotalIncome": 0,
+      "promises": null,
+      "languages": null,
+      "mynetaCandidateUrl": null
+    }
+  ]
+}

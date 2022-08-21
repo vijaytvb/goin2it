@@ -1,0 +1,1300 @@
+{
+  "candidates": [
+    {
+      "candidateId": "OTEtMDUtMTNeUFJFTUVORFJBIFZJU0hOVSBTSEVUXjUw",
+      "constituencyId": "91-05-13",
+      "constituencyName": "Maem",
+      "name": "PREMENDRA VISHNU SHET",
+      "age": "50",
+      "sex": "male",
+      "caste": null,
+      "party": "Bharatiya Janata Party",
+      "telephone": null,
+      "email": null,
+      "address": "H. NO. 408, KUMBHARWADA, MAEM, BICHOLIM-GOA-403504",
+      "officialProfileLink": "https://affidavit.eci.gov.in/show-profile/Mzk1OA==/MjM=/MTM=/Mw==/QUM=",
+      "affidavitLink": null,
+      "officialPhotoLink": "https://suvidha.eci.gov.in/uploads1/candprofile/E13/2022/AC/s05/PREME-2022-20220125044927.jpeg",
+      "socialMediaAccounts": null,
+      "socialMediaAccount": null,
+      "facebookId": null,
+      "twitterId": null,
+      "instagramId": null,
+      "whatsappId": null,
+      "selfProfession": "Private Service",
+      "spouseProfession": "Business",
+      "highestEducationLevel": "Graduate",
+      "highestEducationYear": null,
+      "latestTaxReturn": {
+        "self": {
+          "year": "",
+          "amount": "Rs&nbsp;7,69,170",
+          "relation": null
+        },
+        "spouse": {
+          "year": "",
+          "amount": "Rs&nbsp;6,51,930",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          }
+        ]
+      },
+      "pendingCases": null,
+      "convictedCases": null,
+      "pendingCase": null,
+      "convictedCase": null,
+      "assets": {
+        "movableSelf": {
+          "year": null,
+          "amount": "1,16,86,723",
+          "relation": null
+        },
+        "movableSpouse": {
+          "year": null,
+          "amount": "2,19,71,584",
+          "relation": null
+        },
+        "movableDependents": [
+          {
+            "year": null,
+            "amount": "6,55,000",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "immovableSelf": {
+          "year": null,
+          "amount": "4,50,000",
+          "relation": null
+        },
+        "immovableSpouse": {
+          "year": null,
+          "amount": "2,13,20,000",
+          "relation": null
+        },
+        "immovableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "movableTotal": 0,
+        "immovableTotal": 0,
+        "candidateTotalAsset": 0,
+        "movableTotalString": "3,43,13,307",
+        "immovableTotalString": "2,17,70,000",
+        "candidateTotalAssetString": "0"
+      },
+      "liabilities": {
+        "self": {
+          "year": null,
+          "amount": "30,63,596",
+          "relation": null
+        },
+        "spouse": {
+          "year": null,
+          "amount": "1,30,72,537",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "candidateTotalLiability": 0,
+        "candidateTotalLiabilityString": "1,61,36,133"
+      },
+      "candidateTotalWealthString": "0",
+      "candidateTotalIncomeString": "0",
+      "candidateTotalWealth": 0,
+      "candidateTotalIncome": 0,
+      "promises": null,
+      "languages": null,
+      "mynetaCandidateUrl": "https://myneta.info/goa2022/candidate.php?candidate_id=44"
+    },
+    {
+      "candidateId": "OTEtMDUtMTNeUFJBVklOIFpBTlRZRV41NQ==",
+      "constituencyId": "91-05-13",
+      "constituencyName": "Maem",
+      "name": "PRAVIN ZANTYE",
+      "age": "55",
+      "sex": "male",
+      "caste": null,
+      "party": "Maharashtrawadi Gomantak",
+      "telephone": null,
+      "email": null,
+      "address": "H.NO.698, LA-CAMPALA COLONY, MIRAMAR, PANAJI, GOA-403001",
+      "officialProfileLink": "https://affidavit.eci.gov.in/show-profile/Mjc5Nw==/MjM=/MTM=/Mw==/QUM=",
+      "affidavitLink": null,
+      "officialPhotoLink": "https://suvidha.eci.gov.in/uploads1/candprofile/E13/2022/AC/s05/PRAVI-2022-20220127072659.jpeg",
+      "socialMediaAccounts": null,
+      "socialMediaAccount": null,
+      "facebookId": null,
+      "twitterId": null,
+      "instagramId": null,
+      "whatsappId": null,
+      "selfProfession": "Businessman",
+      "spouseProfession": "Service",
+      "highestEducationLevel": "Graduate",
+      "highestEducationYear": null,
+      "latestTaxReturn": {
+        "self": {
+          "year": "",
+          "amount": "Rs&nbsp;1,24,83,540",
+          "relation": null
+        },
+        "spouse": {
+          "year": "",
+          "amount": "Rs&nbsp;6,05,560",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;1,70,000",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          }
+        ]
+      },
+      "pendingCases": null,
+      "convictedCases": null,
+      "pendingCase": null,
+      "convictedCase": null,
+      "assets": {
+        "movableSelf": {
+          "year": null,
+          "amount": "19,66,33,986",
+          "relation": null
+        },
+        "movableSpouse": {
+          "year": null,
+          "amount": "1,96,72,510",
+          "relation": null
+        },
+        "movableDependents": [
+          {
+            "year": null,
+            "amount": "56,91,726",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "12,83,292",
+            "relation": null
+          }
+        ],
+        "immovableSelf": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "immovableSpouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "immovableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "movableTotal": 0,
+        "immovableTotal": 0,
+        "candidateTotalAsset": 0,
+        "movableTotalString": "22,32,81,514",
+        "immovableTotalString": "Nil",
+        "candidateTotalAssetString": "0"
+      },
+      "liabilities": {
+        "self": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "spouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "candidateTotalLiability": 0,
+        "candidateTotalLiabilityString": "Nil"
+      },
+      "candidateTotalWealthString": "0",
+      "candidateTotalIncomeString": "0",
+      "candidateTotalWealth": 0,
+      "candidateTotalIncome": 0,
+      "promises": null,
+      "languages": null,
+      "mynetaCandidateUrl": "https://myneta.info/goa2022/candidate.php?candidate_id=274"
+    },
+    {
+      "candidateId": "OTEtMDUtMTNeU0FOVE9TSCBLVU1BUiBTQVdBTlReNDg=",
+      "constituencyId": "91-05-13",
+      "constituencyName": "Maem",
+      "name": "SANTOSH KUMAR SAWANT",
+      "age": "48",
+      "sex": "male",
+      "caste": null,
+      "party": "Goa Forward Party",
+      "telephone": null,
+      "email": null,
+      "address": "H. NO. 760, GAONKARWADA, MAEM, BICHOLIM-GOA-403504",
+      "officialProfileLink": "https://affidavit.eci.gov.in/show-profile/MjU1MQ==/MjM=/MTM=/Mw==/QUM=",
+      "affidavitLink": null,
+      "officialPhotoLink": "https://suvidha.eci.gov.in/uploads1/candprofile/E13/2022/AC/s05/SANTO-2022-20220127055103.jpeg",
+      "socialMediaAccounts": null,
+      "socialMediaAccount": null,
+      "facebookId": null,
+      "twitterId": null,
+      "instagramId": null,
+      "whatsappId": null,
+      "selfProfession": "Business",
+      "spouseProfession": "House Wife",
+      "highestEducationLevel": "10thPass",
+      "highestEducationYear": null,
+      "latestTaxReturn": {
+        "self": {
+          "year": "",
+          "amount": "Rs&nbsp;5,19,580",
+          "relation": null
+        },
+        "spouse": {
+          "year": "None",
+          "amount": "Rs&nbsp;0",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          }
+        ]
+      },
+      "pendingCases": null,
+      "convictedCases": null,
+      "pendingCase": null,
+      "convictedCase": null,
+      "assets": {
+        "movableSelf": {
+          "year": null,
+          "amount": "33,38,460",
+          "relation": null
+        },
+        "movableSpouse": {
+          "year": null,
+          "amount": "24,06,000",
+          "relation": null
+        },
+        "movableDependents": [
+          {
+            "year": null,
+            "amount": "35,000",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "immovableSelf": {
+          "year": null,
+          "amount": "1,80,00,000",
+          "relation": null
+        },
+        "immovableSpouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "immovableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "movableTotal": 0,
+        "immovableTotal": 0,
+        "candidateTotalAsset": 0,
+        "movableTotalString": "58,46,960",
+        "immovableTotalString": "1,80,00,000",
+        "candidateTotalAssetString": "0"
+      },
+      "liabilities": {
+        "self": {
+          "year": null,
+          "amount": "1,09,64,994",
+          "relation": null
+        },
+        "spouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "candidateTotalLiability": 0,
+        "candidateTotalLiabilityString": "1,09,64,994"
+      },
+      "candidateTotalWealthString": "0",
+      "candidateTotalIncomeString": "0",
+      "candidateTotalWealth": 0,
+      "candidateTotalIncome": 0,
+      "promises": null,
+      "languages": null,
+      "mynetaCandidateUrl": "https://myneta.info/goa2022/candidate.php?candidate_id=92"
+    },
+    {
+      "candidateId": "OTEtMDUtMTNeUkFKRVNIIFRVTFNISURBUyBLQUxBTkdVVEtBUl40OQ==",
+      "constituencyId": "91-05-13",
+      "constituencyName": "Maem",
+      "name": "RAJESH TULSHIDAS KALANGUTKAR",
+      "age": "49",
+      "sex": "male",
+      "caste": null,
+      "party": "Aam Aadmi Party",
+      "telephone": null,
+      "email": null,
+      "address": "H.NO.624/A, MASSCOL, HATURLI, BICHOLIM, GOA - 403504",
+      "officialProfileLink": "https://affidavit.eci.gov.in/show-profile/Mjg1MA==/MjM=/MTM=/Mw==/QUM=",
+      "affidavitLink": null,
+      "officialPhotoLink": "https://suvidha.eci.gov.in/uploads1/candprofile/E13/2022/AC/s05/RAJES-2022-20220127075722.jpeg",
+      "socialMediaAccounts": null,
+      "socialMediaAccount": null,
+      "facebookId": null,
+      "twitterId": null,
+      "instagramId": null,
+      "whatsappId": null,
+      "selfProfession": "Teacher Grade 1",
+      "spouseProfession": "Teacher Grade 1",
+      "highestEducationLevel": "PostGraduate",
+      "highestEducationYear": null,
+      "latestTaxReturn": {
+        "self": {
+          "year": "",
+          "amount": "Rs&nbsp;9,38,720",
+          "relation": null
+        },
+        "spouse": {
+          "year": "",
+          "amount": "Rs&nbsp;8,54,380",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          }
+        ]
+      },
+      "pendingCases": null,
+      "convictedCases": null,
+      "pendingCase": null,
+      "convictedCase": null,
+      "assets": {
+        "movableSelf": {
+          "year": null,
+          "amount": "5,19,489",
+          "relation": null
+        },
+        "movableSpouse": {
+          "year": null,
+          "amount": "10,21,520",
+          "relation": null
+        },
+        "movableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "immovableSelf": {
+          "year": null,
+          "amount": "30,00,000",
+          "relation": null
+        },
+        "immovableSpouse": {
+          "year": null,
+          "amount": "25,00,000",
+          "relation": null
+        },
+        "immovableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "movableTotal": 0,
+        "immovableTotal": 0,
+        "candidateTotalAsset": 0,
+        "movableTotalString": "15,41,009",
+        "immovableTotalString": "55,00,000",
+        "candidateTotalAssetString": "0"
+      },
+      "liabilities": {
+        "self": {
+          "year": null,
+          "amount": "4,81,000",
+          "relation": null
+        },
+        "spouse": {
+          "year": null,
+          "amount": "42,18,500",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "candidateTotalLiability": 0,
+        "candidateTotalLiabilityString": "46,99,500"
+      },
+      "candidateTotalWealthString": "0",
+      "candidateTotalIncomeString": "0",
+      "candidateTotalWealth": 0,
+      "candidateTotalIncome": 0,
+      "promises": null,
+      "languages": null,
+      "mynetaCandidateUrl": "https://myneta.info/goa2022/candidate.php?candidate_id=271"
+    },
+    {
+      "candidateId": "OTEtMDUtMTNeU0hSSUtSSVNITkEgUkFWSU5EUkEgUEFSQUJeMzE=",
+      "constituencyId": "91-05-13",
+      "constituencyName": "Maem",
+      "name": "SHRIKRISHNA RAVINDRA PARAB",
+      "age": "31",
+      "sex": "male",
+      "caste": null,
+      "party": "Revolutionary Goans Party",
+      "telephone": null,
+      "email": null,
+      "address": "H. NO. 2385/B, NAGZARWADA, BICHOLIM-GOA-403504",
+      "officialProfileLink": "https://affidavit.eci.gov.in/show-profile/MjczMw==/MjM=/MTM=/Mw==/QUM=",
+      "affidavitLink": null,
+      "officialPhotoLink": "https://suvidha.eci.gov.in/uploads1/candprofile/E13/2022/AC/s05/SHRIK-2022-20220127065949.jpeg",
+      "socialMediaAccounts": null,
+      "socialMediaAccount": null,
+      "facebookId": null,
+      "twitterId": null,
+      "instagramId": null,
+      "whatsappId": null,
+      "selfProfession": "Entrepreneur",
+      "spouseProfession": "NA",
+      "highestEducationLevel": "PostGraduate",
+      "highestEducationYear": null,
+      "latestTaxReturn": {
+        "self": {
+          "year": "",
+          "amount": "Rs&nbsp;2,20,260",
+          "relation": null
+        },
+        "spouse": {
+          "year": "",
+          "amount": "Nil",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": "",
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": "",
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": "",
+            "amount": "Nil",
+            "relation": null
+          }
+        ]
+      },
+      "pendingCases": null,
+      "convictedCases": null,
+      "pendingCase": null,
+      "convictedCase": null,
+      "assets": {
+        "movableSelf": {
+          "year": null,
+          "amount": "14,93,578",
+          "relation": null
+        },
+        "movableSpouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "movableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "immovableSelf": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "immovableSpouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "immovableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "movableTotal": 0,
+        "immovableTotal": 0,
+        "candidateTotalAsset": 0,
+        "movableTotalString": "14,93,578",
+        "immovableTotalString": "Nil",
+        "candidateTotalAssetString": "0"
+      },
+      "liabilities": {
+        "self": {
+          "year": null,
+          "amount": "5,94,009",
+          "relation": null
+        },
+        "spouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "candidateTotalLiability": 0,
+        "candidateTotalLiabilityString": "5,94,009"
+      },
+      "candidateTotalWealthString": "0",
+      "candidateTotalIncomeString": "0",
+      "candidateTotalWealth": 0,
+      "candidateTotalIncome": 0,
+      "promises": null,
+      "languages": null,
+      "mynetaCandidateUrl": "https://myneta.info/goa2022/candidate.php?candidate_id=94"
+    },
+    {
+      "candidateId": "OTEtMDUtMTNeREVFUEtVTUFSIEQuIE1BUEFSSV40MA==",
+      "constituencyId": "91-05-13",
+      "constituencyName": "Maem",
+      "name": "DEEPKUMAR D. MAPARI",
+      "age": "40",
+      "sex": "male",
+      "caste": null,
+      "party": "Independent",
+      "telephone": null,
+      "email": null,
+      "address": "H.NO. 128, KHURSAWADA, CHORAO, TISWADI 403102",
+      "officialProfileLink": "https://affidavit.eci.gov.in/show-profile/NDAyMA==/MjM=/MTM=/Mw==/QUM=",
+      "affidavitLink": null,
+      "officialPhotoLink": "https://suvidha.eci.gov.in/uploads1/candprofile/E13/2022/AC/s05/DEEPK-2022-20220128055356.jpeg",
+      "socialMediaAccounts": null,
+      "socialMediaAccount": null,
+      "facebookId": null,
+      "twitterId": null,
+      "instagramId": null,
+      "whatsappId": null,
+      "selfProfession": "Private Service",
+      "spouseProfession": "House wife",
+      "highestEducationLevel": "8thPass",
+      "highestEducationYear": null,
+      "latestTaxReturn": {
+        "self": {
+          "year": "None",
+          "amount": "Rs&nbsp;0",
+          "relation": null
+        },
+        "spouse": {
+          "year": "None",
+          "amount": "Rs&nbsp;0",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": "",
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": "",
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": "",
+            "amount": "Nil",
+            "relation": null
+          }
+        ]
+      },
+      "pendingCases": null,
+      "convictedCases": null,
+      "pendingCase": null,
+      "convictedCase": null,
+      "assets": {
+        "movableSelf": {
+          "year": null,
+          "amount": "1,91,782",
+          "relation": null
+        },
+        "movableSpouse": {
+          "year": null,
+          "amount": "5,60,838",
+          "relation": null
+        },
+        "movableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "immovableSelf": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "immovableSpouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "immovableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "movableTotal": 0,
+        "immovableTotal": 0,
+        "candidateTotalAsset": 0,
+        "movableTotalString": "7,52,620",
+        "immovableTotalString": "Nil",
+        "candidateTotalAssetString": "0"
+      },
+      "liabilities": {
+        "self": {
+          "year": null,
+          "amount": "58,649",
+          "relation": null
+        },
+        "spouse": {
+          "year": null,
+          "amount": "1,96,372",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "candidateTotalLiability": 0,
+        "candidateTotalLiabilityString": "2,55,021"
+      },
+      "candidateTotalWealthString": "0",
+      "candidateTotalIncomeString": "0",
+      "candidateTotalWealth": 0,
+      "candidateTotalIncome": 0,
+      "promises": null,
+      "languages": null,
+      "mynetaCandidateUrl": "https://myneta.info/goa2022/candidate.php?candidate_id=272"
+    },
+    {
+      "candidateId": "OTEtMDUtMTNeTUlMSU5EIFRVTFNISURBUyBQSUxHQU9OS0FSXjQ3",
+      "constituencyId": "91-05-13",
+      "constituencyName": "Maem",
+      "name": "MILIND TULSHIDAS PILGAONKAR",
+      "age": "47",
+      "sex": "male",
+      "caste": null,
+      "party": "Independent",
+      "telephone": null,
+      "email": null,
+      "address": "H. NO. 6/3, LEELA VILLA, GIMONA, PILIGAO, BICHOLIM-GOA-403504",
+      "officialProfileLink": "https://affidavit.eci.gov.in/show-profile/MjY5OA==/MjM=/MTM=/Mw==/QUM=",
+      "affidavitLink": null,
+      "officialPhotoLink": "https://suvidha.eci.gov.in/uploads1/candprofile/E13/2022/AC/s05/MILIN-2022-20220127064135.jpeg",
+      "socialMediaAccounts": null,
+      "socialMediaAccount": null,
+      "facebookId": null,
+      "twitterId": null,
+      "instagramId": null,
+      "whatsappId": null,
+      "selfProfession": "Business",
+      "spouseProfession": "Business",
+      "highestEducationLevel": "Graduate",
+      "highestEducationYear": null,
+      "latestTaxReturn": {
+        "self": {
+          "year": "",
+          "amount": "Rs&nbsp;-25,70,174",
+          "relation": null
+        },
+        "spouse": {
+          "year": "",
+          "amount": "Rs&nbsp;-25,70,174",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          }
+        ]
+      },
+      "pendingCases": null,
+      "convictedCases": null,
+      "pendingCase": null,
+      "convictedCase": null,
+      "assets": {
+        "movableSelf": {
+          "year": null,
+          "amount": "5,99,02,647",
+          "relation": null
+        },
+        "movableSpouse": {
+          "year": null,
+          "amount": "2,84,09,990",
+          "relation": null
+        },
+        "movableDependents": [
+          {
+            "year": null,
+            "amount": "7,98,285",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "8,00,140",
+            "relation": null
+          }
+        ],
+        "immovableSelf": {
+          "year": null,
+          "amount": "40,12,57,450",
+          "relation": null
+        },
+        "immovableSpouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "immovableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "movableTotal": 0,
+        "immovableTotal": 0,
+        "candidateTotalAsset": 0,
+        "movableTotalString": "8,99,11,062",
+        "immovableTotalString": "40,12,57,450",
+        "candidateTotalAssetString": "0"
+      },
+      "liabilities": {
+        "self": {
+          "year": null,
+          "amount": "69,85,555",
+          "relation": null
+        },
+        "spouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "candidateTotalLiability": 0,
+        "candidateTotalLiabilityString": "69,85,555"
+      },
+      "candidateTotalWealthString": "0",
+      "candidateTotalIncomeString": "0",
+      "candidateTotalWealth": 0,
+      "candidateTotalIncome": 0,
+      "promises": null,
+      "languages": null,
+      "mynetaCandidateUrl": "https://myneta.info/goa2022/candidate.php?candidate_id=93"
+    },
+    {
+      "candidateId": "OTEtMDUtMTNeUk9IQU4gVkFNQU4gU0FXQUlLQVJeNDE=",
+      "constituencyId": "91-05-13",
+      "constituencyName": "Maem",
+      "name": "ROHAN VAMAN SAWAIKAR",
+      "age": "41",
+      "sex": "male",
+      "caste": null,
+      "party": "Independent",
+      "telephone": null,
+      "email": null,
+      "address": "H.NO.8/1, LALBAG, CARAPUR, BICHOLIM, GOA - 403505",
+      "officialProfileLink": "https://affidavit.eci.gov.in/show-profile/MjkwMw==/MjM=/MTM=/Mw==/QUM=",
+      "affidavitLink": null,
+      "officialPhotoLink": "https://suvidha.eci.gov.in/uploads1/candprofile/E13/2022/AC/s05/ROHAN-2022-20220127085504.jpeg",
+      "socialMediaAccounts": null,
+      "socialMediaAccount": null,
+      "facebookId": null,
+      "twitterId": null,
+      "instagramId": null,
+      "whatsappId": null,
+      "selfProfession": "Business",
+      "spouseProfession": "Service",
+      "highestEducationLevel": "10thPass",
+      "highestEducationYear": null,
+      "latestTaxReturn": {
+        "self": {
+          "year": "",
+          "amount": "Rs&nbsp;1,28,934",
+          "relation": null
+        },
+        "spouse": {
+          "year": "None",
+          "amount": "Rs&nbsp;1,28,934",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          },
+          {
+            "year": "None",
+            "amount": "Rs&nbsp;0",
+            "relation": null
+          }
+        ]
+      },
+      "pendingCases": null,
+      "convictedCases": null,
+      "pendingCase": null,
+      "convictedCase": null,
+      "assets": {
+        "movableSelf": {
+          "year": null,
+          "amount": "10,40,000",
+          "relation": null
+        },
+        "movableSpouse": {
+          "year": null,
+          "amount": "1,14,000",
+          "relation": null
+        },
+        "movableDependents": [
+          {
+            "year": null,
+            "amount": "26,500",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "immovableSelf": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "immovableSpouse": {
+          "year": null,
+          "amount": "0",
+          "relation": null
+        },
+        "immovableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "movableTotal": 0,
+        "immovableTotal": 0,
+        "candidateTotalAsset": 0,
+        "movableTotalString": "11,80,500",
+        "immovableTotalString": "0",
+        "candidateTotalAssetString": "0"
+      },
+      "liabilities": {
+        "self": {
+          "year": null,
+          "amount": "12,20,000",
+          "relation": null
+        },
+        "spouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "candidateTotalLiability": 0,
+        "candidateTotalLiabilityString": "12,20,000"
+      },
+      "candidateTotalWealthString": "0",
+      "candidateTotalIncomeString": "0",
+      "candidateTotalWealth": 0,
+      "candidateTotalIncome": 0,
+      "promises": null,
+      "languages": null,
+      "mynetaCandidateUrl": "https://myneta.info/goa2022/candidate.php?candidate_id=273"
+    },
+    {
+      "candidateId": "OTEtMDUtMTNeU0hFRUxBIFNBTkRFRVAgR0hBVFdBTF41MA==",
+      "constituencyId": "91-05-13",
+      "constituencyName": "Maem",
+      "name": "SHEELA SANDEEP GHATWAL",
+      "age": "50",
+      "sex": "female",
+      "caste": null,
+      "party": "Independent",
+      "telephone": null,
+      "email": null,
+      "address": "H.NO.1216, POIRA, MAEM, BICHOLIM, GOA 403504",
+      "officialProfileLink": "https://affidavit.eci.gov.in/show-profile/Mzk1NQ==/MjM=/MTM=/Mw==/QUM=",
+      "affidavitLink": null,
+      "officialPhotoLink": "https://suvidha.eci.gov.in/uploads1/candprofile/E13/2022/AC/s05/SHEEL-2022-20220128053503.jpg",
+      "socialMediaAccounts": null,
+      "socialMediaAccount": null,
+      "facebookId": null,
+      "twitterId": null,
+      "instagramId": null,
+      "whatsappId": null,
+      "selfProfession": "House wife",
+      "spouseProfession": "Expired",
+      "highestEducationLevel": "Graduate",
+      "highestEducationYear": null,
+      "latestTaxReturn": {
+        "self": {
+          "year": "None",
+          "amount": "Rs&nbsp;0",
+          "relation": null
+        },
+        "spouse": {
+          "year": "",
+          "amount": "Nil",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": "",
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": "",
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": "",
+            "amount": "Nil",
+            "relation": null
+          }
+        ]
+      },
+      "pendingCases": null,
+      "convictedCases": null,
+      "pendingCase": null,
+      "convictedCase": null,
+      "assets": {
+        "movableSelf": {
+          "year": null,
+          "amount": "24,10,720",
+          "relation": null
+        },
+        "movableSpouse": {
+          "year": null,
+          "amount": "4,45,000",
+          "relation": null
+        },
+        "movableDependents": [
+          {
+            "year": null,
+            "amount": "1,00,000",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "immovableSelf": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "immovableSpouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "immovableDependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "movableTotal": 0,
+        "immovableTotal": 0,
+        "candidateTotalAsset": 0,
+        "movableTotalString": "29,55,720",
+        "immovableTotalString": "Nil",
+        "candidateTotalAssetString": "0"
+      },
+      "liabilities": {
+        "self": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "spouse": {
+          "year": null,
+          "amount": "Nil",
+          "relation": null
+        },
+        "dependents": [
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          },
+          {
+            "year": null,
+            "amount": "Nil",
+            "relation": null
+          }
+        ],
+        "candidateTotalLiability": 0,
+        "candidateTotalLiabilityString": "Nil"
+      },
+      "candidateTotalWealthString": "0",
+      "candidateTotalIncomeString": "0",
+      "candidateTotalWealth": 0,
+      "candidateTotalIncome": 0,
+      "promises": null,
+      "languages": null,
+      "mynetaCandidateUrl": "https://myneta.info/goa2022/candidate.php?candidate_id=270"
+    }
+  ]
+}

@@ -2,11 +2,14 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { DetailComponent } from './component/detail.component';
 import { ListComponent } from './component/list.component';
+import { CandidatePromisesComponent } from './component/candidate-promises.component';
+
 
 const routes: Routes = [
   { path:'',component : ListComponent },
   { path:'list',component : ListComponent },
-  { path:'detail/:constituencyId/:candidateid',component : DetailComponent }
+  { path:'detail/:constituencyId/:candidateid',component : DetailComponent },
+  { path: 'candidate/:token', 'component': CandidatePromisesComponent }
 ];
 
 @NgModule({

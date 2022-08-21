@@ -8,7 +8,12 @@
     party: string
     telephone: string
     email: string
+    facebookId: string
+    twitterId: string
+    instagramId: string
+    whatsappId: string
     officialProfileLink: string
+  	mynetaCandidateUrl: string
     officialPhotoLink: string
     socialMediaAccount: string
     selfProfession: string

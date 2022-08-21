@@ -1,0 +1,174 @@
+<div class="main">
+<a [routerLink]="['/home']" class="d-flex justify-content-end">back..</a>
+<div *ngIf="candidate" class="container mt-2 mb-2">
+  <div class="row">
+    <div class="col-lg-11 col-md-10 col-sm-9 col-xs-4 pt-2 capitalize border profile">
+      <h4>{{ candidate.name.toLowerCase() }}, {{ candidate.age }}, {{ candidate.sex }}</h4>
+      <h5>{{ candidate.party }}</h5>
+      <h5><a href="{{ candidate.officialProfileLink }}" target="_blank" >View Profile</a></h5>
+    </div>
+    <div class="col-lg-1 col-md-2 col-sm-3 col-xs-4 d-flex justify-content-end profile-picture">
+      <img alt="Photo Not Available" src="{{candidate.officialPhotoLink}}" *ngIf="isImgHidden" (error)="isImgHidden = true;" />
+    </div>
+  </div>
+</div>
+  <form [formGroup]="candidateForm" (ngSubmit)="saveResponse()">
+    <div class="container promises">
+      <!-- <p>{{token}}</p>
+    <p>{{decryptedToken}}</p> -->
+      <div class="mb-3 row">
+        <div class="col-sm-6 col-xs-12">
+          <label for="language" class="col-form-label">Choose Language</label>
+        </div>
+        <div class="col-sm-6">
+          <mat-form-field appearance="fill" *ngIf="candidate">
+            <mat-select
+              formControlName="language"
+              name="language"
+              (selectionChange)="onLanguageChange($event.value)"
+            >
+              <mat-option
+                *ngFor="let lang of candidate?.languages"
+                [value]="lang"
+              >
+                {{ lang }}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+        </div>
+      </div>
+      <div class="mb-3 row">
+        <div class="col-sm-6 col-xs-12">
+          <label for="whyContest" class="col-form-label">{{
+            "whyContest" | translate
+          }}</label>
+        </div>
+        <div class="col-sm-6">
+          <textarea
+            [readonly]="isSubmitted"
+            class="form-control"
+            [ngClass]="{ 'is-invalid': submitted && cf.whyContest.errors }"
+            id="whyContest"
+            [rows]="3"
+            name="whyContest"
+            formControlName="whyContest"
+            *ngIf="!isReadonly"
+          ></textarea>
+          <p class="readonly-text" *ngIf="isReadonly">{{cf.whyContest.value}}</p>
+          <div *ngIf="submitted && cf.whyContest.errors" class="invalid-feedback">
+            <div *ngIf="cf.whyContest.errors.required || cf.whyContest.errors.emptyField">This field is required</div>
+            <div *ngIf="cf.whyContest.errors.minlength">Enter at least {{responseLength}} characters</div>
+          </div>
+        </div>
+      </div>
+      <div class="mb-3 row">
+        <div class="col-sm-6 col-xs-12">
+          <label for="howDifferent" class="col-form-label">{{
+            "howDifferent" | translate
+          }}</label>
+        </div>
+        <div class="col-sm-6">
+          <textarea
+            [readonly]="isSubmitted"
+            class="form-control"
+            [ngClass]="{ 'is-invalid': submitted && cf.howDifferent.errors }"
+            id="howDifferent"
+            [rows]="3"
+            name="howDifferent"
+            formControlName="howDifferent"
+            *ngIf="!isReadonly"
+          ></textarea>
+          <label class="readonly-text" *ngIf="isReadonly">{{cf.howDifferent.value}}</label>
+          <div *ngIf="submitted && cf.howDifferent.errors" class="invalid-feedback">
+            <div *ngIf="cf.howDifferent.errors.required || cf.howDifferent.errors.emptyField">This field is required</div>
+            <div *ngIf="cf.howDifferent.errors.minlength">Enter at least {{responseLength}} characters</div>
+          </div>
+        </div>
+      </div>
+      <div class="mb-3 row">
+        <div class="col-sm-6 col-xs-12">
+          <label for="whySelected" class="col-form-label">{{
+            "whySelected" | translate
+          }}</label>
+        </div>
+        <div class="col-sm-6">
+          <textarea
+            [readonly]="isSubmitted"
+            class="form-control"
+            [ngClass]="{ 'is-invalid': submitted && cf.whySelected.errors }"
+            id="whySelected"
+            [rows]="3"
+            name="whySelected"
+            formControlName="whySelected"
+            *ngIf="!isReadonly"
+          ></textarea>
+          <label class="readonly-text" *ngIf="isReadonly">{{cf.whySelected.value}}</label>
+          <div *ngIf="submitted && cf.whySelected.errors" class="invalid-feedback">
+            <div *ngIf="cf.whySelected.errors.required || cf.whySelected.errors.emptyField">This field is required</div>
+            <div *ngIf="cf.whySelected.errors.minlength">Enter at least {{responseLength}} characters</div>
+          </div>
+        </div>
+      </div>
+      <div class="mb-3 row">
+        <div class="col-sm-6 col-xs-12">
+          <label for="whatSelected" class="col-form-label">{{
+            "whatSelected" | translate
+          }}</label>
+        </div>
+        <div class="col-sm-6">
+          <textarea
+            [readonly]="isSubmitted"
+            class="form-control"
+            [ngClass]="{ 'is-invalid': submitted && cf.whatSelected.errors }"
+            id="whatSelected"
+            [rows]="3"
+            name="whatSelected"
+            formControlName="whatSelected"
+            *ngIf="!isReadonly"
+          ></textarea>
+          <label class="readonly-text" *ngIf="isReadonly">{{cf.whatSelected.value}}</label>
+          <div *ngIf="submitted && cf.whatSelected.errors" class="invalid-feedback">
+            <div *ngIf="cf.whatSelected.errors.required || cf.whatSelected.errors.emptyField">This field is required</div>
+            <div *ngIf="cf.whatSelected.errors.minlength">Enter at least {{responseLength}} characters</div>
+          </div>
+        </div>
+      </div>
+      <div class="mb-3 row">
+        <div class="col-sm-6 col-xs-12">
+          <label for="whatNotSelected" class="col-form-label">{{
+            "whatNotSelected" | translate
+          }}</label>
+        </div>
+        <div class="col-sm-6">
+          <textarea
+            [readonly]="isSubmitted"
+            class="form-control"
+            [ngClass]="{ 'is-invalid': submitted && cf.whatNotSelected.errors }"
+            id="whatNotSelected"
+            [rows]="3"
+            name="whatNotSelected"
+            formControlName="whatNotSelected"
+            *ngIf="!isReadonly"
+          ></textarea>
+          <label class="readonly-text" *ngIf="isReadonly">{{cf.whatNotSelected.value}}</label>
+          <div *ngIf="submitted && cf.whatNotSelected.errors" class="invalid-feedback">
+            <div *ngIf="cf.whatNotSelected.errors.required || cf.whatNotSelected.errors.emptyField">This field is required</div>
+            <div *ngIf="cf.whatNotSelected.errors.minlength">Enter at least {{responseLength}} characters</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col" *ngIf="errorSaving">
+          <label class="text-danger">Error occured while saving the data..please try again.
+            If the problem persists, contact the administrator.</label>
+        </div>
+        <div class="col d-flex justify-content-end" *ngIf="!isReadonly">
+          <button type="button" class="btn btn-secondary" (click)="reset()" [disabled]="isSubmitted">
+            Reset
+          </button>
+          <button type="submit" class="btn btn-danger" [disabled]="isSubmitted">Submit</button>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>

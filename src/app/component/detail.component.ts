@@ -29,7 +29,9 @@ export class DetailComponent  implements OnInit {
   loadCandidate() : void {
     this._dataService.getCandidateByConstituency(this._selectedConstituencyId).subscribe((response : any) => {
      let candidates : Array<Candidate> = response.candidates;
-     this._candidate = candidates.filter(x=> x.candidateId.toLowerCase() == this._selectedCandidateId)[0];
+	 console.log(this._selectedConstituencyId);
+	 console.log(this._selectedCandidateId);
+     this._candidate = candidates.filter(x=> x.candidateId == this._selectedCandidateId)[0];
      console.log(this._candidate);
      this._loaded = true;
      this._title.setTitle('s/Elect | ' + this._candidate.name);
