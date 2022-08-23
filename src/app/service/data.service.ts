@@ -16,7 +16,7 @@ export class DataService {
    }
 
    getCandidateByConstituency(constituencyId : string) : Observable<any>{
-    return this._httpClient.get<any>(`../assets/data/${constituencyId}.json`);
+    return this._httpClient.get<any>(`https://s3.ap-south-1.amazonaws.com/s-elect.goin2it.com/assets/data/${constituencyId}.json`);
    }
 
    getCandidateById(candidateId : string) : Observable<any>{
